@@ -20,7 +20,7 @@ driver.get("https://kyo-web.teu.ac.jp/campussy/")  # アクセスするURL
 driver.switch_to.frame(driver.find_element_by_name("search"))  # 検索フレームを切り替える
 
 Select(driver.find_element_by_id('jikanwariShozokuCode')
-       ).select_by_value(args[1])  # コンピュータサイエンス学部
+       ).select_by_value(args[1])  # 引数より取得先学部決定
 
 Select(driver.find_element_by_name('_displayCount')
        ).select_by_value('200')  # 一覧表示件数
