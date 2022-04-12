@@ -3,10 +3,15 @@
 #
 # 開発元：TUT22 Dev Team (tut22_dev@6mile.dev)
 # ====================================================
-
-
-
-def Bt():
+import getTimeTable
+import getData
+department = 19
+for i in range(department):
+    print()
+    x = getTimeTable.getcode(i)
+    if x == "finish":
+        getData.get_timetable(i)
+"""def Bt():
     Select(driver.find_element_by_id(
         'jikanwariShozokuCode')).select_by_value('﻿BT')
 
@@ -98,4 +103,4 @@ def Gf():
 
 def Gh():
     Select(driver.find_element_by_id('jikanwariShozokuCode')
-           ).select_by_value('GH')  # 医療技術学研究科
+           ).select_by_value('GH')  # 医療技術学研究科"""
