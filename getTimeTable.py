@@ -10,8 +10,9 @@ import sys
 args = sys.argv  # 引数を取得
 
 
-driver = webdriver.Edge("C:\\Users\\yamat\\Downloads\\edgedriver_win64\\msedgedriver.exe")
+
 def getcode(n):
+    driver = webdriver.Edge("C:\\Users\\yamat\\Downloads\\edgedriver_win64\\msedgedriver.exe")
     array = []
     department = ["﻿BT","CS","MS","ES","ESE5","ESE6","ESE7","X1","DS","HS","HSH1","HSH2","HSH3","HSH4","HSH5","HSH6","X3","GF","GH"]
     driver.get("https://kyo-web.teu.ac.jp/campussy/")  # アクセスするURL
