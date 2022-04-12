@@ -5,7 +5,7 @@
 # ====================================================
 import getTimeTable
 import getData
-department = 19-1
+department = 18
 for i in range(department):
     print()
     x = getTimeTable.getcode(i)
