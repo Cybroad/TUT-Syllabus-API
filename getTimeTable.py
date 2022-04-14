@@ -7,30 +7,30 @@ import re
 import json
 import sys
 
-args = sys.argv  # 引数を取得
-
-
 
 def getcode(n):
-    driver = webdriver.Edge("C:\\Users\\yamat\\Downloads\\edgedriver_win64\\msedgedriver.exe")
+    driver = webdriver.Chrome("C:\\chromedriver_win32\\chromedriver.exe")
     array = []
-    department = ["﻿BT","CS","MS","ES","ESE5","ESE6","ESE7","X1","DS","HS","HSH1","HSH2","HSH3","HSH4","HSH5","HSH6","X3","GF","GH"]
+    department = ["﻿BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS",
+                  "HS", "HSH1", "HSH2", "HSH3", "HSH4", "HSH5", "HSH6", "X3", "GF", "GH"]
     driver.get("https://kyo-web.teu.ac.jp/campussy/")  # アクセスするURL
 
-    driver.switch_to.frame(driver.find_element_by_name("search"))  # 検索フレームを切り替える
+    driver.switch_to.frame(
+        driver.find_element_by_name("search"))  # 検索フレームを切り替える
 
     Select(driver.find_element_by_id('jikanwariShozokuCode')
-        ).select_by_value(department[n])  # コンピュータサイエンス学部
+           ).select_by_value(department[n])  # コンピュータサイエンス学部
 
     Select(driver.find_element_by_name('_displayCount')
-        ).select_by_value('200')  # 一覧表示件数
+           ).select_by_value('200')  # 一覧表示件数
 
     driver.find_elements_by_xpath(
         '//*[@id = "jikanwariKeywordForm"]/table[2]/tbody/tr/td/table/tbody/tr[9]/td/input[1]')[0].click()  # 検索ボタンをクリック
 
     driver.switch_to.default_content()  # 検索フレームをもとに戻す
 
-    driver.switch_to.frame(driver.find_element_by_name("result"))  # 検索結果フレームを切り替える
+    driver.switch_to.frame(
+        driver.find_element_by_name("result"))  # 検索結果フレームを切り替える
 
     thNum = len(driver.find_elements_by_xpath(
         '/html/body/form/div[2]/table/tbody/tr'))  # エレメント数取得
@@ -45,7 +45,6 @@ def getcode(n):
     # 現在のページ数及び全体ページ数取得
     # ==========================================================
 
-
     def getPageNum():  # 現在のページ数及び全体ページ数取得関数
         mPageN_o = driver.find_element_by_xpath(  # エレメント抽出
             '/html/body/form/div[2]/p[1]').text
@@ -58,7 +57,6 @@ def getcode(n):
         cPageN = int(cPageN_o.replace("件目", ''))  # 現在のページ数
 
         return cPageN, mPageN  # p[0]:現在のページ数, p[1]:全体ページ数
-
 
     p = getPageNum()  # 現在のページ数及び全体ページ数取得関数を実行
 
@@ -92,8 +90,9 @@ def getcode(n):
                 '/html/body/form/div[2]/p[1]/a')[aTagN].click()  # 次ページをクリック
 
     driver.quit()
-    department = ["BT","CS","MS","ES","ESE5","ESE6","ESE7","X1","DS","HS","HSH1","HSH2","HSH3","HSH4","HSH5","HSH6","X3","GF","GH"]
-    with open(department[n]+'_test.json', 'w') as f:
-       json.dump(array, f, ensure_ascii=False, indent=4)
-       print("finish")
+    department = ["BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS",
+                  "HS", "HSH1", "HSH2", "HSH3", "HSH4", "HSH5", "HSH6", "X3", "GF", "GH"]
+    with open(department[n]+'_TimeTable.json', 'w') as f:
+        json.dump(array, f, ensure_ascii=False, indent=4)
+        print("finish")
     return "finish"
