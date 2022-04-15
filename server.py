@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
 import json
 
 readFileDir = "./lecture_Data"  # 講義データ書き出しフォルダ名指定(相対パス)
