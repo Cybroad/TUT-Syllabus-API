@@ -1,5 +1,4 @@
 from array import array
-from asyncore import write
 import requests
 from bs4 import BeautifulSoup
 import json
