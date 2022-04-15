@@ -1,8 +1,5 @@
 import json
-import sys
 from unittest import result
-
-args = sys.argv
 
 department = 19
 
@@ -38,8 +35,10 @@ for i in range(len(department)):
 print("> シラバスデータ取得完了")
 print("\n")
 
+ary = 0
+
 for i in range(0, len(dataLists)):
     for j in range(0, len(dataLists[i])):
-        if serchIndexCheck(dataLists[i][j], args[1]):
-            print("時間割コード： " + args[1])
-            print(dataLists[i][0] + " の" + "単位数は " + dataLists[i][9] + " です")
+        ary += int(float(dataLists[i][9]))
+
+print("合計単位：" + str(ary))
