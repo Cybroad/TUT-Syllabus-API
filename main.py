@@ -11,6 +11,9 @@ for i in range(department):
     x = getTimeTable.getcode(i)
     if x == "finish":
         getData.get_timetable(i)
+
+
+# いらない
 """def Bt():
     Select(driver.find_element_by_id(
         'jikanwariShozokuCode')).select_by_value('﻿BT')

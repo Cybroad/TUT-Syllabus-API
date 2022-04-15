@@ -4,8 +4,9 @@ from unittest import result
 
 args = sys.argv
 
-gakubu = "MS"
 department = 19
+
+dataLists = []
 
 
 def serchIndex(l, x, default=False):
@@ -22,7 +23,19 @@ def serchIndexCheck(l, x):
         return False
 
 
-print("> " + str(department) + "個の学部別シラバスデータの取得を開始します")
+department = ["﻿BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS",
+              "HS", "HSH1", "HSH2", "HSH3", "HSH4", "HSH5", "HSH6", "X3", "GF", "GH"]
+
+
+for i in range(len(department)):
+    print(department[i])
+    readFile = open(department[i] + '.json', 'r')
+    dataLists.append(json.load(readFile))
+
+
+print(dataLists)
+
+""" print("> " + str(department) + "個の学部別シラバスデータの取得を開始します")
 
 BT_f = open('BT_data.json', 'r')
 BT = json.load(BT_f)
@@ -84,9 +97,11 @@ GH = json.load(GH_f)
 print("> シラバスデータ取得完了")
 print("\n")
 
+
 gakubu = CS
 
 for i in range(0, len(gakubu)):
     if serchIndexCheck(gakubu[i][4], args[1]):
         print("時間割コード： " + args[1])
         print(gakubu[i][0] + " の" + "単位数は " + gakubu[i][9] + " です")
+ """
