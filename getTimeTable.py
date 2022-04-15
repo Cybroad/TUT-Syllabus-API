@@ -5,7 +5,16 @@ from selenium import webdriver
 from selenium.webdriver.support.select import Select
 import re
 import json
-import sys
+
+
+# =============================================================================
+# 初期設定項目
+# =============================================================================
+
+chromedriverexe = "C:\\chromedriver_win32\\chromedriver.exe"  # ChromeDriverのパスを設定
+writeFileDir = "./timeTableId_Data"  # 時間割コードを書き出すフォルダ名を設定(相対パス)
+
+# =============================================================================
 
 
 def getcode(n):
@@ -35,7 +44,7 @@ def getcode(n):
     thNum = len(driver.find_elements_by_xpath(
         '/html/body/form/div[2]/table/tbody/tr'))  # エレメント数取得
 
-    print("エレメント " + str(thNum))
+    print("エレメント数：" + str(thNum))
 
     for num in range(1, thNum):
         array.append(driver.find_element_by_xpath(
@@ -92,7 +101,7 @@ def getcode(n):
     driver.quit()
     department = ["BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS",
                   "HS", "HSH1", "HSH2", "HSH3", "HSH4", "HSH5", "HSH6", "X3", "GF", "GH"]
-    with open(department[n]+'_TimeTable.json', 'w') as f:
+    with open(writeFileDir + "/" + department[n]+'.json', 'w') as f:
         json.dump(array, f, ensure_ascii=False, indent=4)
         print("finish")
     return "finish"
