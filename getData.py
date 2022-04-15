@@ -2,13 +2,22 @@ from array import array
 import requests
 from bs4 import BeautifulSoup
 import json
-import sys
 
-# args = sys.argv  # 引数を取得
+# =============================================================================
+# 初期設定項目
+# =============================================================================
+
+readFileDir = "./timeTableId_Data"  # 読み込むフォルダ名を設定(相対パス)
+writeFileDir = "./lecture_Data"  # 講義データ書き出しフォルダ名指定(相対パス)
+
+# =============================================================================
+
+
 def get_timetable(n):
     dataArray = []
-    department = ["BT","CS","MS","ES","ESE5","ESE6","ESE7","X1","DS","HS","HSH1","HSH2","HSH3","HSH4","HSH5","HSH6","X3","GF","GH"]
-    json_open = open(department[n]+'_test.json', 'r')
+    department = ["BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS",
+                  "HS", "HSH1", "HSH2", "HSH3", "HSH4", "HSH5", "HSH6", "X3", "GF", "GH"]
+    json_open = open(readFileDir + "/" + department[n]+'.json', 'r')
     timeTableData = json.load(json_open)
 
     num = len(timeTableData)
@@ -35,5 +44,5 @@ def get_timetable(n):
 
         print(dataArray)
 
-    with open(department[n]+'_data.json', 'w') as f:
+    with open(writeFileDir + "/" + department[n]+'.json', 'w') as f:
         json.dump(dataArray, f, ensure_ascii=False, indent=4)
