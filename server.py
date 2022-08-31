@@ -1,12 +1,15 @@
+# ====================================================
+# 東京工科大学 単位計算API
+#
+# 開発元：TUT22 Dev Team (tut22_dev@6mile.dev)
+# ====================================================
+
+import settings
 from fastapi import FastAPI
 import json
 
-readFileDir = "./lecture_Data"  # 講義データ書き出しフォルダ名指定(相対パス)
-
 dataLists = []
-
 app = FastAPI()
-
 
 def serchIndex(l, x, default=False):
     if x in l:
@@ -21,14 +24,10 @@ def serchIndexCheck(l, x):
     else:
         return False
 
+print("> " + str(len(settings.department)) + "個の学部別シラバスデータの取得を開始します")
 
-department = ["BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS",
-              "HS", "HSH1", "HSH2", "HSH3", "HSH4", "HSH5", "HSH6", "X3", "GF", "GH"]
-
-print("> " + str(len(department)) + "個の学部別シラバスデータの取得を開始します")
-
-for i in range(len(department)):
-    readFile = open(readFileDir + "/" + department[i] + '.json', 'r')
+for i in range(len(settings.department)):
+    readFile = open(settings.lectureDataDir + "/" + settings.department[i] + '.json', 'r')
     for val in json.load(readFile):
         dataLists.append(val)
 
@@ -36,7 +35,7 @@ print("> シラバスデータ取得完了")
 print("\n")
 
 
-@ app.get("/debug/{id}")
+@app.get("/debug/{id}")
 def getTimeTableInfo(id: str):
     for i in range(0, len(dataLists)):
         for j in range(0, len(dataLists[i])):
@@ -44,10 +43,10 @@ def getTimeTableInfo(id: str):
                 return dataLists[i][9]
 
 
-@ app.post("/getInfoAll/")
-def getTimeTableInfo(data: list[str]):
+@app.post("/getInfoAll/")
+def getTimeTableInfo(data:list):
     ary = 0
-
+    print(data)
     for val in data:
         for i in range(0, len(dataLists)):
             for j in range(0, len(dataLists[i])):

@@ -3,11 +3,16 @@
 #
 # 開発元：TUT22 Dev Team (tut22_dev@6mile.dev)
 # ====================================================
-import getTimeTable
 import getData
-department = 2
-for i in range(department):
-    print(i)
-    x = getTimeTable.getcode(i)
+import settings
+
+for i in settings.department:
+    print("> " + i + " 学部の時間割コードの取得を開始します")
+    x = getData.getcode(i)
     if x == "finish":
-         getData.get_timetable(i)
+        print("> " + i + " 学部の時間割コードの取得が完了しました")
+        print("> " + i + " 学部の講義データの取得を開始します")
+        getData.get_timetable(i)
+        print("> " + i + " 学部の講義データの取得が完了しました")
+
+print("> 指定されたすべての学部のデータ取得が完了しました")
