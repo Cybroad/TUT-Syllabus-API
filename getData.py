@@ -15,8 +15,7 @@ writeFileDir = "./lecture_Data"  # 講義データ書き出しフォルダ名指
 
 def get_timetable(n):
     dataArray = []
-    department = ["BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS",
-                  "HS", "HSH1", "HSH2", "HSH3", "HSH4", "HSH5", "HSH6", "X3", "GF", "GH"]
+    department = ["CS", "MS"]
     json_open = open(readFileDir + "/" + department[n]+'.json', 'r')
     timeTableData = json.load(json_open)
 
