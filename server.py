@@ -32,8 +32,6 @@ for i in range(len(settings.department)):
         dataLists.append(val)
 
 print("> シラバスデータ取得完了")
-print("\n")
-
 
 @app.get("/debug/{id}")
 def getTimeTableInfo(id: str):
