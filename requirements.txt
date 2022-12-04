@@ -1,2 +1,6 @@
-fastapi==0.75.1
-uvicorn==0.17.6
+fastapi
+uvicorn
+beautifulsoup4
+requests
+selenium
+cryptography

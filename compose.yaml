@@ -1,0 +1,32 @@
+version: "3.8"
+services:
+  easy-unitcalc-backend:
+    build: .
+    depends_on:
+      - selenium
+    ports:
+      - "8080:8080"
+    container_name: "easy-unitcalc-backend"
+    volumes:
+      - ./app:/app
+      - ./app/timeTableId_Data:/app/timeTableId_Data
+      - ./app/lecture_Data:/app/lecture_Data
+    environment:
+      TZ: Asia/Tokyo
+    links:
+      - selenium
+    entrypoint:
+      - dockerize
+      - -timeout
+      - 60s
+      - -wait
+      - tcp://selenium:4444
+    command: "python3 -u main.py"
+
+  selenium:
+    container_name: selenium-chrome
+    image: selenium/standalone-chrome:latest
+    ports:
+      - 4444:4444
+      - 5900:5900
+    shm_size: "2gb"
