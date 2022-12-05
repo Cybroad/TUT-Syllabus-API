@@ -8,13 +8,13 @@ import settings
 from fastapi import FastAPI
 import json
 import uvicorn
+import os
 
 dataLists = []
 app = FastAPI()
 
-print(os.path.exists("/app/timeTableId_Data")
-      and os.path.exists("/app/lecture_Data"))
-if (not (os.path.exists(settings.timeTableCodeDir) and os.path.exists(settings.lectureDataDir))):
+
+if (len(os.listdir(settings.timeTableCodeDir)) == 0 and len(os.listdir(settings.lectureDataDir)) == 0):
     for i in settings.department:
         print("> " + i + " 学部の時間割コードの取得を開始します")
         x = getData.getcode(i)
@@ -25,13 +25,6 @@ if (not (os.path.exists(settings.timeTableCodeDir) and os.path.exists(settings.l
             print("> " + i + " 学部の講義データの取得が完了しました")
 
     print("> 指定されたすべての学部のデータ取得が完了しました")
-
-
-def serchIndex(l, x, default=False):
-    if x in l:
-        return l.index(x)
-    else:
-        return default
 
 
 def serchIndexCheck(l, x):
@@ -52,7 +45,7 @@ for i in range(len(settings.department)):
 print("> シラバスデータ取得完了")
 
 
-@app.get("/debug/{id}")
+@app.post("/debug/{id}")
 def getTimeTableInfo(id: str):
     for i in range(0, len(dataLists)):
         for j in range(0, len(dataLists[i])):
@@ -67,8 +60,10 @@ def getTimeTableInfo(data: list):
     for val in data:
         for i in range(0, len(dataLists)):
             for j in range(0, len(dataLists[i])):
+                # 講義情報データから講義コードを検索(全部の学部データから広域検索)
                 if serchIndexCheck(dataLists[i][j], val):
-                    ary += int(dataLists[i][9])
+                    if val == dataLists[i][4]:  # 時間割コードと完全一致した場合
+                        ary += int(dataLists[i][9])
 
     return ary
 
