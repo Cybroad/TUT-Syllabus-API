@@ -15,11 +15,30 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import re
 import json
+import ssl, urllib3
 
 options = Options()
 options.add_argument('--headless')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-gpu')
+
+class CustomHttpAdapter (requests.adapters.HTTPAdapter):
+    def __init__(self, ssl_context=None, **kwargs):
+        self.ssl_context = ssl_context
+        super().__init__(**kwargs)
+
+    def init_poolmanager(self, connections, maxsize, block=False):
+        self.poolmanager = urllib3.poolmanager.PoolManager(
+            num_pools=connections, maxsize=maxsize,
+            block=block, ssl_context=self.ssl_context)
+
+def fetch_syllabus(url: str):
+    session = requests.session()
+    ctx = ssl.create_default_context(ssl.Purpose.SERVER_AUTH)
+    ctx.options |= 0x4
+    session.mount('https://', CustomHttpAdapter(ctx))
+    res = session.get(url)
+    return res
 
 
 def getcode(v):
@@ -121,8 +140,13 @@ def get_timetable(v):
     print("...取得中")
     for i in range(num):
         val = timeTableData[i]  # 時間割コード取得
-        res = requests.get(
-            'https://kyo-web.teu.ac.jp/syllabus/2022/' + v + '_' + val + '_ja_JP.html')
+        print(val)
+
+        if v == "﻿BT":
+            res = fetch_syllabus('https://kyo-web.teu.ac.jp/syllabus/2024/' + 'BT' + '_' + val + '_ja_JP.html')
+        else:
+            res = fetch_syllabus('https://kyo-web.teu.ac.jp/syllabus/2024/' + v + '_' + val + '_ja_JP.html')
+        
         if res.status_code == 404:
             continue
         bs = BeautifulSoup(res.content, 'html.parser')
