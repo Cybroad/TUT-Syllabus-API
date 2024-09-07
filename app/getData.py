@@ -47,6 +47,7 @@ def getcode(v):
                                        '/html/body/form/div[2]/p[1]').text
         conditons = r'\全部で .*\あります'  # 任意の条件を設定
         mPageN_a = re.findall(conditons, mPageN_o)  # 条件にマッチする文字列を取得
+        if mPageN_a == ""
         mPageN = int(mPageN_a[0].replace(
             '全部で ', '').replace('件あります', ''))  # 全体ページ数
         cPageN_o = driver.find_element(By.XPATH,  # エレメント抽出
@@ -146,7 +147,7 @@ def get_timetable(v):
             res = fetch_syllabus('https://kyo-web.teu.ac.jp/syllabus/2024/' + 'BT' + '_' + val + '_ja_JP.html')
         else:
             res = fetch_syllabus('https://kyo-web.teu.ac.jp/syllabus/2024/' + v + '_' + val + '_ja_JP.html')
-        
+
         if res.status_code == 404:
             continue
         bs = BeautifulSoup(res.content, 'html.parser')
@@ -159,7 +160,5 @@ def get_timetable(v):
             ary.append(td.get_text().strip().replace(' ', '').replace(
                 '\r\n', '').replace('\u30001', '').replace('\u3000', ''))
 
-        dataArray.append(ary)
-
-    with open(settings.lectureDataDir + "/" + v + '.json', 'w') as f:
-        json.dump(dataArray, f, ensure_ascii=False, indent=4)
+        with open(settings.lectureDataDir + "/" + val + '.json', 'w') as f:
+            json.dump(ary, f, ensure_ascii=False, indent=4)

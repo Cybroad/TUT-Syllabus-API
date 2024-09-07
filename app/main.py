@@ -18,11 +18,14 @@ if (len(os.listdir(settings.timeTableCodeDir)) == 0 and len(os.listdir(settings.
     for i in settings.department:
         print("> " + i + " 学部の時間割コードの取得を開始します")
         x = getData.getcode(i)
+
         if x == "finish":
             print("> " + i + " 学部の時間割コードの取得が完了しました")
-            print("> " + i + " 学部の講義データの取得を開始します")
-            getData.get_timetable(i)
-            print("> " + i + " 学部の講義データの取得が完了しました")
+    for i in settings.department:
+        print(f"> {i}の講義データの取得を開始します")
+        x = getData.get_timetable(i)
+        if x == "finish":
+            print(f"> {i}の講義データの取得が完了しました")
 
     print("> 指定されたすべての学部のデータ取得が完了しました")
 
