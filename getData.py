@@ -18,7 +18,6 @@ import json
 import ssl, urllib3
 
 options = Options()
-options.add_argument('--headless')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-gpu')
 
@@ -47,7 +46,10 @@ def getcode(v):
                                        '/html/body/form/div[2]/p[1]').text
         conditons = r'\全部で .*\あります'  # 任意の条件を設定
         mPageN_a = re.findall(conditons, mPageN_o)  # 条件にマッチする文字列を取得
-        if mPageN_a == ""
+        
+        if len(mPageN_a) == 0:
+            return 0, 0
+
         mPageN = int(mPageN_a[0].replace(
             '全部で ', '').replace('件あります', ''))  # 全体ページ数
         cPageN_o = driver.find_element(By.XPATH,  # エレメント抽出
@@ -59,7 +61,7 @@ def getcode(v):
     # =========================================================================
 
     driver = webdriver.Remote(
-        command_executor="http://selenium:4444/wd/hub",
+        command_executor="http://localhost:4444/wd/hub",
         options=options
     )
     array = []
@@ -69,8 +71,12 @@ def getcode(v):
         By.NAME, "search"))  # 検索フレームを切り替える
 
     print("...取得中")
-    Select(driver.find_element(By.ID, 'jikanwariShozokuCode')
-           ).select_by_value(v)  # コンピュータサイエンス学部
+
+    # 応用生物学部を選択する際の謎文字列対策
+    if v == "BT":
+        Select(driver.find_element(By.ID, 'jikanwariShozokuCode')).select_by_value("﻿BT")
+    else:
+        Select(driver.find_element(By.ID, 'jikanwariShozokuCode')).select_by_value(v)
 
     Select(driver.find_element(By.NAME, '_displayCount')
            ).select_by_value('200')  # 一覧表示件数
@@ -91,6 +97,11 @@ def getcode(v):
                                          '/html/body/form/div[2]/table/tbody/tr[' + str(num) + ']/td[4]').text)
 
     p = getPageNum()  # 現在のページ数及び全体ページ数取得関数を実行
+
+    if(p[1] == 0):
+        driver.quit()
+        return "finish"
+
     aTagN = int(len(driver.find_elements(By.XPATH,
                                          '/html/body/form/div[2]/p[1]/a'))) - 1
 
@@ -143,10 +154,7 @@ def get_timetable(v):
         val = timeTableData[i]  # 時間割コード取得
         print(val)
 
-        if v == "﻿BT":
-            res = fetch_syllabus('https://kyo-web.teu.ac.jp/syllabus/2024/' + 'BT' + '_' + val + '_ja_JP.html')
-        else:
-            res = fetch_syllabus('https://kyo-web.teu.ac.jp/syllabus/2024/' + v + '_' + val + '_ja_JP.html')
+        res = fetch_syllabus('https://kyo-web.teu.ac.jp/syllabus/2024/' + v + '_' + val + '_ja_JP.html')
 
         if res.status_code == 404:
             continue

@@ -10,7 +10,7 @@ timeTableCodeDir = "./timeTableId_Data"
 lectureDataDir = "./lecture_Data"
 
 # データ取得先学部指定 (下記リストより選択)
-department = ["﻿BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS", "HS", "HSH1", "HSH2", "HSH3", "HSH4", "HSH5", "HSH6", "X3", "GF", "GH"]
+department = ["BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS", "HS", "HSH1", "HSH2", "HSH3", "HSH4", "HSH5", "HSH6", "X3", "GF", "GH"]
 # ※教養科目の"X1"は必須
 
 # リスト集

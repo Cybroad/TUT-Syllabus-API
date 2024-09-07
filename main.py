@@ -13,6 +13,9 @@ import os
 dataLists = []
 app = FastAPI()
 
+os.makedirs(settings.timeTableCodeDir, exist_ok=True)
+os.makedirs(settings.lectureDataDir, exist_ok=True)
+
 
 if (len(os.listdir(settings.timeTableCodeDir)) == 0 and len(os.listdir(settings.lectureDataDir)) == 0):
     for i in settings.department:
@@ -28,7 +31,6 @@ if (len(os.listdir(settings.timeTableCodeDir)) == 0 and len(os.listdir(settings.
             print(f"> {i}の講義データの取得が完了しました")
 
     print("> 指定されたすべての学部のデータ取得が完了しました")
-
 
 def serchIndexCheck(l, x):
     if x in l:
