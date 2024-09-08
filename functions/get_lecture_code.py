@@ -18,13 +18,6 @@ def _get_search_result_page_num(driver: webdriver.Remote) -> dict:
     # 検索結果件数のテキスト部分を抽出
     search_result_count_list =  re.findall(r'\全部で .*\あります', search_result_count_element) 
 
-    # 抽出結果が0件の場合は、0を返す
-    if len(search_result_count_list) == 0:
-        return {
-            'current_page_result_count': 0,
-            'total_page_result_count': 0
-        }
-    
     # 全体ページ数を取得
     search_result_count_all = int(search_result_count_list[0].replace('全部で ', '').replace('件あります', ''))
 
@@ -90,10 +83,10 @@ def get_lecture_code(department_name: str) -> list[str]:
     driver.switch_to.frame(driver.find_element(By.NAME, "result"))
 
     # 現在のページ数及び全体ページ数を取得
-    page_data = _get_search_result_page_num(driver)
-
-    # 全体ページ数が0の場合、ドライバーを閉じて時間割コードリストを返す
-    if page_data['total_page_result_count'] == 0:
+    try:
+        page_data = _get_search_result_page_num(driver)
+    except:
+        # 全体ページ数が取得できない場合、存在しないページのため、exit
         driver.quit()
         return None
     
