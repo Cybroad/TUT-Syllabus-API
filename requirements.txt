@@ -1,6 +1,7 @@
 beautifulsoup4
 requests
-selenium==3.141.0
+selenium
 cryptography
 urllib3
 lxml
+get_chrome_driver
