@@ -1,6 +1,7 @@
 # ====================================================
 # 東京工科大学 学内シラバス API
 # ====================================================
+from time import sleep
 from functions import get_lecture_code, get_lecture_data
 import os
 import json
@@ -20,6 +21,7 @@ for dept in department:
     lecture_codes = get_lecture_code.get_lecture_code(dept)
     for lecture_code in lecture_codes:
         # 講義データを取得
+        sleep(1)
         lecture_data = get_lecture_data.get_timetable(dept, lecture_code)
         if lecture_data:
             with open(f"docs/api/v1/{dept}/{lecture_code}.json", "w") as f:
