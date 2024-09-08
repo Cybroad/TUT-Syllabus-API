@@ -1,0 +1,37 @@
+{
+    "lectureCode": "L606M09",
+    "courseName": "IntegratedEnglishII[2]MS金1",
+    "lecturer": [
+        "田村明子(兼任講師)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度後期",
+    "classPeriod": [
+        "金"
+    ],
+    "targetDepartment": "メディア学部メディア学科",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "講義棟Ａ３０２"
+    ],
+    "courceDetails": {
+        "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養、ビジネス英語のさらなる修得をめざす。この授業のテーマはScienceandTechnology。準中級（基本的な英語の知識は修得済みとする）。前期・後期継続して履修することをすすめる。",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "英語の形式に注目しつつ、情報を正確に取り入れた上で、その内容を表現できるよう練習する。ユニット毎に担当グループが内容を解説するアクティブラーニングのスタイルで授業を行う。ノートＰＣ必携。到達度確認チェックを2回行う。指示に従い予習/復習課題を提出する。発表内容、課題等へのへのフィードバックは授業中に随時行う。",
+        "notices": "授業は全回出席が基本。様々なアクティビティに積極的に参加すること。課題は提出期限内に提出すること。",
+        "preparatoryStudy": "教科書の指定部分を読み、理解して予習課題を行っておくこと。授業ではその振り返りやアウトプット練習を行う反転授業。ユニット解説担当になったときは、メンバーと連絡を取り合い準備すること。",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題（30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "Murao,Miyama&Noguchi著;VOAScience&TechnologyReport（VOAで学ぶ最先端技術とPBL基礎演習）;南雲堂;ISBN9784791972067;2,200円（税込2,420円）",
+        "referenceMaterials": "第1回：Guidance第2回：Unit11第3回：Unit12第4回：Unit13第5回：Unit14第6回：Unit15第7回：到達度チェック①第8回：Unit16第9回：Unit17第10回：Unit18第11回：Unit19第12回：Unit20第13回：到達度チェック②第14回：Feedbackandreflection",
+        "courseSchedule": "",
+        "courseDataUpdatedAt": "2024/01/24"
+    },
+    "updateAt": "2024/08/07"
+}

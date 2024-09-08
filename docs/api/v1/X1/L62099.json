@@ -1,0 +1,35 @@
+{
+    "lectureCode": "L62099",
+    "courseName": "IntegratedEnglishIII[再]",
+    "lecturer": [
+        "石塚美佳(教養学環)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度後期",
+    "classPeriod": [
+        "金3"
+    ],
+    "targetDepartment": "",
+    "targetGrade": [
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "講義実験棟３０６"
+    ],
+    "courceDetails": {
+        "courseOverview": "【この科目はIntegratedEnglishIII再履修者対象のクラスである】英語の総合的な実践的運用能力をさらに向上させることを目指す。IntegratedEnglishI・IIと同様に、学生の興味・関心や進路に即した内容を扱うが、より専門性や時事性の高い英語の学びを通じて、ディスカッションやプレゼンテーションを含む4技能のスキルアップ、論理的思考力や分析力の向上をめざす。将来のキャリアにおける英語使用、大学院進学に対応した英語学習など、将来、自発的に英語を学習できるような方法論と動機付けも与える。この授業では2015年に国連サミットで採択された持続可能な開発目標(SDGs:SustainableDevelopmentGoals)を教材として取り上げる。SDGsの17のゴールは、2030年までのゴールとして全ての時代の全ての人が目指すべき目標であるので、世界の様々な事情・問題をグローバルな視点に立ってとらえ、解決していく意識が必要である。それぞれの目標に関連したニュースを聞き、理解する力を養い、英文を読み、自分の考え・意見を論理的理由に基づいて表現していく力を養っていく。授業を通して、社会、福祉、環境、人権、教育、経済などの語彙力強化にも努めたい。",
+        "outcomesMeasuredBy": "1.語彙力を強化する。2.具体的な事象に関して自らの考えを加えながら説明できる。3.批評的思考（クリティカルシンキング）によって、分析・評価ができる。4.グローバル時代に必要な国際的な教養力を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "授業は教科書のlessonに沿って進めていく。各LessonのKeyWordStudyとVocabularyCheckは小テストで確認する。Listeningの部分については教科書に付いているWeb動画をあらかじめ視聴し、課題に取り組んできて、それを授業で確認する反転授業形式で行う。Readingについては、パラグラフリーディングを中心に進め、内容を把握した上でテーマについてペアやグループでディスカッションを行う。また、各テーマについての自分の考えを適切な理由づけをして書き表すことを行い、それをペア／グループワーク、またはGoogleChatで発表する機会を設ける。小テストや課題のフィードバックは授業内に行う。PCは必携。",
+        "notices": "・授業は全回出席が基本である。・授業中に小テスト受験、ビデオの視聴、必要な情報検索を行うため、PCは毎回持参すること。・授業には必ず予習をしてのぞむこと（予習確認小テストを実施）。・毎回の授業には必ず教科書を持参すること。・課題はほぼ毎回出す。課題の提出の遅延、未提出は減点の対象になる。必ず提出期限を守ること。・オンライン辞書の使用は認めるが、翻訳ソフトを辞書代わりに使うことは禁じる。・わからないことは遠慮せずに質問すること。",
+        "preparatoryStudy": "予習・復習を十分行うこと。各Lessonに設けられているListening（KeyWordStudy,ListeningPractice1,ListeningPractice2）はテキスト付随のWeb動画を用いて最低限の予習課題として取り組んでくること（約45-60分）。各LessonのKeyWordStudyとVocabularyCheckは小テストで予習確認する。授業は予習完了を前提に進める。授業の進度によって課題を出すので指示に従って準備してくること。",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "M.Shishido,K.Murphy,andM.Takahashi;AFPWorldNewsReport5-AchievingtheSustainableDevelopment(SDGs);成美堂;ISBN:978-4-7919-7211-1;\\2,860（税込）",
+        "referenceMaterials": "授業内で適宜紹介する。",
+        "courseSchedule": "第1回：導入（前期の復習）第2回：Unit9Industry,Innovation&Infrastructure第3回：Unit9Industry,Innovation&Infrastructure&Unit10ReducedInequalities第4回：Unit10ReducedInequalities第5回：Unit11SustainableCities&Communities第6回：Unit11SustainableCities&Communities&Unit12ResponsibleConsumption&Production第7回：Unit12ResponsibleConsumption&Production&到達確認チェック①第8回：Unit13ClimateAction第9回：Unit13ClimateAction&Unit14LifeBelowWater第10回：Unit14LifeBelowWater第11回：Unit15LifeonLand第12回：Unit15LifeonLand&Unit16Peace,Justice&StrongInstitutions第13回：Unit16Peace,Justice&StrongInstitutions第14回：到達確認チェック②＆まとめ",
+        "courseDataUpdatedAt": "2024/01/25"
+    },
+    "updateAt": "2024/08/07"
+}

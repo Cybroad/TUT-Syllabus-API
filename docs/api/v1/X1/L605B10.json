@@ -1,0 +1,37 @@
+{
+    "lectureCode": "L605B10",
+    "courseName": "IntegratedEnglishI[10]BS電電応化",
+    "lecturer": [
+        "佐藤亜紀(兼任講師)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度前期",
+    "classPeriod": [
+        "月2"
+    ],
+    "targetDepartment": "応用生物学部,工学部電気電子工学科,工学部応用化学科",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "講義棟Ａ２０１"
+    ],
+    "courceDetails": {
+        "courseOverview": "１年次の学習を総合して、より高度な英語の運用能力の向上をめざす。英語ネイティブスピーカーによるCommunicationskillsの向上、学際的的な内容を扱うAcademicEnglish、グローバル時代の国際理解に必要な文化と社会に関する知識の修得をめざすCulturalStudies、TOEICやビジネス英語扱うBusiness/TOEICなどを通じて、学生の興味・関心や進路に即したより高度な英語力の修得をめざす。この授業では、TOEIC450‐500レベルの到達を目標にし、TOEIC対策の教材を用いて語彙力の強化とスコアアップに必要なスキルを習得する。なお、この科目は前・後期続けて履修することをすすめる。",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "授業では教科書のユニットを毎回1つずつ学習する。予習したVocabularyパートの答え合わせをし、リスニング、リーディングの練習問題に取り組む。必要な文法事項についても確認していく。またペアワークやグループワークにより、学習した内容の理解を深める。ノートPCは指示がある時のみ使用する。第2回より、毎回授業の始めに前回のユニットのVocabularytestを行う。小テストや課題へのフィードバックは授業内、又はGoogleClassroom等で随時行う。",
+        "notices": "授業では毎回教科書を使用し、教科書の問題を解くので、教科書を必ず持ってくること。また、辞書も持ってくること。",
+        "preparatoryStudy": "予習として、授業前にその日学習するユニットのVocabularyの課題を行うこと（20分程度）。指定された復習課題に取り組んで提出すること（20分程度）。また授業で学習したVocabularyを復習し、次回のVocabularytestに備える（20分程度）。",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "MaikoTsuchiya,YoshieShimai,SamuelPaoloM.Adamos著;GreenLightfortheTOEICTest;CengageLearning;ISBN978-4-86312-278-9",
+        "referenceMaterials": "必要に応じて授業内で指示する。",
+        "courseSchedule": "第1回授業ガイダンス/Unit1第2回Unit2第3回Unit3第4回Unit4第5回Unit5＆MiniTest①第6回Unit6第7回Unit7第8回Unit8第9回Unit9＆MiniTest②第10回Unit10第11回Unit11第12回Unit12第13回Unit13＆MiniTest③第14回まとめ及び到達度チェック",
+        "courseDataUpdatedAt": "2024/02/17"
+    },
+    "updateAt": "2024/08/07"
+}

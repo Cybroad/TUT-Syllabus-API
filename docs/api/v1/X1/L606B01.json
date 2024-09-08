@@ -1,0 +1,37 @@
+{
+    "lectureCode": "L606B01",
+    "courseName": "IntegratedEnglishII[1]BS電電応化",
+    "lecturer": [
+        "清水友子(兼任講師)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度後期",
+    "classPeriod": [
+        "月2"
+    ],
+    "targetDepartment": "応用生物学部,工学部電気電子工学科,工学部応用化学科",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "片柳研究所Ｅ１０１"
+    ],
+    "courceDetails": {
+        "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養、ビジネス英語のさらなる修得をめざす。この授業では、CLIL(内容言語統合型学習)の手法を取り入れながら、SDGs(SustainableDevelpmentGoals)の様々なトピックについて、読み、考え、話し合いながら、英語を使う力をつけ、思考力を伸ばすことを目標とする。また、SDGsで取り上げられている世界の様々な問題への理解を深める機会にもなる。英語力として、TOEIC500点以上の到達を目指す。",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "基本的に、SDGsに関する教科書に沿って、毎回１章学習する。進め方は次の通り：１）Vocabularycheck2)Reading&内容理解問題3)GroupDiscussionペアやグループワークでのアクティビティが多く、グループの意見をクラスで共有するアクティブラーニング式の授業となる。課題は各トピックのReflectionPaper(振り返り）を書き、Moodleから提出（FeedbackもMoodleから返却）。また学期末に、FinalProjectとして、各自が興味のあるSDGsのトピックに関するミニ発表の機会あり（その際はPC使用）。",
+        "notices": "教科書持参は必須。知らない単語を調べるため、辞書も持参のこと。",
+        "preparatoryStudy": "予習課題：各章の最初の２ページ（Vocabulary)問題を解き、Readingのテキストを予習しておく（約30-40分）復習課題：授業後にReflectionPaperを書き、3課ごとにMoodleに提出(約20分)",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "AdamMurray,AndersonPassos著;OurWorldTomorrow-Howtechnologywillchangeourlives英語で学ぶ地球の未来とSDGs;南雲堂;ISBN978-4-523-17961-0;2750円",
+        "referenceMaterials": "特になし適宜ハンドアウト配布",
+        "courseSchedule": "第１回Introduction第２回Unit1:Introduction第３回Unit2:GoodHealth第４回Unit3:BreakingthePovertyCycle第５回Unit4:CleanWater第６回Unit6:ZeroHunger第７回Unit7:SustainableInfrastructure第８回Unit8:CleanEnergy第９回Unit9:RemoteWork第１０回Unit11:QualityEducationforAll第１１回Unit12:ReducingInequalities第１２回FinalProject:Preparation第１３回FinalProject:Presentation第１４回到達度確認チェック・まとめ",
+        "courseDataUpdatedAt": "2024/02/17"
+    },
+    "updateAt": "2024/08/07"
+}

@@ -1,0 +1,37 @@
+{
+    "lectureCode": "L620M03",
+    "courseName": "IntegratedEnglishIII[A3]MS",
+    "lecturer": [
+        "アシュウィン",
+        "Ｃ(兼任講師)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度前期",
+    "classPeriod": [
+        "水"
+    ],
+    "targetDepartment": "メディア学部メディア学科",
+    "targetGrade": [
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "講義棟Ａ３０４"
+    ],
+    "courceDetails": {
+        "courseOverview": "英語の総合的な実践的運用能力をさらに向上させることを目指す。IntegratedEnglishI・IIと同様に、学生の興味・関心や進路に即した内容を扱うが、より専門性や時事性の高い英語の学びを通じて、ディスカッションやプレゼンテーションを含む4技能のスキルアップ、論理的思考力や分析力の向上をめざす。将来のキャリアにおける英語使用、大学院進学に対応した英語学習など、将来、自発的に英語を学習できるような方法論と動機付けも与える。ThethemeofthiscourseisMusic,andtheaimisforstudentstoreachalevelequivalentto500-600intheTOEICtest.",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的、抽象的な事柄に関して自らの考えを論理的に組み立て、述べたり書いたりできる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "Thiscourseisdesignedtoimproveeachstudent'sEnglishlanguageskillsthroughthestudyofmusic.Eachweekwillincludestudyofasongandartistfromdifferentmusicgenres.StudentswillgainconfidenceinlisteningtoEnglishaswellasusingEnglishinclasstodiscussthetopicofmusic.Studentswillalsogainincreasedknowledgeofforeignculturethroughthestudyofmusic.Duringthecoursestudentswillbegivenopportunitiestoimprovetheirlisteningskills,buildvocabulary,activelypracticetheirspokenEnglishingroupsandgiveashortpresentationinEnglishinclass.Feedbackwillbegivenforallclassactivities,eitherorallyorinwrittenformat(ex.viaGoogleClassroom).",
+        "notices": "ClasseswillbetaughtinEnglish.Ifpossible,Japanesewillnotbespoken.Also,bringyourcomputertoeveryclass.この科目は前・後期続けて履修することをおすすめします。",
+        "preparatoryStudy": "Studentsshouldbepreparedtoreview,prepare,practice,anddoresearchandhomeworkathome.Averybasiclevelofcomputerskillswillberequired.",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。課題、タスクへのフィードバックはGoogleClassroom上および授業中に随時行う。ノートPCは指示のある時のみ使用するが、毎回の授業に持ってくること。",
+        "textbook": "Notextbook.",
+        "referenceMaterials": "TobegivenbyMoodleandinclasseachweek.",
+        "courseSchedule": "第1回：OrientationandCourseinformation第2回：MusicArtist:TaylorSwift/Speakingaboutfavoriteartists第3回：MusicArtist:MusicArtist:GreenDay/Speakingaboutmusicgenres第4回：MusicArtist:MichaelJackson/Speakingaboutmusicvideosandconcerts第5回：MusicArtist:EdSheeran/Speakingaboutmusicalinstruments第6回：MusicArtist:TheBeatles/PresentationInformation第7回：Mid-termAchievementCheck/PresentationPreparation第8回：MusicArtist:Abba/PresentationPractice第9回：MusicArtist:Metallica/Presentations第10回：MusicArtist:MileyCyrus/Presentations第11回：MusicArtist:BobMarley/Presentations第12回：MusicArtist:Queen/Presentations第13回：FinalAchievementCheck/Presentations第14回：Feedback",
+        "courseDataUpdatedAt": "2024/01/28"
+    },
+    "updateAt": "2024/08/07"
+}

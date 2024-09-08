@@ -1,0 +1,40 @@
+{
+    "lectureCode": "C11001",
+    "courseName": "WebプログラミングI[AG]",
+    "lecturer": [
+        "長名優子(コンピュータサイエンス学部コンピュータサイエンス学科)"
+    ],
+    "regularOrIntensive": "専門基礎教育科目",
+    "courseType": "講義・演習科目",
+    "courseStart": "2024年度前期",
+    "classPeriod": [
+        "月4",
+        "月5"
+    ],
+    "targetDepartment": "コンピュータサイエンス学部コンピュータサイエンス学科",
+    "targetGrade": [
+        "1年",
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "3",
+    "classroom": [
+        "片柳研究所Ｃ１００３",
+        "片柳研究所Ｃ１００４"
+    ],
+    "courceDetails": {
+        "courseOverview": "本講義は、Webページを作成するための基礎的な技術を習得することを目的とする。Webを構成する要素技術であるHTML、CSS、JavaScriptの習得を通じて現代社会の基盤技術であるWorldWideWebの基礎知識（国際的な教養）を身につける。それら要素技術を組み合わせてWebページを作成する過程を通じて、文書データ構造の理解（実学に基づく専門能力）を身につける。意図しない表示結果の発見と修正を通してITエンジニアの開発サイクルを経験する（論理的な思考力、問題解決力）。",
+        "outcomesMeasuredBy": "・適切な構造を持つHTML文書を作成できる・HTML文書の見た目をCSSで調整できる・HTML文書にJavaScriptで動的な要素を追加できる",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力論理的な思考力問題解決力",
+        "teachingMethod": "ノートPC必携。学生は講義時間内に自身のノートPCを用いてその日の講義内容を実践する。",
+        "notices": "HTML文書を作成する際には多くの文字を入力する必要がある。PCでの文字入力に不慣れな学生はタッチタイピングの練習をしておくこと。",
+        "preparatoryStudy": "講義資料は各回で配布する。授業前には、前回の講義内容を復習しておくこと。授業時間内に終わらなかった課題は期限までに完成させ、提出をすること。",
+        "gradingGuidelines": "各回の小課題60%、中課題20%、授業への取り組み方20%で評価する。課題へのフィードバックはMoodle上で実施する。",
+        "textbook": "指定しない。",
+        "referenceMaterials": "指定しない。",
+        "courseSchedule": "第1回：Webページの仕組み第2回：HTMLの基礎1（見出し、段落、リスト）第3回：HTMLの基礎2（画像、リンク）第4回：HTMLの基礎3（ブロック要素、フォーム）第5回：CSSによるHTMLの装飾第6回：CSSによるレイアウトの調整第7回：Webページの制作第8回：JavaScriptの基礎1（書き方・動かし方）第9回：JavaScriptの基礎2（制御構文）第10回：JavaScriptの基礎3（関数・イベント）第11回：動的なWebページの作成1（DOM）第12回：動的なWebページの作成2（イベント）第13回：動的なWebページの作成3（Canvas）第14回：課題制作・まとめ",
+        "courseDataUpdatedAt": "2024/01/09"
+    },
+    "updateAt": "2024/05/29"
+}
