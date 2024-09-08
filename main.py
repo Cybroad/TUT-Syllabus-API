@@ -7,8 +7,7 @@ import os
 import json
 
 # データ取得先学部指定
-#department = ["BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS", "HS", "HSH1", "HSH2", "HSH3", "HSH4", "HSH5", "HSH6", "X3", "GF", "GH"]
-department = ["BT","CS"]
+department = ["BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS", "HS", "HSH1", "HSH2", "HSH3", "HSH4", "HSH5", "HSH6", "X3", "GF", "GH"]
 # ※教養科目の"X1"は必須
 
 os.makedirs("docs", exist_ok=True)
@@ -20,7 +19,7 @@ for dept in department:
     print(f"Getting {dept} lecture codes...")
     # 指定学部の講義コードを取得
     lecture_codes = get_lecture_code.get_lecture_code(dept)
-    print(f"Got {len(lecture_codes)} lecture codes.")
+    print(f"Finished getting {dept} lecture codes about {len(lecture_codes)} lectures.")
     for lecture_code in lecture_codes:
         # 講義データを取得
         print(f"Getting {dept}/{lecture_code}...")
