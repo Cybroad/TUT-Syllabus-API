@@ -31,14 +31,8 @@ def _format_string(text: str) -> str:
 
 
 def _format_lecture_information(lecture_information: ResultSet) -> list[str]:
-    joined_lecture_information_list = []
     td_data = lecture_information.find_all('td')
-    for td in td_data:
-        text = td.text
-        formated_text = _format_string(text)
-        joined_lecture_information_list.append(formated_text)
-
-    return joined_lecture_information_list
+    return [_format_string(td.text) for td in td_data if td]
 
 def _exsistCheck(targetLst: list, index: int) -> bool:
     try:
@@ -81,15 +75,15 @@ def get_timetable(department_name: str, lecture_code : str) -> dict:
     lecture_data = {
         'lectureCode': lecture_code,
         'courseName': tab1_data[0] if _exsistCheck(tab1_data, 0) else '',
-        'lecturer': list(tab1_data[1].split(',')) if _exsistCheck(tab1_data, 1) else [],
+        'lecturer': tab1_data[1].split(',') if _exsistCheck(tab1_data, 1) else [],
         'regularOrIntensive': tab1_data[2] if _exsistCheck(tab1_data, 2) else '',
         'courseType': tab1_data[3] if _exsistCheck(tab1_data, 3) else '',
         'courseStart': tab1_data[5] if _exsistCheck(tab1_data, 5) else '',
-        'classPeriod': list(tab1_data[6].split(',')) if _exsistCheck(tab1_data, 6) else [],
+        'classPeriod': tab1_data[6].split(',') if _exsistCheck(tab1_data, 6) else [],
         'targetDepartment': tab1_data[7] if _exsistCheck(tab1_data, 7) else '',
-        'targetGrade': list(tab1_data[8].split(',')) if _exsistCheck(tab1_data, 8) else [],
+        'targetGrade': tab1_data[8].split(',') if _exsistCheck(tab1_data, 8) else [],
         'numberOfCredits': tab1_data[9] if _exsistCheck(tab1_data, 9) else '',
-        'classroom': list(tab1_data[10].split(',')) if _exsistCheck(tab1_data, 10) else [],
+        'classroom': tab1_data[10].split(',') if _exsistCheck(tab1_data, 10) else [],
         'courceDetails': {
             'courseOverview': tab2_data[1] if _exsistCheck(tab2_data, 1) else '',
             'outcomesMeasuredBy': tab2_data[2] if _exsistCheck(tab2_data, 2) else '',
