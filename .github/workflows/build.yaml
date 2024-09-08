@@ -25,7 +25,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Start the Selenium server
-        run: docker compose up -d
+        run: docker run --rm --name selenium -it -p 4444:4444 -p 5900:5900 -p 7900:7900 --shm-size 2g selenium/standalone-chromium:latest
 
       - name: Generate Syllabus Data
         run: python main.py
@@ -39,7 +39,7 @@ jobs:
           test $(du -ab docs/api/v1 | sort -n | head -1 | awk '{print $1}') -gt 300
 
       - name: Stop the Selenium server
-        run: docker compose down
+        run: docker stop selenium
 
       - name: Check diff
         id: diff
