@@ -1,0 +1,59 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11.4"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Start the Selenium server
+        run: docker compose up -d
+
+      - name: Generate Syllabus Data
+        run: python main.py
+
+      # Thanks: https://github.com/ttskch/jp-postal-code-api
+      - name: Check sizes of JSON files
+        run: |
+          # The largest file should be smaller thant 30000 bytes
+          test $(du -ab docs/api/v1 | sort -nr | head -2 | tail -1 | awk '{print $1}') -lt 30000
+          # The smallest file should be larger than 300 bytes
+          test $(du -ab docs/api/v1 | sort -n | head -1 | awk '{print $1}') -gt 300
+
+      - name: Stop the Selenium server
+        run: docker compose down
+
+      - name: Check diff
+        id: diff
+        run: |
+          git add -N .
+          git diff --name-only --exit-code
+        continue-on-error: true
+
+      - name: Commit and push to GitHub if needed
+        if: steps.diff.outcome == 'failure'
+        # https://github.com/actions/checkout/issues/13#issuecomment-724415212
+        run: |
+          set -x
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add .
+          git commit --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" -m "Automatically committed"
+          git push
