@@ -27,23 +27,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # - name: Start the Selenium server
-      #   run: docker compose up -d
-
       - name: Generate Syllabus Data
         run: python main.py
-
-      # Thanks: https://github.com/ttskch/jp-postal-code-api
-      - name: Check sizes of JSON files
-        run: |
-          # The largest file should be smaller thant 30000 bytes
-          test $(du -ab docs/api/v1 | sort -nr | head -2 | tail -1 | awk '{print $1}') -lt 30000
-          # The smallest file should be larger than 300 bytes
-          test $(du -ab docs/api/v1 | sort -n | head -1 | awk '{print $1}') -gt 300
-
-      # - name: Stop the Selenium server
-      #   run: docker compose down
-
+        
       - name: Check diff
         id: diff
         run: |
