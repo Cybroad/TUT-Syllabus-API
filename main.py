@@ -19,7 +19,15 @@ for dept in department:
     print(f"Getting {dept} lecture codes...")
     # 指定学部の講義コードを取得
     lecture_codes = get_lecture_code.get_lecture_code(dept)
+    
+    # 講義コード取得失敗時
+    if lecture_codes == None:
+        print(f"Failed to get {dept} lecture codes.")
+        print('Skip to get lecture data.')
+        continue
+
     print(f"Finished getting {dept} lecture codes about {len(lecture_codes)} lectures.")
+
     for lecture_code in lecture_codes:
         # 講義データを取得
         print(f"Getting {dept}/{lecture_code}...")
