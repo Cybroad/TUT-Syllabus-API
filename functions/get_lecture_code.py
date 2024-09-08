@@ -7,7 +7,7 @@ import re
 
 # 定数設定
 SELENIUM_DRIVER_PATH = 'http://localhost:4444/wd/hub'
-TUT_SYLLABUS_URL = 'https://kyo-web.teu.ac.jp/campussy/'
+TUT_CAMPUSSY_URL = 'https://kyo-web.teu.ac.jp/campussy/'
 VIEW_RESULT_COUNT = '200'
 
 # オプション設定
@@ -63,7 +63,7 @@ def get_lecture_code(department_name: str) -> list[str]:
         options=options
     )
 
-    driver.get(TUT_SYLLABUS_URL)
+    driver.get(TUT_CAMPUSSY_URL)
 
     # 検索条件のiframeに切り替え
     driver.switch_to.frame(driver.find_element(By.NAME, "search"))
