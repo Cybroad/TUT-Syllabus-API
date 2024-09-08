@@ -1,120 +1,47 @@
-from selenium import webdriver
-from selenium.webdriver.support.select import Select
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-
+from bs4 import BeautifulSoup
+import requests
 import re
+import datetime
 
-# 定数設定
-SELENIUM_DRIVER_PATH = 'http://localhost:4444/wd/hub'
-TUT_SYLLABUS_URL = 'https://kyo-web.teu.ac.jp/campussy/'
-VIEW_RESULT_COUNT = '200'
+# ===========================================================================
+# 講義データ取得関数 (時間割コード => 授業内容等(単位数))
+# ===========================================================================
 
-# オプション設定
-options = Options()
-options.add_argument('--no-sandbox')
-options.add_argument('--disable-gpu')
+class CustomHttpAdapter (requests.adapters.HTTPAdapter):
+    def __init__(self, ssl_context=None, **kwargs):
+        self.ssl_context = ssl_context
+        super().__init__(**kwargs)
 
+    def init_poolmanager(self, connections, maxsize, block=False):
+        self.poolmanager = urllib3.poolmanager.PoolManager(
+            num_pools=connections, maxsize=maxsize,
+            block=block, ssl_context=self.ssl_context)
 
-# 現在のページ数及び全体ページ数を取得する関数
-def get_search_result_page_num(driver: webdriver.Remote) -> dict:
-    # 検索結果の件数を表示するエレメントを取得
-    search_result_count_element = driver.find_element(By.XPATH, '/html/body/form/div[2]/p[1]').text
+def fetch_syllabus(url: str):
+    session = requests.session()
+    ctx = ssl.create_default_context(ssl.Purpose.SERVER_AUTH)
+    ctx.options |= 0x4
+    session.mount('https://', CustomHttpAdapter(ctx))
+    res = session.get(url)
+    return res
 
-    # 検索結果件数のテキスト部分を抽出
-    search_result_count_list =  re.findall(r'\全部で .*\あります', search_result_count_element) 
+def get_timetable(lecture_code : str, department_name : str):
+    now_year = datetime.datetime.now().year
+    print("...取得中")
+        print(val)
 
-    # 抽出結果が0件の場合は、0を返す
-    if len(search_result_count_list) == 0:
-        return {
-            'current_page_result_count': 0,
-            'total_page_result_count': 0
-        }
-    
-    # 全体ページ数を取得
-    search_result_count_all = int(search_result_count_list[0].replace('全部で ', '').replace('件あります', ''))
+    res = fetch_syllabus(f'https://kyo-web.teu.ac.jp/syllabus/{now_year}/{department_name}_{lecture_code}_ja_JP.html')
 
-    # 現在のページ数を取得
-    current_page_count_element = driver.find_element(By.XPATH, '/html/body/form/div[2]/p[1]/b[2]').text
-    current_page_count = int(current_page_count_element.replace("件目", ''))
+    if res.status_code == 404:
+        continue
+    bs = BeautifulSoup(res.content, 'html.parser')
+    table_elements = bs.find_all('table', class_='syllabus-normal')[0]
+    tds = table_elements.find_all('td')
 
-    return {
-        'current_page_result_count': current_page_count,
-        'total_page_result_count': search_result_count_all
-    }
+    ary = {}
 
-def get_lecture_code_list_from_search_result_element(driver: webdriver.Remote) -> list[str]:
-    # 検索結果の件数を取得
-    th_tags_elements = driver.find_elements(By.XPATH, '/html/body/form/div[2]/table/tbody/tr')
-
-    # 時間割コードを格納するリスト
-    lecture_code_list = []
-    for i in enumerate(th_tags_elements):
-        lecture_code_list.append(driver.find_element(By.XPATH, f'/html/body/form/div[2]/table/tbody/tr[{str(i[0]+1)}]/td[4]').text)
-
-    return lecture_code_list
+    for td in tds:
+        ary.append(td.get_text().strip().replace(' ', '').replace(
+            '\r\n', '').replace('\u30001', '').replace('\u3000', ''))
 
 
-# 学外シラバスから時間割コードを取得する関数
-# @param: 取得対象の学部名
-def get_lecture_code(department_name: str) -> list[str]:
-    driver = webdriver.Remote(
-        command_executor=SELENIUM_DRIVER_PATH,
-        options=options
-    )
-
-    driver.get(TUT_SYLLABUS_URL)
-
-    # 検索条件のiframeに切り替え
-    driver.switch_to.frame(driver.find_element(By.NAME, "search"))
-
-    # 学部選択
-    # ※応用生物学部(BT)の場合は、先頭に特殊文字を入れないと選択できない
-    if department_name == "BT":
-        Select(driver.find_element(By.ID, 'jikanwariShozokuCode')).select_by_value("﻿BT")
-    else:
-        Select(driver.find_element(By.ID, 'jikanwariShozokuCode')).select_by_value(department_name)
-
-    # 一覧表示件数を200件(最大値)に変更
-    Select(driver.find_element(By.NAME, '_displayCount')
-           ).select_by_value(VIEW_RESULT_COUNT)
-    
-    # 検索ボタンをクリック
-    search_button = driver.find_elements(By.XPATH,'//*[@id = "jikanwariKeywordForm"]/table[2]/tbody/tr/td/table/tbody/tr[9]/td/input[1]')[0]
-    search_button.click()
-
-    # 検索条件のiframeから抜ける
-    driver.switch_to.default_content()
-
-    # 検索結果のiframeに切り替え
-    driver.switch_to.frame(driver.find_element(By.NAME, "result"))
-
-    # 現在のページ数及び全体ページ数を取得
-    page_data = get_search_result_page_num(driver)
-
-    # 全体ページ数が0の場合、ドライバーを閉じて時間割コードリストを返す
-    if page_data['total_page_result_count'] == 0:
-        driver.quit()
-        return None
-    
-    # 時間割コードを格納するリスト
-    lecture_code_list = []
-
-    # ページ数
-    total_page = int(page_data['total_page_result_count'] / page_data['current_page_result_count']) + 1
-    
-    for i in range(0, total_page):
-        lecture_code_list.extend(get_lecture_code_list_from_search_result_element(driver))
-
-        # 次のページがある場合、次ページに遷移
-        if page_data['current_page_result_count'] < page_data['total_page_result_count']:
-            driver.switch_to.default_content()
-            driver.switch_to.frame(driver.find_element(By.NAME, "result"))
-            driver.find_elements(By.XPATH, '/html/body/form/div[2]/p[1]/a')[-1].click()
-
-    driver.quit()
-    return lecture_code_list
-
-
-res = get_lecture_code('MS')
-print(f"{len(res)}件の時間割コードを取得しました")
