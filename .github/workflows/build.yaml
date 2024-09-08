@@ -20,12 +20,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11.4"
+      - run: |
+          pip install --upgrade pip
+          pip install get-chrome-driver --upgrade
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Start the Selenium server
-        run: docker compose up -d
+      # - name: Start the Selenium server
+      #   run: docker compose up -d
 
       - name: Generate Syllabus Data
         run: python main.py
@@ -38,8 +41,8 @@ jobs:
           # The smallest file should be larger than 300 bytes
           test $(du -ab docs/api/v1 | sort -n | head -1 | awk '{print $1}') -gt 300
 
-      - name: Stop the Selenium server
-        run: docker compose down
+      # - name: Stop the Selenium server
+      #   run: docker compose down
 
       - name: Check diff
         id: diff

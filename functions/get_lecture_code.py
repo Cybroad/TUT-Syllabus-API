@@ -1,3 +1,4 @@
+from get_chrome_driver import GetChromeDriver
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.chrome.options import Options
@@ -6,16 +7,8 @@ from selenium.webdriver.common.by import By
 import re
 
 # 定数設定
-SELENIUM_DRIVER_PATH = 'http://localhost:4444/wd/hub'
 TUT_CAMPUSSY_URL = 'https://kyo-web.teu.ac.jp/campussy/'
 VIEW_RESULT_COUNT = '200'
-
-# オプション設定
-options = Options()
-options.add_argument('--headless')
-options.add_argument('--no-sandbox')
-options.add_argument('--disable-gpu')
-
 
 # 現在のページ数及び全体ページ数を取得する関数
 def _get_search_result_page_num(driver: webdriver.Remote) -> dict:
@@ -59,10 +52,16 @@ def _get_lecture_code_list_from_search_result_element(driver: webdriver.Remote) 
 # 学外シラバスから時間割コードを取得する関数
 # @param: 取得対象の学部名
 def get_lecture_code(department_name: str) -> list[str]:
-    driver = webdriver.Remote(
-        command_executor=SELENIUM_DRIVER_PATH,
-        options=options
-    )
+
+    get_driver = GetChromeDriver()
+    get_driver.install()
+
+    def driver_init():
+        options = webdriver.ChromeOptions()
+        options.add_argument('--headless')
+        return webdriver.Chrome(options=options)
+
+    driver = driver_init()
 
     driver.get(TUT_CAMPUSSY_URL)
 
