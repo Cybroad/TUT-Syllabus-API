@@ -12,6 +12,7 @@ VIEW_RESULT_COUNT = '200'
 
 # オプション設定
 options = Options()
+options.add_argument('--headless')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-gpu')
 
