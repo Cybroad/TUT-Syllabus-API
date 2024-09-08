@@ -22,6 +22,5 @@ for dept in department:
         # 講義データを取得
         lecture_data = get_lecture_data.get_timetable(dept, lecture_code)
         if lecture_data:
-            print(lecture_data)
             with open(f"docs/api/v1/{dept}/{lecture_code}.json", "w") as f:
                 json.dump(lecture_data, f, ensure_ascii=False, indent=4)

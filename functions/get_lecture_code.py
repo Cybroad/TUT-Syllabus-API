@@ -17,7 +17,7 @@ options.add_argument('--disable-gpu')
 
 
 # 現在のページ数及び全体ページ数を取得する関数
-def get_search_result_page_num(driver: webdriver.Remote) -> dict:
+def _get_search_result_page_num(driver: webdriver.Remote) -> dict:
     # 検索結果の件数を表示するエレメントを取得
     search_result_count_element = driver.find_element(By.XPATH, '/html/body/form/div[2]/p[1]').text
 
@@ -43,7 +43,7 @@ def get_search_result_page_num(driver: webdriver.Remote) -> dict:
         'total_page_result_count': search_result_count_all
     }
 
-def get_lecture_code_list_from_search_result_element(driver: webdriver.Remote) -> list[str]:
+def _get_lecture_code_list_from_search_result_element(driver: webdriver.Remote) -> list[str]:
     # 検索結果の件数を取得
     th_tags_elements = driver.find_elements(By.XPATH, '/html/body/form/div[2]/table/tbody/tr')
 
@@ -90,7 +90,7 @@ def get_lecture_code(department_name: str) -> list[str]:
     driver.switch_to.frame(driver.find_element(By.NAME, "result"))
 
     # 現在のページ数及び全体ページ数を取得
-    page_data = get_search_result_page_num(driver)
+    page_data = _get_search_result_page_num(driver)
 
     # 全体ページ数が0の場合、ドライバーを閉じて時間割コードリストを返す
     if page_data['total_page_result_count'] == 0:
@@ -103,8 +103,8 @@ def get_lecture_code(department_name: str) -> list[str]:
     # ページ数
     total_page = int(page_data['total_page_result_count'] / page_data['current_page_result_count']) + 1
     
-    for i in range(0, total_page):
-        lecture_code_list.extend(get_lecture_code_list_from_search_result_element(driver))
+    for _ in range(0, total_page):
+        lecture_code_list.extend(_get_lecture_code_list_from_search_result_element(driver))
 
         # 次のページがある場合、次ページに遷移
         if page_data['current_page_result_count'] < page_data['total_page_result_count']:
@@ -114,7 +114,3 @@ def get_lecture_code(department_name: str) -> list[str]:
 
     driver.quit()
     return lecture_code_list
-
-if __name__ == "__main__":
-    res = get_lecture_code('MS')
-    print(f"{len(res)}件の時間割コードを取得しました")
