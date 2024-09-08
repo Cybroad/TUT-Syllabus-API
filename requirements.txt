@@ -5,3 +5,4 @@ requests
 selenium
 cryptography
 urllib3
+lxml

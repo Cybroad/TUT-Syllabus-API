@@ -115,6 +115,6 @@ def get_lecture_code(department_name: str) -> list[str]:
     driver.quit()
     return lecture_code_list
 
-
-res = get_lecture_code('MS')
-print(f"{len(res)}件の時間割コードを取得しました")
+if __name__ == "__main__":
+    res = get_lecture_code('MS')
+    print(f"{len(res)}件の時間割コードを取得しました")

@@ -1,5 +1,5 @@
+from lxml import html
 import ssl
-from typing import Any
 from bs4 import BeautifulSoup, ResultSet
 import requests
 import datetime
@@ -25,26 +25,33 @@ def _fetch_syllabus(current_year: int, department_name: str, lecture_code: str):
     res = session.get(f'{TUT_SYLLABUS_URL}/{current_year}/{department_name}_{lecture_code}_ja_JP.html')
     return res
 
-def _text_fotmat(text: str) -> str:
+def format_string(text: str) -> str:
     return text.strip().replace(' ', '').replace(
-        '\r\n', '').replace('\u30001', '').replace('\u3000', '').replace('\n', '').replace('\r', '').replace('\t', '')
+    '\r\n', '').replace('\u30001', '').replace('\u3000', '').replace('\n', '').replace('\r', '').replace('\t', '').replace(u'\xa0', u'')
 
 
-def _join_lecture_information(lecture_informations: ResultSet[Any]) -> list[str]:
+def format_lecture_information(lecture_information: ResultSet) -> list[str]:
     joined_lecture_information_list = []
-
-    for lecture_information in lecture_informations:
-        td_data = lecture_information.find_all('td')
-
-        for td in td_data:
-            joined_lecture_information_list.append(_text_fotmat(td.text))
+    td_data = lecture_information.find_all('td')
+    for td in td_data:
+        text = td.text
+        formated_text = format_string(text)
+        joined_lecture_information_list.append(formated_text)
 
     return joined_lecture_information_list
+
+def exsistCheck(targetLst: list, index: int) -> bool:
+    try:
+        targetLst[index]
+        return True
+    except IndexError:
+        return False
+
 
 # ===========================================================================
 # 講義データ取得関数 (時間割コード => 授業内容等(単位数))
 # ===========================================================================
-def get_timetable(department_name: str, lecture_code : str,):
+def get_timetable(department_name: str, lecture_code : str) -> dict:
     now_year = datetime.datetime.now().year
     res = _fetch_syllabus(now_year, department_name, lecture_code)
 
@@ -53,12 +60,65 @@ def get_timetable(department_name: str, lecture_code : str,):
 
     bs = BeautifulSoup(res.content, 'html.parser')
 
-    tab_elements = bs.find_all('table', class_='syllabus-normal')
+    # 講義情報が存在しない場合
+    if not bs.find_all('table', class_='syllabus-normal'):
+        return None
+    
+    # 最終更新日時を取得
+    lxml_data = html.fromstring(str(bs))
+    update_at = lxml_data.xpath('/html/body/table')[1]
+    update_at_text = format_string(update_at.text_content().replace('閉じる', '').replace('現在', ''))
 
-    # 講義情報を格納するリスト
-    joined_lists = _join_lecture_information(tab_elements)
+    # 表を区別するタブ1, タブ2の要素を取得
+    tab1_elements = bs.find_all('table', class_='syllabus-normal')[0]
+    tab2_elements = bs.find_all('table', class_='syllabus-normal')[1]
 
-    print(joined_lists)
+    # 講義情報を取得
+    tab1_data = format_lecture_information(tab1_elements)
+    tab2_data = format_lecture_information(tab2_elements)
 
+    print(tab2_data)
+    print(len(tab2_data))
 
-get_timetable('CS','11041C1')
+    # dictに変換
+    lecture_data = {
+        'lectureCode': lecture_code,
+        'courseName': tab1_data[0] if exsistCheck(tab1_data, 0) else '',
+        'lecturer': list(tab1_data[1].split(',')) if exsistCheck(tab1_data, 1) else [],
+        'regularOrIntensive': tab1_data[2] if exsistCheck(tab1_data, 2) else '',
+        'courseType': tab1_data[3] if exsistCheck(tab1_data, 3) else '',
+        'courseStart': tab1_data[5] if exsistCheck(tab1_data, 5) else '',
+        'classPeriod': list(tab1_data[6].split(',')) if exsistCheck(tab1_data, 6) else [],
+        'targetDepartment': tab1_data[7] if exsistCheck(tab1_data, 7) else '',
+        'targetGrade': list(tab1_data[8].split(',')) if exsistCheck(tab1_data, 8) else [],
+        'numberOfCredits': tab1_data[9] if exsistCheck(tab1_data, 9) else '',
+        'classroom': list(tab1_data[10].split(',')) if exsistCheck(tab1_data, 10) else [],
+        'courceDetails': {
+            'courseOverview': tab2_data[1] if exsistCheck(tab2_data, 1) else '',
+            'outcomesMeasuredBy': tab2_data[2] if exsistCheck(tab2_data, 2) else '',
+            'learningOutcomes': tab2_data[3] if exsistCheck(tab2_data, 3) else '',
+            'teachingMethod': tab2_data[4] if exsistCheck(tab2_data, 4) else '',
+            'notices': tab2_data[5] if exsistCheck(tab2_data, 5) else '',
+            'preparatoryStudy': tab2_data[6] if exsistCheck(tab2_data, 6) else '',
+            'gradingGuidelines': tab2_data[7] if exsistCheck(tab2_data, 7) else '',
+            'textbook': tab2_data[8] if exsistCheck(tab2_data, 8) else '',
+            'referenceMaterials': tab2_data[9] if exsistCheck(tab2_data, 9) else '',
+            'courseSchedule': tab2_data[10] if exsistCheck(tab2_data, 10) else '',
+            'courseDataUpdatedAt': tab2_data[0] if exsistCheck(tab2_data, 0) else ''
+        },
+        'updateAt': update_at_text
+    }
+
+    return lecture_data
+
+if __name__ == "__main__":
+    res = get_timetable('CS','11041C1')
+
+    # json形式で出力
+    import json
+    res = json.dumps(res, ensure_ascii=False, indent=4)
+
+    with open('lecture_data.json', 'w') as f:
+        f.write(res)
+
+    print(res)
