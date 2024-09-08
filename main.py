@@ -6,6 +6,9 @@ from functions import get_lecture_code, get_lecture_data
 import os
 import json
 
+from get_chrome_driver import GetChromeDriver
+from selenium import webdriver
+
 # データ取得先学部指定
 department = ["BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS", "HS", "HSH1", "HSH2", "HSH3", "HSH4", "HSH5", "HSH6", "X3", "GF", "GH"]
 # ※教養科目の"X1"は必須
@@ -14,11 +17,21 @@ os.makedirs("docs", exist_ok=True)
 os.makedirs("docs/api", exist_ok=True)
 os.makedirs("docs/api/v1", exist_ok=True)
 
+def driver_init():
+    get_driver = GetChromeDriver()
+    get_driver.install()
+
+    options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
+    return webdriver.Chrome(options=options)
+
+driver = driver_init()
+
 for dept in department:
     os.makedirs(f"docs/api/v1/{dept}", exist_ok=True)
     print(f"Getting {dept} lecture codes...")
     # 指定学部の講義コードを取得
-    lecture_codes = get_lecture_code.get_lecture_code(dept)
+    lecture_codes = get_lecture_code.get_lecture_code(dept, driver=driver)
     
     # 講義コード取得失敗時
     if lecture_codes == None:

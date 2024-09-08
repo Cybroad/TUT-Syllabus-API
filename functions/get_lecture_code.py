@@ -1,5 +1,6 @@
 from get_chrome_driver import GetChromeDriver
 from selenium import webdriver
+from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -11,7 +12,7 @@ TUT_CAMPUSSY_URL = 'https://kyo-web.teu.ac.jp/campussy/'
 VIEW_RESULT_COUNT = '200'
 
 # 現在のページ数及び全体ページ数を取得する関数
-def _get_search_result_page_num(driver: webdriver.Remote) -> dict:
+def _get_search_result_page_num(driver: WebDriver) -> dict:
     # 検索結果の件数を表示するエレメントを取得
     search_result_count_element = driver.find_element(By.XPATH, '/html/body/form/div[2]/p[1]').text
 
@@ -30,7 +31,7 @@ def _get_search_result_page_num(driver: webdriver.Remote) -> dict:
         'total_page_result_count': search_result_count_all
     }
 
-def _get_lecture_code_list_from_search_result_element(driver: webdriver.Remote) -> list[str]:
+def _get_lecture_code_list_from_search_result_element(driver: WebDriver) -> list[str]:
     # 検索結果の件数を取得
     th_tags_elements = driver.find_elements(By.XPATH, '/html/body/form/div[2]/table/tbody/tr')
 
@@ -44,18 +45,8 @@ def _get_lecture_code_list_from_search_result_element(driver: webdriver.Remote) 
 
 # 学外シラバスから時間割コードを取得する関数
 # @param: 取得対象の学部名
-def get_lecture_code(department_name: str) -> list[str]:
-
-    get_driver = GetChromeDriver()
-    get_driver.install()
-
-    def driver_init():
-        options = webdriver.ChromeOptions()
-        options.add_argument('--headless')
-        return webdriver.Chrome(options=options)
-
-    driver = driver_init()
-
+def get_lecture_code(department_name: str, driver: WebDriver) -> list[str]:
+    # シラバス検索画面に遷移
     driver.get(TUT_CAMPUSSY_URL)
 
     # 検索条件のiframeに切り替え
