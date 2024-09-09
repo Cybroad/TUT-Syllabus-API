@@ -1,8 +1,5 @@
 name: Deploy
 
-env:
-  branch_name: improve/separete-generate-jobs
-
 on:    
   push:
     branches:
@@ -32,6 +29,8 @@ jobs:
           pip install --upgrade get-chrome-driver
           pip install -r requirements.txt
 
+      - name: Pull latest changes
+        run: git pull
 
       - name: Generate lecture codes
         run: python generate.py --type=lecture_codes
@@ -52,7 +51,7 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add .
           git commit --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" -m "Automatically committed - lecture codes"
-          git push -f origin ${{ env.branch_name }}
+          git push
 
   fetch_lecture_data:
     #runs-on: ubuntu-latest
@@ -82,6 +81,9 @@ jobs:
           pip install --upgrade get-chrome-driver
           pip install -r requirements.txt
 
+      - name: Pull latest changes
+        run: git pull
+
       - name: Generate lecture data
         run: python generate.py --type=lecture_data --department=${{ matrix.type }}
         
@@ -101,4 +103,4 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add .
           git commit --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" -m "Automatically committed - lecture data"
-          git push -f origin ${{ env.branch_name }}
+          git push
