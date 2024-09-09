@@ -39,8 +39,8 @@ def _get_lecture_code():
 def _get_lecture_data(department):
     if not os.path.exists(LECTURE_CODES_FILE):
         print("Failed to get lecture data: lecture_codes.json is not found.")
-        exit(1)
-
+        return
+    
     with open(LECTURE_CODES_FILE, 'r') as f:
         lecture_codes = ujson.load(f)
 
