@@ -1,8 +1,5 @@
-from get_chrome_driver import GetChromeDriver
-from selenium import webdriver
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.select import Select
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
 import re
@@ -45,7 +42,10 @@ def _get_lecture_code_list_from_search_result_element(driver: WebDriver) -> list
 
 # 学外シラバスから時間割コードを取得する関数
 # @param: 取得対象の学部名
-def get_lecture_code(department_name: str, driver: WebDriver) -> list[str]:
+def get_lecture_code(department_name: str, driver_init: WebDriver) -> list[str]:
+    # ドライバーを初期化
+    driver = driver_init()
+
     # シラバス検索画面に遷移
     driver.get(TUT_CAMPUSSY_URL)
 
@@ -95,6 +95,6 @@ def get_lecture_code(department_name: str, driver: WebDriver) -> list[str]:
             driver.switch_to.default_content()
             driver.switch_to.frame(driver.find_element(By.NAME, "result"))
             driver.find_elements(By.XPATH, '/html/body/form/div[2]/p[1]/a')[-1].click()
-
+        
     driver.quit()
     return lecture_code_list

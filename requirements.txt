@@ -4,4 +4,5 @@ selenium
 cryptography
 urllib3
 lxml
-get_chrome_driver
+tqdm
+ujson
