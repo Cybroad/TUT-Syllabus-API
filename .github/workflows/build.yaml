@@ -91,5 +91,11 @@ jobs:
 
       - name: Commit and push to GitHub if needed
         if: steps.diff.outcome == 'failure'
-        #
-      
+        # https://github.com/actions/checkout/issues/13#issuecomment-724415212
+        run: |
+          set -x
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add .
+          git commit --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" -m "Automatically committed - lecture codes"
+          git push
