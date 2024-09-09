@@ -11,8 +11,6 @@ DEPARTMENT = ["BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS", "HS", 
 
 LECTURE_CODES_FILE = "output/lecture_codes.json"
 
-for directory in ["docs", "docs/api", "docs/api/v1", "output"]:
-    os.makedirs(directory, exist_ok=True)
 
 def _driver_init():
     get_driver = GetChromeDriver()
@@ -26,7 +24,6 @@ def _get_lecture_code():
     lecture_codes = {}
     print("Start getting lecture codes.")
     for dept in tqdm.tqdm(DEPARTMENT):
-        os.makedirs(f"docs/api/v1/{dept}", exist_ok=True)
         # 指定学部の講義コードを取得
         lecture_codes[dept] = get_lecture_code.get_lecture_code(dept, _driver_init)
         
@@ -45,11 +42,18 @@ def _get_lecture_data(department):
         exit(1)
 
     with open(LECTURE_CODES_FILE, 'r') as f:
-        lecture_codes = ujson.load(f)    
+        lecture_codes = ujson.load(f)
 
     print(f"Getting {department} lecture data.")
+
+    if lecture_codes[department] == None:
+        print(f"Since {department} is not in lecture_codes, skip to get lecture data.")
+        return
+    
+    os.makedirs(f"docs/api/v1/{department}", exist_ok=True)
     for lecture_code in lecture_codes[department]:
         lecture_data = get_timetable.get_timetable(department, lecture_code)
+
         if lecture_data == None:
             print(f"Failed to get {department} lecture data: {lecture_code}")
             continue
@@ -68,6 +72,8 @@ if __name__ == '__main__':
     if args.type == "lecture_data" and not args.department:
         parser.error("--department is required when type is lecture_data")
 
+    for directory in ["docs", "docs/api", "docs/api/v1", "output"]:
+        os.makedirs(directory, exist_ok=True)
 
     if args.type == "lecture_codes":
         _get_lecture_code()
