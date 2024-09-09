@@ -1,1 +1,37 @@
-{}
+{
+    "lectureCode": "L605B06",
+    "courseName": "IntegratedEnglishI[6]BS電電応化",
+    "lecturer": [
+        "三部祐治(兼任講師)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度前期",
+    "classPeriod": [
+        "月2"
+    ],
+    "targetDepartment": "応用生物学部,工学部電気電子工学科,工学部応用化学科",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "片柳研究所Ｅ１０３"
+    ],
+    "courceDetails": {
+        "courseOverview": "１年次の学習を総合して、より高度な英語の運用能力の向上をめざす。英語ネイティブスピーカーによるCommunicationskillsの向上、学際的的な内容を扱うAcademicEnglish、グローバル時代の国際理解に必要な文化と社会に関する知識の修得をめざすCulturalStudies、TOEICやビジネス英語扱うBusiness\/TOEICなどを通じて、学生の興味・関心や進路に即したより高度な英語力の修得をめざす。この科目はfictionを扱う。現代アメリカのノーベル文学賞受賞作家２名(ErnestHemingwayandSaulBellow)の小説の抜粋を読み、演習問題に取り組んでいく。到達目標水準は、TOEICの450-550点である。なお、この科目は前・後期続けて履修することをすすめる。",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "１つの章を３回の授業にわたって扱う。まず、学生は、小説の個々の英文の構造を確認しながら、和訳していく。そして後に続く語彙と語法と内容に関する演習問題に取り組む。こうしたアクティブ・ラーニング形式で授業が行われる。更に、小説が扱っている問題について、四人一組でグループ・ディスカッションも行う。なお、担当教員は、予習確認(preparationcheck)を毎回行い、課題のフィードバックも随時授業内で行う。ノートＰＣは指示があるときのみ使用する。",
+        "notices": "毎回、教科書を読んでいくので、教科書を必ず持ってくること。また、重要単熟語の意味を確認するため、辞書も持ってくること。",
+        "preparatoryStudy": "予習・復習を十分に行わなくてはならない。その授業で扱われる文章の知らない単熟語の意味をあらかじめ調べておくこと（20分程度)。文構造を確認しながら文章を精読しておくこと(40分程度)。",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "HironoriHayaseandRieEgashira著;Let'sLearnEnglishfromAmericanLiteratureII;Eihosha;ISBN978-4-629-03013-8;1900円",
+        "referenceMaterials": "授業内で適宜指示する。",
+        "courseSchedule": "第1回：Guidance第2回：Chapter3\u0026PreparationCheck1第3回：Chapter3\u0026PreparationCheck2第4回：Chapter3\u0026PreparationCheck3第5回：Chapter4\u0026PreparationCheck4第6回：Chapter4\u0026PreparationCheck5第7回：Chapter4\u0026PreparationCheck6第8回：Chapter7\u0026PreparationCheck7第9回：Chapter7\u0026PreparationCheck8第10回：Chapter7\u0026PreparationCheck9第11回：Chapter8\u0026PreparationCheck10第12回：Chapter8\u0026PreparationCheck11第13回：Chapter8\u0026PreparationCheck12第14回：AchievementCheckandExplanation",
+        "courseDataUpdatedAt": "2024\/01\/20"
+    },
+    "updateAt": "2024\/08\/07"
+}

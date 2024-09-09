@@ -1,1 +1,37 @@
-{}
+{
+    "lectureCode": "L606C11",
+    "courseName": "IntegratedEnglishII[11]CS機械",
+    "lecturer": [
+        "閔由眞(兼任講師)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度後期",
+    "classPeriod": [
+        "木2"
+    ],
+    "targetDepartment": "コンピュータサイエンス学部,工学部機械工学科",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "講義実験棟３０２"
+    ],
+    "courceDetails": {
+        "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養、ビジネス英語のさらなる修得をめざす。この授業ではTOEICのL＆RTESTの類型問題を解きながら、リスニング能力と英文の読解能力を向上させることを目指す。この授業は３クラスあるTOEICクラスの真ん中のレベルでTOEIC400－500レベルの到達を目指す。なお、この科目は前・後期続けて履修することをすすめる。",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "2回分の授業で１つのUnitに取り組む。各課の新しいVocabularyの意味を授業中に確認して補充説明をした後、Vocabularycheckを行う。その後、TOEICL\u0026RTESTの問題の類型を把握し、問題を解いた上で答え合わせと解説を行う。また各課で取り上げている文法事項について説明する。小テストや課題へのフィードバックは授業中に随時行う。ノートPCは指示がある時のみ使用する。",
+        "notices": "1.欠席・遅刻しないこと。2.教科書は必ず持参すること。3.知らない単語を調べるため、辞書を持参すること。4.授業時に出された課題は期日を守って提出すること。",
+        "preparatoryStudy": "復習を十分に行うこと。各課の新しいVocabularyは次の授業まで必ず覚えておくこと。",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "MasakiOgura著;BasicUnderstandingOftheTOEICL\u0026RTEST;Kinseido;ISBN9784764741553;2300円",
+        "referenceMaterials": "授業内で適宜指示する。",
+        "courseSchedule": "第1回：授業ガイダンス第2回：Unit7第3回：Unit7第4回：Unit8第5回：Unit8＋小テスト①第6回：Unit9第7回：Unit9第8回：Unit10第9回：Unit10＋小テスト②第10回：Unit11第11回：Unit11第12回：Unit12第13回：Unit12＋小テスト③第14回：到達度確認チェック・まとめ",
+        "courseDataUpdatedAt": "2024\/01\/30"
+    },
+    "updateAt": "2024\/08\/07"
+}

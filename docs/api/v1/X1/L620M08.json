@@ -1,1 +1,36 @@
-{}
+{
+    "lectureCode": "L620M08",
+    "courseName": "IntegratedEnglishIII[B1]MS",
+    "lecturer": [
+        "ミンドグA(兼任講師)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度前期",
+    "classPeriod": [
+        "水2"
+    ],
+    "targetDepartment": "メディア学部メディア学科",
+    "targetGrade": [
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "講義棟Ａ２０４"
+    ],
+    "courceDetails": {
+        "courseOverview": "英語の総合的な実践的運用能力をさらに向上させることを目指す。IntegratedEnglishI・IIと同様に、学生の興味・関心や進路に即した内容を扱うが、より専門性や時事性の高い英語の学びを通じて、ディスカッションやプレゼンテーションを含む4技能のスキルアップ、論理的思考力や分析力の向上をめざす。将来のキャリアにおける英語使用、大学院進学に対応した英語学習など、将来、自発的に英語を学習できるような方法論と動機付けも与える。Inthisclass,wewilluselearningmaterialstoinformusaboutnewsandcurrentaffairsaroundtheworld.この授業では、TOEIC500-600レベルの到達を目指す。なお、この科目は前・後期続けて履修することをすすめる。",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的、抽象的な事柄に関して自らの考えを論理的に組み立て、述べたり書いたりできる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "Wewillwatch,readandlistentovariousnewsstoriesinEnglish.Youwilllearnmanynewitemsofvocabulary,too.Aftermostunits,youwillworkinpairsorgroupsfordiscussions,researchandshortpresentations.Feedbackwillbegivenorally,andscoreswrittenonapieceofpaper.Inaddition,asassignments,youwillselectnewsarticlesfromhttps:\/\/edition.cnn.com\/toshareinclass.Feedbackonthiswillbewrittenontheassignmentsheetitselfandreturnedtostudents.APCisneededfortheshortpresentationsandassignments.",
+        "notices": "Wewillbeusingthetextbookineachclass,sobesuretoalwaysbringit.Also,bringadictionarytolookupthemeaningsofwordsyoudonotknow.Lastly,bringalaptopcomputertopreparefortheshortpresentations,aswellastoaccesstheCNNwebsite.",
+        "preparatoryStudy": "Readeachunitinadvancebeforecomingtoclass.Lookupthemeaningsofunknownwords.Thereisnoneedtoanswerthequestions.Althoughyouwillbegiventimeinclasstoworkonyourshortpresentations,startthinkingaboutthetasks,discussionquestions,andresearchtopicsaheadoftime.Athome,checktheCNNwebsitefornewsarticlesyouwillshareinclass(30minutes).Aftereachlesson,makesureyoureviewimportantpoints(30minutes).",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "FuyuhikoSekido,MasatoKogure,JakeArnold,ChristopherMattson著;CNN10StudentNews,Vol.12;ASAHIPRESS;ISBN978-4-255-15711-5;2420円",
+        "referenceMaterials": "なし",
+        "courseSchedule": "第1回授業についてのガイダンス第2回Unit1第3回GroupPresentation\u0026課題1:SharingNews第4回Unit2第5回GroupPresentation\u0026課題2:SharingNews第6回Unit3第7回GroupPresentation\u0026課題3:SharingNews第8回Unit4第9回GroupPresentation\u0026課題4:SharingNews第10回Unit5第11回Unit6第12回GroupPresentation第13回Unit7第14回到達度チェック・まとめ",
+        "courseDataUpdatedAt": "2024\/01\/30"
+    },
+    "updateAt": "2024\/08\/07"
+}

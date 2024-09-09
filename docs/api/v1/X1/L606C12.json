@@ -1,1 +1,37 @@
-{}
+{
+    "lectureCode": "L606C12",
+    "courseName": "IntegratedEnglishII[12]CS機械",
+    "lecturer": [
+        "尾関浩司(兼任講師)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度後期",
+    "classPeriod": [
+        "木2"
+    ],
+    "targetDepartment": "コンピュータサイエンス学部,工学部機械工学科",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "講義棟Ａ３０２"
+    ],
+    "courceDetails": {
+        "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養、ビジネス英語のさらなる修得をめざす。この授業ではTOEIC400-500レベルの到達を目指す。TOEICで頻出する内容、語彙等に加え、英語学習の基本（単語、熟語、文法、英文解釈等）も授業に取り入れていく。ペアワークやグループワークを取り入れ授業を行う。それと同時に各個人の英語学習の目標、ニーズに対応して、到達方法、何をどのくらいやれば目的地にたどり着けるかを具体的にアドバイスする。この科目は前・後期続けて履修することをすすめる。",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "毎回の授業で基本的に教科書の1つのユニットに取り組む。前回扱ったUnitのまとめのMini-Testを12回行う。小テストは教科書の内容及び語彙の問題を含む。ノートＰＣは指示があるときのみ使用する。ペアワーク、グループワークを行う。小テストや課題へのフィードバックは授業内で随時行う。",
+        "notices": "毎回の授業では、教科書の問題を解くので、教科書を必ず持ってくること。また知らない単語の意味を調べるために、辞書も持ってくること。",
+        "preparatoryStudy": "予習・復習を行うこと。Mini-Testの準備を十分にすること。",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "石井隆之\/平田千夏\/松村優子\/山口修\/岩田雅彦\/JoeCiunci著;ALL-ROUNDTRAININGFORTHETOEIC®L\u0026RTEST;Seibido;ISBN99784791972135;2,530円（本体2,300円+税）",
+        "referenceMaterials": "TEX加藤著;TOEICL\u0026R出る単特急銀のフレーズ;朝日出版社;ISBN9784023316843（本体890円+税）その他必要に応じて授業内で紹介する",
+        "courseSchedule": "第1回：授業についてのガイダンス,Icebreaker,UNIT1Restaurant［レストラン］第2回：UNIT2DepartmentStore［デパート］\u0026MiniTest①第3回：UNIT3TrainStation［駅］\u0026MiniTest②第4回：UNIT4Transportation［交通機関］\u0026MiniTest③第5回：UNIT5PostOffice［郵便局］\u0026MiniTest④第6回：UNIT6Bank［銀行］\u0026MiniTest⑤第7回：UNIT7Airport［空港］\u0026MiniTest⑥第8回：UNIT8Hotel［ホテル］\u0026MiniTest⑦第9回：UNIT9Hospital［病院］\u0026MiniTest⑧第10回：UNIT10EventsandPerformances［イベント］MiniTest⑨第11回：UNIT11College［大学］\u0026MiniTest⑩第12回：UNIT12Office［オフィス］\u0026MiniTest⑪第13回：UNIT13BusinessTrip［出張］\u0026MiniTest⑫第14回：到達度確認チェック・まとめ",
+        "courseDataUpdatedAt": "2024\/01\/29"
+    },
+    "updateAt": "2024\/08\/07"
+}

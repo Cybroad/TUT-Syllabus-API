@@ -1,1 +1,36 @@
-{}
+{
+    "lectureCode": "L60801",
+    "courseName": "AdvancedEnglishII",
+    "lecturer": [
+        "ブロックルバンク(教養学環)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度後期",
+    "classPeriod": [
+        "火3"
+    ],
+    "targetDepartment": "",
+    "targetGrade": [
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "講義実験棟３０１"
+    ],
+    "courceDetails": {
+        "courseOverview": "上級学習者向けに、さらに様々なビジネス状況に適切に英語で対応できるようなコミュニケーション能力を高めることをめざす。マーケティングなどよりより多くのビジネスの問題に取り組むことを通じて、論理的思考力や問題解決力をつける。Theaimisforstudentstoreachalevelequivalentto600+intheTOEICtest.StudentswhodidnottakeAdvancedEnglishImustpassanentrytesttojointhecourse.",
+        "outcomesMeasuredBy": "１．ビジネスに関する語彙力を強化する。２．グローバルで多様なビジネスの話題（マーケティング、環境問題など）について理解できる。３．専門的な事柄について読んだり聴いたりできる。４．議論や交渉といった複雑なコミュニケーションもとることができる。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "ThecoursebuildsontheworkdoneinAdvancedEnglishI.Itcoversallfourskills-listening,speaking(includingpairworkandgroupwork),readingandwriting.Thecontentofthecourseisbusiness-related(coveringbusinesstopicsandskills),butaimedatpre-workstudents.Wewillbeadoptingan'activelearning'approachinthisclass,andtherewillbeexercisestoreviewandextendvocabularyandgrammarthroughoutthecourse.Feedbackwillbegivenforalltheactivities,eitherorallyorinwrittenformat(ex.viaMoodle).PCsareamust!",
+        "notices": "Havethetextbookwithyouforeveryclass.Agooddictionarywillbeuseful.Pleasetakenotesduringtheclass,andparticipateactivelybytakingpartinallactivitiesandaskingquestionswhenyoudonotunderstandsomething.",
+        "preparatoryStudy": "Pleasereviewtheclassesthatyouhavecompletedandpreparefortheonestocome.Youwillbeexpectedtolearnthekeyvocabulary,andtherewillbeseveralmini-teststoseeifyouhavedonethis.",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "JohnHughes;TotalBusiness2;Cengage;978-0-462-09865-4;3770円",
+        "referenceMaterials": "Referenceswillbeprovidedinlessonswhennecessary.",
+        "courseSchedule": "第1回：Orientation第2回：7.1Sales第3回：7.2Selling第4回：8.1Training第5回：8.2Showingyou'relistening第6回：9.1Branding第7回：9.2Gettingthrough第8回：10.1Management第9回：10.2Solvingproblems第10回：11.1Ethicaleconomics第11回：11.2Discussingtrends第12回：12.1Businesslaw第13回：12.2Handlingquestions第14回：FinalAchievementCheck",
+        "courseDataUpdatedAt": "2024\/01\/28"
+    },
+    "updateAt": "2024\/08\/07"
+}
