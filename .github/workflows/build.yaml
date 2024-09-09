@@ -3,7 +3,7 @@ name: Build
 on:    
   push:
     branches:
-      - dev
+      - improve/separete-generate-jobs
   workflow_dispatch:
 
 jobs:
