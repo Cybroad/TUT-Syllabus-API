@@ -6,7 +6,7 @@ env:
 on:    
   push:
     branches:
-      - ${{ env.branch_name }}
+      - improve/separete-generate-jobs
   workflow_dispatch:
 
 jobs:
