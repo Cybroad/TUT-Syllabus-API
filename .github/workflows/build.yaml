@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  fetch_lecture_codes:
     #runs-on: ubuntu-latest
     runs-on: self-hosted
     timeout-minutes: 10
@@ -21,15 +21,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11.9"
-      - run: |
-          pip install --upgrade pip
-          pip install get-chrome-driver --upgrade
+          cache: "pip"
+      - run: pip install --upgrade pip
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install --upgrade get-chrome-driver
+          pip install -r requirements.txt
 
-      - name: Generate Syllabus Data
-        run: python main.py
+
+      - name: Generate lecture codes
+        run: python generate.py --type=
         
       - name: Check diff
         id: diff
