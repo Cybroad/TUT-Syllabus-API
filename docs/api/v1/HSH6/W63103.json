@@ -1,1 +1,38 @@
-{}
+{
+    "lectureCode": "W63103",
+    "courseName": "ベーシックセミナーI",
+    "lecturer": [
+        "大場一央(兼任講師)"
+    ],
+    "regularOrIntensive": "専門科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度前期",
+    "classPeriod": [
+        "水4"
+    ],
+    "targetDepartment": "医療保健学部",
+    "targetGrade": [
+        "1年",
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "３０２０１教室"
+    ],
+    "courceDetails": {
+        "courseOverview": "効率的な学習に必要なさまざまなスキルや、社会に出てから知っておくと便利な教養について、さまざまな角度から講義する。",
+        "outcomesMeasuredBy": "効率的な学習計画を立て、それに基づいて学習を進め、目標とする知識や教養が得られる問題解決能力を身につける。",
+        "learningOutcomes": "実学に基づく専門能力コミュニケーション能力論理的な思考力問題解決力",
+        "teachingMethod": "学習に必要な方法を毎回一つずつ紹介し、何故それが有効か講義する。",
+        "notices": "紹介された本や人物について、自分でも調べてさらに理解を深めて欲しい。",
+        "preparatoryStudy": "紹介された方法について、具体的に工夫して実践してみること。授業の予習・復習に60分程度かかるものと見込む。",
+        "gradingGuidelines": "毎回の課題（30％）と期末試験の成績（70％）によって判断する。",
+        "textbook": "プリントを配布する。",
+        "referenceMaterials": "第1回：「勉強」と「学習」の違い第2回：大目標と小目標の立て方第3回：時間の使い方第4回：情報の集め方第5回：読書のやり方第6回：文章の書き方第7回：本の種類と使い方第8回：教養の身に付け方",
+        "courseSchedule": "",
+        "courseDataUpdatedAt": "2024\/03\/06"
+    },
+    "updateAt": "2024\/05\/29"
+}
