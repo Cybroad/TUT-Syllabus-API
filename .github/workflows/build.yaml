@@ -80,7 +80,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Generate lecture data
-        run: python generate.py --type=lecture_data --lecture_type=${{ matrix.type }}
+        run: python generate.py --type=lecture_data --department=${{ matrix.type }}
         
       - name: Check diff
         id: diff
