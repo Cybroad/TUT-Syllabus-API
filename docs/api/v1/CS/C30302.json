@@ -33,5 +33,5 @@
         "courseSchedule": "第1回：はじめに本授業での学習内容や受業方法の説明第2回：Docker入門Dockerのインストールと基礎的操作第3回：Docker基礎Dockerの利用例紹介、Dockerの操作方法習得第4回：Docker体験事例をなぞりながら、Dockerを体験第5回：Docker実習(1)事例を参考に、簡単なコンテナ作り第6回：Docker実習(2)コンテナにおけるファイル処理第7回：Docker実習(3)コンテナ間のネットワーク構築第8回：Docker応用各自でオリジナルなコンテナを設計・作成台9回：Dockerfileとその使い方を知る第10回：DockerComposeとその使い方を知る第11回：Docker実践Dockerを使ったシステムの自動構築運用を体験第12回：Kubernetesの必要性とその使用事例を知る第13回：マイクロサービス事例紹介と作成方法の理解第14回：まとめDevOpの現状・将来と、みんなの将来を考える",
         "courseDataUpdatedAt": "2024\/01\/09"
     },
-    "updateAt": "2024\/05\/29"
+    "updateAt": "2024\/09\/13"
 }

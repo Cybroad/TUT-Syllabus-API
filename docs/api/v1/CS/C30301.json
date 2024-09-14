@@ -33,5 +33,5 @@
         "courseSchedule": "第1回：CUIによるコンピュータ操作の初歩第2回：Linuxの初歩第3回：C++による簡単なprogramming第4回：processとthread第5回：並列処理の初歩第6回：threadによる並列処理第7回：dataparallelism第8回：OpenMPの初歩第9回：OpenMPを用いた並列計算1(ほぼ独立した計算の並列化)第10回：OpenMPを用いた並列計算2(リダクションのある例)第11回：行列・ベクトル積、行列・行列積の計算第12回：行列・ベクトル積の並列化第13回：行列・行列積の並列化第14回：総合演習（まとめ）",
         "courseDataUpdatedAt": "2024\/02\/07"
     },
-    "updateAt": "2024\/05\/29"
+    "updateAt": "2024\/09\/13"
 }
