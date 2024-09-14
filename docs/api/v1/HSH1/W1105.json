@@ -18,6 +18,9 @@
     ],
     "numberOfCredits": "1",
     "classroom": [
+        "３１０１２教室",
+        "３１０１６教室",
+        "３１０１７教室",
         "３１７１４多目的実習室"
     ],
     "courceDetails": {
@@ -33,5 +36,5 @@
         "courseSchedule": "",
         "courseDataUpdatedAt": "2024\/01\/26"
     },
-    "updateAt": "2024\/05\/29"
+    "updateAt": "2024\/09\/12"
 }
