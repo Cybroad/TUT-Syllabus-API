@@ -82,7 +82,7 @@ def get_timetable(department_name: str, lecture_code : str) -> dict:
         'classPeriod': tab1_data[6].split(',') if _exsistCheck(tab1_data, 6) else [],
         'targetDepartment': tab1_data[7] if _exsistCheck(tab1_data, 7) else '',
         'targetGrade': tab1_data[8].split(',') if _exsistCheck(tab1_data, 8) else [],
-        'numberOfCredits': tab1_data[9] if _exsistCheck(tab1_data, 9) else '',
+        'numberOfCredits': int(tab1_data[9]) if _exsistCheck(tab1_data, 9) else 0,
         'classroom': tab1_data[10].split(',') if _exsistCheck(tab1_data, 10) else [],
         'courceDetails': {
             'courseOverview': tab2_data[1] if _exsistCheck(tab2_data, 1) else '',
