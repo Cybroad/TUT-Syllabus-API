@@ -10,7 +10,7 @@
     "classPeriod": [
         "木2"
     ],
-    "targetDepartment": "工学部機械工学科",
+    "targetDepartment": "工学部機械工学科,工学部電気電子工学科,工学部応用化学科",
     "targetGrade": [
         "1年",
         "2年",
@@ -34,5 +34,5 @@
         "courseSchedule": "",
         "courseDataUpdatedAt": "2024\/02\/05"
     },
-    "updateAt": "2024\/08\/07"
+    "updateAt": "2024\/09\/13"
 }
