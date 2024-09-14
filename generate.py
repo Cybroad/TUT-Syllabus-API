@@ -11,7 +11,6 @@ DEPARTMENT = ["BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS", "HS", 
 
 LECTURE_CODES_FILE = "output/lecture_codes.json"
 
-
 def _driver_init():
     get_driver = GetChromeDriver()
     get_driver.install()
@@ -51,6 +50,7 @@ def _get_lecture_data(department):
         return
     
     os.makedirs(f"docs/api/v1/{department}", exist_ok=True)
+    os.makedirs(f"docs/api/v1/all", exist_ok=True)
     for lecture_code in lecture_codes[department]:
         lecture_data = get_timetable.get_timetable(department, lecture_code)
 
@@ -59,6 +59,9 @@ def _get_lecture_data(department):
             continue
 
         with open(f"docs/api/v1/{department}/{lecture_code}.json", 'w') as f:
+            ujson.dump(lecture_data, f, ensure_ascii=False, indent=4, encode_html_chars=True)
+        
+        with open(f"docs/api/v1/all/{lecture_code}.json", 'w') as f:
             ujson.dump(lecture_data, f, ensure_ascii=False, indent=4, encode_html_chars=True)
 
         print(f"Successfully got {department} lecture data: {lecture_code}")
