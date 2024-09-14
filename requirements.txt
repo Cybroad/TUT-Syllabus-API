@@ -1,8 +1,8 @@
-fastapi
-uvicorn
 beautifulsoup4
 requests
 selenium
 cryptography
 urllib3
 lxml
+tqdm
+ujson

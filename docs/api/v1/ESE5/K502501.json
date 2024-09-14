@@ -1,0 +1,36 @@
+{
+    "lectureCode": "K502501",
+    "courseName": "ロボット運動学",
+    "lecturer": [
+        "関口暁宣(工学部機械工学科)"
+    ],
+    "regularOrIntensive": "専門教育科目",
+    "courseType": "講義科目",
+    "courseStart": "2024年度前期",
+    "classPeriod": [
+        "月"
+    ],
+    "targetDepartment": "工学部機械工学科",
+    "targetGrade": [
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": 2,
+    "classroom": [
+        "研究棟Ａ５０２"
+    ],
+    "courceDetails": {
+        "courseOverview": "ロボットに関わる理論や技術は，広範な工学分野をもとに成り立っている．本科目では，特にロボットの運動に関わる理論である，ロボットの運動学や動力学などについて学ぶ．ロボットの運動を数学モデルによって表現し解析するための基礎理論を学ぶことにより，所望の運動を実現するロボットシステムを設計し動作させるために不可欠となる基礎知識を身につけることが目的である．基礎力学，機械力学の内容を理解していることを前提とする．この授業により，座標系やその変換を利用したロボットの運動の表現方法，ロボットの運動学の基礎，ロボットの動力学の基礎といった，ロボットシステムの運動解析や運動制御において重要な基礎知識が身につく．",
+        "outcomesMeasuredBy": "本科目では，本学の「６つのラーニングアウトカム」のうち・国際的な教養・実学に基づく専門能力・論理的な思考力・分析・評価能力の４つを目指し，より具体的には以下を到達目標とする．1)剛体の位置・姿勢の表現と座標変換について理解し，説明できる．2)ロボットの運動学について理解し，多関節ロボットの手先位置と関節角度の関係を表現，解析することができる．3)ヤコビ行列について理解し，多関節ロボットの手先速度と関節角速度の関係を表現，解析することができる．4)ロボットの動力学について理解し，多関節ロボットの運動方程式を導出できる．",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力論理的な思考力分析・評価能力",
+        "teachingMethod": "講義資料や黒板を用いた授業と，講義内容について理解を深めるための演習を行う．理解度の確認のために適宜小試験も行う．授業や演習の具体的な進め方や必要な環境については，授業の初回に説明する．",
+        "notices": "授業では必ず講義ノートを作成すること．率先して演習に当たるなど，積極的な履修態度を望む．微分積分，線形代数，基礎力学の知識が必要であるため，事前に復習しておくことが望ましい．",
+        "preparatoryStudy": "予習：授業計画のキーワードについて教科書やインターネット等で調査しておくこと．（40分程度）復習：講義ノートの整理，および演習問題の復習を行うこと．（80分程度）",
+        "gradingGuidelines": "期末試験の成績（60％），演習課題およびレポート（40％）に基づき評価を行う．",
+        "textbook": "金宮好和（DragomirN.Nenchev）：英語で学ぶロボット工学－運動学，動力学と制御－，コロナ社",
+        "referenceMaterials": "講義中に紹介する．",
+        "courseSchedule": "第1回：Introduction第2回：RotationalKinematics(1)第3回：RotationalKinematics(2)第4回：RotationalKinematics(3)第5回：ForwardKinematics(1)第6回：ForwardKinematics(2)第7回：ForwardKinematics(3)第8回：InverseKinematics(1)第9回：InverseKinematics(2)第10回：InverseKinematics(3)第11回：ForwardKinematics,InverseKinematicsのまとめ第12回：RobotDynamics(1)第13回：RobotDynamics(2)第14回：RobotDynamics(3)，ロボット運動学のまとめ",
+        "courseDataUpdatedAt": "2024\/01\/09"
+    },
+    "updateAt": "2024\/09\/13"
+}

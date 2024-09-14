@@ -1,0 +1,37 @@
+{
+    "lectureCode": "L605C02",
+    "courseName": "IntegratedEnglishI[2]CS機械",
+    "lecturer": [
+        "原田英子(兼任講師)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度前期",
+    "classPeriod": [
+        "木2"
+    ],
+    "targetDepartment": "コンピュータサイエンス学部,工学部機械工学科",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": 1,
+    "classroom": [
+        "講義棟Ａ３０１"
+    ],
+    "courceDetails": {
+        "courseOverview": "１年次の学習を総合して、より高度な英語の運用能力の向上をめざす。英語ネイティブスピーカーによるCommunicationskillsの向上、学際的的な内容を扱うAcademicEnglish、グローバル時代の国際理解に必要な文化と社会に関する知識の修得をめざすCulturalStudies、TOEICやビジネス英語扱うBusiness\/TOEICなどを通じて、学生の興味・関心や進路に即したより高度な英語力の修得をめざす。この授業テーマはCurrentAffiarsで、現代の世界を取り巻く様々な社会問題を題材とした教材を用いて、文章から正確な情報をとらえる力や世界情勢の理解を高める。この授業ではTOEIC500-600レベルの到達を目指す。また、この科目では前・後期続けて履修することをすすめる。",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "2回の授業で教科書の1つの章に取り組む。1つの章では長文が3つに分割されているので、前半回では長文2つを読み、ComprehensionCheckを解く。後半回では3つ目の文章、StructurePractice、そしてListeningChallengeの問題に取り組む。章の始めに配布するワードリストから、毎回の授業の最初に小テストを行う。数回に1回、内容についてのペアワークもしくはグループワークを行う。テキストの問題や小テストのフィードバックは授業中に随時行う。ノートパソコンは指示があるときのみ使用する。",
+        "notices": "毎回の授業では教科書の問題を解くので、教科書を必ず持ってくること。また知らない単語の意味を調べるために、辞書も持ってくること。",
+        "preparatoryStudy": "毎回小テストとして出される単語を覚えてくること。予習として決められた範囲の英文と問題を解いておくこと。その際に訳せなかった文章があれば印をつけておき、授業中の説明をよく聞き、質問をして解決に努めること。",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "JamesM.Vardaman、NojiKaoru著;ConsideringTomorrow:15ChangestoPreparefor;TsurumiShoten;ISBN9784755300530;1900円",
+        "referenceMaterials": "授業内で適宜指示する。",
+        "courseSchedule": "第1回：授業についてのガイダンス第2回：Chapter1①、小テスト第3回：Chapter1②、小テスト第4回：Chapter2①、小テスト第5回：Chapter2②、小テスト第6回：Chapter3①、小テスト第7回：Chapter3②、小テスト、ペアワークもしくはグループワーク第8回：Chapter4①、小テスト第9回：Chapter4②、小テスト第10回：Chapter5①、小テスト第11回：Chapter5②、小テスト第12回：Chapter6①、小テスト第13回：Chapter6②、小テスト、ペアワークもしくはグループワーク第14回：到達度確認チェック・まとめ",
+        "courseDataUpdatedAt": "2024\/01\/24"
+    },
+    "updateAt": "2024\/09\/13"
+}

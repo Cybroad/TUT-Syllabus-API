@@ -1,0 +1,37 @@
+{
+    "lectureCode": "L606M05",
+    "courseName": "IntegratedEnglishII[5]MS火1",
+    "lecturer": [
+        "キャンベル，Ａ(教養学環)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度後期",
+    "classPeriod": [
+        "火"
+    ],
+    "targetDepartment": "メディア学部メディア学科",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": 1,
+    "classroom": [
+        "片柳研究所Ｅ１０１"
+    ],
+    "courceDetails": {
+        "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養、ビジネス英語のさらなる修得をめざす。ThethemeofthiscourseisTV\u0026Film,particularlyfocusingonthehistoryofmoviesfrom1928tothepresent,plusfamousmovies,filmstarsanddirectors.Theaimisforstudentstoreachalevelequivalenttoascoreof400-500intheTOEICtest.",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "Thecourseisconductedin-person.Itaimstobuildstudents'knowledgeofvocabularythroughreadingavarietyoftexts.Listeningskillsaredevelopedthroughwatchingonlinevideoclips.Studentsareexpectedtoparticipateactively,forexample,bytakingpartinpairworkorgroupdiscussion,andbyaskingquestions.Computers(plusheadphones\/earphones)arerequiredineverylesson.Feedbackonquizzes,assignmentsetcisgiventostudentsviaweb-basedtools,viapaperordirectlybytheinstructor.",
+        "notices": "Studentsareaskedtouseanonlinedictionaryineachclass.",
+        "preparatoryStudy": "Studentsareexpectedtopreparefortheweeklylesson,reviewthematerialsaftertheclass,andstorenewvocabularyitemsinQuizlet.",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "None.Digitaltextsandvideoclipsareprovidedbytheteacher.",
+        "referenceMaterials": "Relevantreferencematerialsareprovidedonthecoursehomepage.",
+        "courseSchedule": "第1回：CourseIntroduction第2回：USA:TheGoldenAgeofCinema(1)第3回：USA:TheGoldenAgeofCinema(2)第4回：USA:TheGoldenAgeofCinema(3)第5回：France\/Italy\/USA:IndependentCinema(1)第6回：France\/Italy\/USA:IndependentCinema(2)第7回：HomeVideoTechnology第8回：AchievementCheck第9回：TheCinemaofJapan(1)第10回：TheCinemaofJapan(2)第11回：TheCinemaofOtherCountries第12回：ExperimentalFilms第13回：DocumentaryFilms第14回：AchievementCheck",
+        "courseDataUpdatedAt": "2024\/03\/26"
+    },
+    "updateAt": "2024\/09\/13"
+}

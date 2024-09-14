@@ -1,0 +1,37 @@
+{
+    "lectureCode": "L606B12",
+    "courseName": "IntegratedEnglishII[12]BS電電応化",
+    "lecturer": [
+        "浦聡美(兼任講師)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度後期",
+    "classPeriod": [
+        "月2"
+    ],
+    "targetDepartment": "応用生物学部,工学部電気電子工学科,工学部応用化学科",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": 1,
+    "classroom": [
+        "講義棟Ａ２０２"
+    ],
+    "courceDetails": {
+        "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養、ビジネス英語のさらなる修得をめざす。この授業ではTOEICの教材を用いて主にリスニング力、リーディング力を鍛え、TOEIC400～500レベルの到達に必要な知識を身につける。なお、この科目は前・後期続けて履修することを推奨する。",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "毎回の授業で教科書の1つ分のユニットを学習する。Vocabulary,Listening,Grammarの基本問題を予習して授業に参加すること。授業で学習したVocabulary,Grammarの要点は次の授業で習熟状況を確認する。授業では各ユニットのテーマに関連する過去問にも取り組む。また、アクティブラーニングの手法を用いて、TOEICで出題される読解問題の文書（パッセージ）についてグループディスカッションなども行う。ノートPCは指示があるときのみ使用する。",
+        "notices": "毎回の授業では教科書の問題を解くので、教科書を必ず持ってくること。また知らない単語の意味を調べるために、辞書をもってくること。",
+        "preparatoryStudy": "予習課題として伝えられた教科書の問題を解いておくこと、Vocabularycheck課題に取り組んで提出すること(30分程度）。授業で学習した語彙や文法の要点を復習すること（30分程度）。復習箇所の確認を毎回の授業で行う。到達度確認チェックの前には、チェック範囲内のすべてのVocabularyCheck課題を復習しておくこと。",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "MasahikoYamaguchi,GeorgeW.Pifer著;TheTOEICTestTrainerTarget470[Revised];CengageLearning;ISBN978-4-86312-260-4;2100円（税別）",
+        "referenceMaterials": "授業内で適宜指示する。",
+        "courseSchedule": "第1回：ガイダンスレベルチェック第2回：Unit1第3回：Unit2\u0026MiniTest①第4回：Unit3第5回：Unit4\u0026MiniTest②第6回：Unit5第7回：Unit6\u0026MiniTest③第8回：Unit7第9回：Unit8\u0026MiniTest④第10回：Unit9第11回：Unit10\u0026MiniTest⑤第12回：Unit11第13回：Unit12\u0026MiniTest⑥第14回：Review\u0026到達度確認チェック",
+        "courseDataUpdatedAt": "2024\/01\/25"
+    },
+    "updateAt": "2024\/09\/13"
+}

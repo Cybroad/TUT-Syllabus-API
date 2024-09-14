@@ -1,36 +1,21 @@
-from selenium import webdriver
+from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.select import Select
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
 import re
 
 # 定数設定
-SELENIUM_DRIVER_PATH = 'http://localhost:4444/wd/hub'
 TUT_CAMPUSSY_URL = 'https://kyo-web.teu.ac.jp/campussy/'
 VIEW_RESULT_COUNT = '200'
 
-# オプション設定
-options = Options()
-options.add_argument('--no-sandbox')
-options.add_argument('--disable-gpu')
-
-
 # 現在のページ数及び全体ページ数を取得する関数
-def _get_search_result_page_num(driver: webdriver.Remote) -> dict:
+def _get_search_result_page_num(driver: WebDriver) -> dict:
     # 検索結果の件数を表示するエレメントを取得
     search_result_count_element = driver.find_element(By.XPATH, '/html/body/form/div[2]/p[1]').text
 
     # 検索結果件数のテキスト部分を抽出
     search_result_count_list =  re.findall(r'\全部で .*\あります', search_result_count_element) 
 
-    # 抽出結果が0件の場合は、0を返す
-    if len(search_result_count_list) == 0:
-        return {
-            'current_page_result_count': 0,
-            'total_page_result_count': 0
-        }
-    
     # 全体ページ数を取得
     search_result_count_all = int(search_result_count_list[0].replace('全部で ', '').replace('件あります', ''))
 
@@ -43,7 +28,7 @@ def _get_search_result_page_num(driver: webdriver.Remote) -> dict:
         'total_page_result_count': search_result_count_all
     }
 
-def _get_lecture_code_list_from_search_result_element(driver: webdriver.Remote) -> list[str]:
+def _get_lecture_code_list_from_search_result_element(driver: WebDriver) -> list[str]:
     # 検索結果の件数を取得
     th_tags_elements = driver.find_elements(By.XPATH, '/html/body/form/div[2]/table/tbody/tr')
 
@@ -57,12 +42,11 @@ def _get_lecture_code_list_from_search_result_element(driver: webdriver.Remote) 
 
 # 学外シラバスから時間割コードを取得する関数
 # @param: 取得対象の学部名
-def get_lecture_code(department_name: str) -> list[str]:
-    driver = webdriver.Remote(
-        command_executor=SELENIUM_DRIVER_PATH,
-        options=options
-    )
+def get_lecture_code(department_name: str, driver_init: WebDriver) -> list[str]:
+    # ドライバーを初期化
+    driver = driver_init()
 
+    # シラバス検索画面に遷移
     driver.get(TUT_CAMPUSSY_URL)
 
     # 検索条件のiframeに切り替え
@@ -90,10 +74,10 @@ def get_lecture_code(department_name: str) -> list[str]:
     driver.switch_to.frame(driver.find_element(By.NAME, "result"))
 
     # 現在のページ数及び全体ページ数を取得
-    page_data = _get_search_result_page_num(driver)
-
-    # 全体ページ数が0の場合、ドライバーを閉じて時間割コードリストを返す
-    if page_data['total_page_result_count'] == 0:
+    try:
+        page_data = _get_search_result_page_num(driver)
+    except:
+        # 全体ページ数が取得できない場合、存在しないページのため、exit
         driver.quit()
         return None
     
@@ -111,6 +95,6 @@ def get_lecture_code(department_name: str) -> list[str]:
             driver.switch_to.default_content()
             driver.switch_to.frame(driver.find_element(By.NAME, "result"))
             driver.find_elements(By.XPATH, '/html/body/form/div[2]/p[1]/a')[-1].click()
-
+        
     driver.quit()
     return lecture_code_list

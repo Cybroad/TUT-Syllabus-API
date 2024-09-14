@@ -1,0 +1,39 @@
+{
+    "lectureCode": "K001052",
+    "courseName": "工学英語A[3Q2][機]",
+    "lecturer": [
+        "岩渕誠(兼任講師)"
+    ],
+    "regularOrIntensive": "専門教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度後期",
+    "classPeriod": [
+        "月2",
+        "金3"
+    ],
+    "targetDepartment": "工学部機械工学科",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": 1,
+    "classroom": [
+        "講義実験棟１０３",
+        "講義実験棟１０４"
+    ],
+    "courceDetails": {
+        "courseOverview": "ThiscourseisapracticalintroductiontothelanguageyouwillneedifyougetajobasanengineerandwillberequiredtouseEnglishatwork.ItpresentsEnglishfromawidevarietyofengineeringfieldsandsituations,developscommunicationskills,coversessentialgrammar,andprovidesbackgroundinmajorengineeringconcepts.",
+        "outcomesMeasuredBy": "Theaiminthiscourseistoaidthedevelopmentofprofessionalskillsbasedonpracticallearning.Studentswillimprovetheirspeaking,listeningandreadingskills,andgainconfidenceinpresentingideasinEnglish.Whileimprovingtheirspeaking,listeningandreadingskills,studentswillbeabletocommunicateinworksituationswithbothforeignanddomesticengineers,andwillbeabletopresenttheirideasinEnglish.[InternationalEducation,Professionalskillsbasedonpracticallearning,CommunicationSkills]",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力",
+        "teachingMethod": "Studentswillengageinawiderangeofengineering-relatedspeaking,listeningandreadingactivities,andpracticegivingexplanationsofprocessestofellowstudents.TheclasseswillbeconductedinEnglish,andstudentsareexpectedtouseonlyEnglishinclass.",
+        "notices": "Studentsshouldhavepassedthefourcompulsoryfirst-yearEnglishcourses:PracticalEnglishIandII,andAcademicEnglishIandII.",
+        "preparatoryStudy": "Studentswillbeaskedtopreviewthevocabularyforthefollowingunit,andreviewexpressionsandstructurescoveredinthecurrentlesson.Therewillberegularhomework.",
+        "gradingGuidelines": "Participation(35%);Assignments(35%);finalpresentations(30%).",
+        "textbook": "Bonamy,David;TechnicalEnglish1(secondedition)Pearson;ISBN978-1-292-42446-0",
+        "referenceMaterials": "第1回：Orientation第2回：Unit2:Parts(1)第3回：Unit4:Movement第4回：Presentationexplanation-Assignment1第5回：Unit5:Flow第6回：Unit6:Materials第7回：Unit7:Specifications第8回：Assignment2第9回：Unit9:Troubleshooting第10回：Unit11:Causeandeffect第11回：Presentations第12回：Presentations第13回：Presentations第14回：Assignment3",
+        "courseSchedule": "",
+        "courseDataUpdatedAt": "2023\/12\/22"
+    },
+    "updateAt": "2024\/09\/13"
+}

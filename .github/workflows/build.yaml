@@ -1,12 +1,13 @@
-name: Build
+name: Deploy
 
 on:
-  push:
-    branches:
-      - dev
+  schedule:
+    # JST 15:40 (UTC 6:40) every 3rd day of the month (best practice: https://zenn.dev/rie_amasato/articles/f901ef9fb19415)
+    - cron: "40 6 1 */3 *"
+  workflow_dispatch:
 
 jobs:
-  deploy:
+  fetch_lecture_codes:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -18,28 +19,21 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11.4"
+          python-version: "3.11.9"
+          cache: "pip"
+      - run: pip install --upgrade pip
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Start the Selenium server
-        run: docker compose up -d
-
-      - name: Generate Syllabus Data
-        run: python main.py
-
-      # Thanks: https://github.com/ttskch/jp-postal-code-api
-      - name: Check sizes of JSON files
         run: |
-          # The largest file should be smaller thant 30000 bytes
-          test $(du -ab docs/api/v1 | sort -nr | head -2 | tail -1 | awk '{print $1}') -lt 30000
-          # The smallest file should be larger than 300 bytes
-          test $(du -ab docs/api/v1 | sort -n | head -1 | awk '{print $1}') -gt 300
+          pip install --upgrade get-chrome-driver
+          pip install -r requirements.txt
 
-      - name: Stop the Selenium server
-        run: docker compose down
+      - name: Pull latest changes
+        run: git pull
 
+      - name: Generate lecture codes
+        run: python generate.py --type=lecture_codes
+        
       - name: Check diff
         id: diff
         run: |
@@ -55,5 +49,57 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add .
-          git commit --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" -m "Automatically committed"
+          git commit --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" -m "Automatically committed - lecture codes"
+          git push
+
+  fetch_lecture_data:
+    #runs-on: ubuntu-latest
+    runs-on: self-hosted
+    timeout-minutes: 10
+    
+    needs: fetch_lecture_codes
+
+    strategy:
+      matrix:
+        type: [BT, CS, MS, ES, ESE5, ESE6, ESE7, X1, DS, HS, HSH1, HSH2, HSH3, HSH4, HSH5, HSH6, X3, GF, GH]
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11.9"
+          cache: "pip"
+      - run: pip install --upgrade pip
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade get-chrome-driver
+          pip install -r requirements.txt
+
+      - name: Pull latest changes
+        run: git pull
+
+      - name: Generate lecture data
+        run: python generate.py --type=lecture_data --department=${{ matrix.type }}
+        
+      - name: Check diff
+        id: diff
+        run: |
+          git add -N .
+          git diff --name-only --exit-code
+        continue-on-error: true
+
+      - name: Commit and push to GitHub if needed
+        if: steps.diff.outcome == 'failure'
+        # https://github.com/actions/checkout/issues/13#issuecomment-724415212
+        run: |
+          set -x
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add .
+          git commit --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" -m "Automatically committed - lecture data"
           git push

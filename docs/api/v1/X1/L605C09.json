@@ -1,0 +1,37 @@
+{
+    "lectureCode": "L605C09",
+    "courseName": "IntegratedEnglishI[9]CS機械",
+    "lecturer": [
+        "キャンベル，Ａ(教養学環)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度前期",
+    "classPeriod": [
+        "木2"
+    ],
+    "targetDepartment": "コンピュータサイエンス学部,工学部機械工学科",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": 1,
+    "classroom": [
+        "講義実験棟３０１"
+    ],
+    "courceDetails": {
+        "courseOverview": "１年次の学習を総合して、より高度な英語の運用能力の向上をめざす。英語ネイティブスピーカーによるCommunicationskillsの向上、学際的的な内容を扱うAcademicEnglish、グローバル時代の国際理解に必要な文化と社会に関する知識の修得をめざすCulturalStudies、TOEICやビジネス英語扱うBusiness\/TOEICなどを通じて、学生の興味・関心や進路に即したより高度な英語力の修得をめざす。ThethemeofthiscourseisTV\u0026Film,particularlyfocusingonthehistoryofmovies,from1896,plusfamousmovies,filmstarsanddirectors.Theaimisforstudentstoreachalevelequivalenttoascoreof400-500intheTOEICtest.Studentsareaskedtocontinuethiscourseinthesecondsemester.",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "Thecourseisconductedin-person.Itaimstobuildstudents'knowledgeofvocabularythroughreadingavarietyoftexts.Listeningskillsaredevelopedthroughwatchingonlinevideoclips.Studentsareexpectedtoparticipateactively,forexample,bytakingpartinpairworkorgroupdiscussion,andbyaskingquestions.Computers(plusheadphones\/earphones)arerequiredineverylesson.Feedbackonquizzes,assignmentsetcisgiventostudentsviaweb-basedtools,viapaperordirectlybytheinstructor.",
+        "notices": "Studentsareaskedtouseanonlinedictionaryineachclass.",
+        "preparatoryStudy": "Studentsareexpectedtopreparefortheweeklylesson,reviewthematerialsaftertheclass,andstorenewvocabularyitemsinQuizlet.",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "None.Digitaltextsandvideoclipsareprovidedbytheteacher.",
+        "referenceMaterials": "Relevantreferencematerialsareprovidedonthecoursehomepage.",
+        "courseSchedule": "第1回：CourseIntroduction第2回：MoviesareMagic!(1)第3回：MoviesareMagic!(2)第4回：USA:FirstMovieCameraandStudio\/Edison\u0026Dickson第5回：France:LumièreBrothers\/GeorgesMéliès第6回：USA:TheLanguageofFilm\/EdwinS.Porter第7回：USA:BirthoftheFeatureFilm\/D.W.Griffith第8回：AchievementCheck第9回：Germany:Expressionism第10回：SovietUnion:Montage第11回：USA:TheSilentEra第12回：USA:BreakingtheSilence第13回：Reviewofearlycinema(1896-1927)第14回：AchievementCheck",
+        "courseDataUpdatedAt": "2024\/01\/28"
+    },
+    "updateAt": "2024\/09\/13"
+}
