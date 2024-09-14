@@ -1,0 +1,38 @@
+{
+    "lectureCode": "K600201",
+    "courseName": "微分積分II",
+    "lecturer": [
+        "中払周(工学部電気電子工学科)"
+    ],
+    "regularOrIntensive": "専門教育科目",
+    "courseType": "講義科目",
+    "courseStart": "2024年度後期",
+    "classPeriod": [
+        "木3"
+    ],
+    "targetDepartment": "工学部電気電子工学科",
+    "targetGrade": [
+        "1年",
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "2",
+    "classroom": [
+        "研究棟Ａ５０２"
+    ],
+    "courceDetails": {
+        "courseOverview": "専門科目で扱われる微分積分形の式の意味を読み解き、式の展開をフォローできる基礎的な学力を修得する。本講義では、簡単な物理現象などを取り上げながら、工学に必要な数学的な基礎知識として、微分積分Iの復習を交えながら、微分方程式までを学ぶ。",
+        "outcomesMeasuredBy": "本科目を修得することで、数理を基盤にした専門能力と分析・評価能力、問題解決力、論理的な思考力を身につけることを目指す。具体的には、以下のことができるようになる。１）常微分方程式の基本的な問題を解くことができる。２）一階及び二階の線形時不変系に関する基本的な微分方程式を解くことができる。",
+        "learningOutcomes": "実学に基づく専門能力論理的な思考力問題解決力",
+        "teachingMethod": "・全体としては講義形式で行うが、毎回、受講者からの授業参加を求める。・基礎的な問題を、例題として講義中に取り上げる。",
+        "notices": "予習を行ない、聴講のポイントを自分なりに決めておくこと。復習を行ない、学んだ内容を自分なりに意味付けし整理すること。数学のセンスは経験の積み重ねによって磨かれる。演習には積極的に取り組むこと。",
+        "preparatoryStudy": "毎回の授業内容について、オンラインの講義資料上でその回の主要項目をピックアップしておくこと。講義資料の例題は、ひととおり自分でやっておくこと。また、授業後は、その回の演習問題につき、再度取り組み自己採点しておくこと。",
+        "gradingGuidelines": "授業中の演習および定期試験との結果から評価する。総合する際の比率は、それぞれ、40%および60%とする。",
+        "textbook": "なし",
+        "referenceMaterials": "1)\"MathematicsforElectricalEngineeringandComputing”byM.Attenborough,Newnes(AnimprintofElsevier,LinacreHouse,JordanHill,OxfordOX28DP200WheelerRoad,BurlingtonMA01803)2)矢嶋信男(著),戸田盛和・広田良吾・和達三樹(編)：\"理工系の数学入門コース4常微分方程式\",岩波書店;1989\/01\/11,2014\/04\/04.3)戸田盛和(著),戸田盛和・広田良吾・和達三樹(編)：\"理工系の数学入門コース3ベクトル解析\",岩波書店;1989\/03\/08,2013\/09\/13.",
+        "courseSchedule": "第1回：IntroductionofDifferentialequations（微分方程式と簡易な系のモデル化(1)）第2回：Modelingsimplesystems（簡易な系のモデル化(2)）第3回：Ordinarydifferentialequations（常微分方程式(1)）第4回：Moreordinarydifferentialequations（常微分方程式(2)）第5回：Solvingfirst-orderLTIsystems（一階線形時不変系の解法）第6回：Solutionofasecond-orderLTIsystems(1)（二階線形時不変系の解法(1)）第7回：Solutionofasecond-orderLTIsystems(2)（二階線形時不変系の解法(2)）第8回：Solutionofasecond-orderLTIsystems(3)（二階線形時不変系の解法(3)）第9回：Solvingsystemsofdifferentialequations（微分方程式システムの解法）第10回：SummaryofDifferentialequationsanddifferenceequations（微分方程式のまとめ）第11回：IntroductionofFunctionsofmorethanonevariable.Partialdifferentiation（多変数関数と偏微分）第12回：Thechainrule.Thetotalderivative（連鎖律、全微分(1)）第13回：Higher-orderpartialderivetives.SummaryofFunctionsofmorethanonevariable（全微分(2)、高階偏導関数、多変数関数の微分に関するまとめ）第14回：Vectorcalculus（ベクトル解析）",
+        "courseDataUpdatedAt": "2024\/03\/14"
+    },
+    "updateAt": "2024\/09\/13"
+}
