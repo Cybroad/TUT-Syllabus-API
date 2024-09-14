@@ -1,0 +1,37 @@
+{
+    "lectureCode": "L606M06",
+    "courseName": "IntegratedEnglishII[6]MS火1",
+    "lecturer": [
+        "吉原学(兼任講師)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度後期",
+    "classPeriod": [
+        "火"
+    ],
+    "targetDepartment": "メディア学部メディア学科",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "講義実験棟３０３"
+    ],
+    "courceDetails": {
+        "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養、ビジネス英語のさらなる修得をめざす。この授業では、TOEIC600点レベルの到達を目標とする。「旅行、日常生活・買い物、レストラン、就活、事務所、ビジネス、住居、取引・契約、公共サービス、銀行業務・財政、セミナー・ワークショップ、メディア」などのテーマから、TOEICに必要な知識やスキルを学び、かつテーマごとに出てくる重要な語彙・表現、文法事項を学び英語力を総合的に強化していく。なお、この科目は前・後期続けて履修することをすすめる。",
+        "outcomesMeasuredBy": "本科目では、本学のラーニング・アウトカムズのうち・国際的な教養・実学に基づく専門能力・コミュニケーション能力・論理的な思考力・分析・評価能力・問題解決力の習得を目指し、以下を到達目標とする。１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "毎回の授業で教科書の1つのユニットに取り組む。予習したVocabularyの確認し、テキストの構成に基づいて、授業を展開する。授業中、適宜PCを活用して授業を行う。また、練習問題の内容に応じて、ペア・グループディスカッションを行う。",
+        "notices": "毎回の授業では、教科書の問題を解くので、教科書を必ず持ってくること。また、オンライン辞書等使用して学ぶため、毎回PCを持ってくるようにしてください。",
+        "preparatoryStudy": "予習・復習を十分に行うこと。特にPart5の問題及びVocabularyの確認をプリント、GoogleForms等を利用して行う。また、各Unitが完了後、語彙の定着テストを行う。学習時間は約1時間になる。",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "植木美千子\/BrentCotsworth\/山岡浩一\/竹内理著;ILLUMINATINGTHEPATHTOTHETOEICL\u0026R®TEST;ISBN978-4-7647-4127-0;1,900円",
+        "referenceMaterials": "授業内で適宜指示する。",
+        "courseSchedule": "第1回：Guidance第2回：Unit1第3回：VocabularyReviewQuizforUnit1\u0026Unit2第4回：VocabularyReviewQuizforUnit2\u0026Unit3第5回：VocabularyReviewQuizforUnit3\u0026Unit4第6回：VocabularyReviewQuizforUnit4\u0026Unit5第7回：VocabularyReviewQuizforUnit5\u0026Unit6第8回：VocabularyReviewQuizforUnit6\u0026Unit8第9回：VocabularyReviewQuizforUnit8\u0026Unit9第10回：VocabularyReviewQuizforUnit9\u0026Unit10第11回：VocabularyReviewQuizforUnit10\u0026Unit11第12回：VocabularyReviewQuizforUnit11\u0026Unit12第13回：VocabularyReviewQuizforUnit12\u0026Unit13第14回：VocabularyReviewQuizforUnit13\u0026OverallReview",
+        "courseDataUpdatedAt": "2024\/01\/25"
+    },
+    "updateAt": "2024\/09\/13"
+}

@@ -1,0 +1,36 @@
+{
+    "lectureCode": "L620B01",
+    "courseName": "IntegratedEnglishIII[1]BS電電応化",
+    "lecturer": [
+        "ブロックルバンク(教養学環)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度前期",
+    "classPeriod": [
+        "月"
+    ],
+    "targetDepartment": "応用生物学部応用生物学科,工学部電気電子工学科,工学部応用化学科",
+    "targetGrade": [
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "講義実験棟３０５"
+    ],
+    "courceDetails": {
+        "courseOverview": "英語の総合的な実践的運用能力をさらに向上させることを目指す。IntegratedEnglishI・IIと同様に、学生の興味・関心や進路に即した内容を扱うが、より専門性や時事性の高い英語の学びを通じて、ディスカッションやプレゼンテーションを含む4技能のスキルアップ、論理的思考力や分析力の向上をめざす。将来のキャリアにおける英語使用、大学院進学に対応した英語学習など、将来、自発的に英語を学習できるような方法論と動機付けも与える。ThethemeofthiscourseisCURRENTAFFAIRS,andtheaimisforstudentstoreachalevelequivalentto450-550intheTOEICtest.",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的、抽象的な事柄に関して自らの考えを論理的に組み立て、述べたり書いたりできる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "Inthiscoursewewillcoverthefourskills,butthemainfocuswillbeondevelopingstudents'readingability.Inthereadingpartofthecourse,wewilllookatthenews-relatedtopicscoveredinthetextbookandarangeofothertextsselectedbytheteacher.Thewritingexerciseswillberelatedtothecontentofthereadingthatstudentswillhavedone.Newvocabularywillbelearnedandoldvocabularyreviewed.Wewillbeadoptingan'activelearning'approachinthisclass,andtherewillbeopportunitiesforstudentstoexchangeopinionsonthevarioustopicsthroughpair\/groupwork.Occasionally,therewillbeanews-relatedvideotowatch.Feedbackwillbegivenforallclassactivities,eitherorallyorinwrittenformat(ex.viaMoodle).PCsareamust!",
+        "notices": "Havethetextbookwithyouforeveryclass.Agooddictionarywillbeuseful.Pleasetakenotesduringtheclass,andparticipateactivelybytakingpartinallactivitiesandaskingquestionswhenyoudonotunderstandsomething.この科目は前・後期続けて履修することをおすすめします。",
+        "preparatoryStudy": "Pleasereviewtheclassesthatyouhavecompletedandpreparefortheonestocome.Youwillbeexpectedtolearnthekeyvocabulary,andtherewillbeseveralmini-teststoseeifyouhavedonethis.",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "SandraHeyer;TrueStories4;PearsonEducation;ISBN-13978-0137598830;2959円",
+        "referenceMaterials": "Referenceswillbeprovidedinlessonswhennecessary.",
+        "courseSchedule": "第1回：Orientation第2回：Unit1-LoveatFirstSight第3回：Unit1-LoveatFirstSight第4回：Unit2-TheSemong(TheTsunami)第5回：Unit3-MoreAlikeThanDifferent第6回：Unit3-MoreAlikeThanDifferent第7回：Unit4-HealthyAgain第8回：Unit5-IfYouHaveTime第9回：Unit5-IfYouHaveTime第10回：Unit6-TheBuriedCity第11回：Unit7-Misunderstandings第12回：Unit7-Misunderstandings第13回：Unit8-ARealBargain第14回：FinalAchievementCheck",
+        "courseDataUpdatedAt": "2024\/02\/22"
+    },
+    "updateAt": "2024\/09\/13"
+}

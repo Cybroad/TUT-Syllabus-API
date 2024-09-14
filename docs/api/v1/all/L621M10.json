@@ -1,0 +1,37 @@
+{
+    "lectureCode": "L621M10",
+    "courseName": "IntegratedEnglishIV[B3]MS",
+    "lecturer": [
+        "アシュウィン",
+        "Ｃ(兼任講師)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度後期",
+    "classPeriod": [
+        "水"
+    ],
+    "targetDepartment": "メディア学部メディア学科",
+    "targetGrade": [
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "講義棟Ａ３０４"
+    ],
+    "courceDetails": {
+        "courseOverview": "授業形態はIntegratedEnglishⅢに準じるが、内容はより程度を高めたものになり、ビジネスや大学院での学びなど実践を想定したより高度な運用能力の習得や、世界の様々な社会と文化をより深く理解するための知識の習得を目指す。また、将来、自発的に英語が学習できるような方法論と動機づけも与える。ThethemeofthiscourseisMusic,andtheaimisforstudentstoreachalevelequivalentto500-600intheTOEICtest.",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的、抽象的な事柄に関して自らの考えを論理的に組み立て、述べたり書いたりできる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "Thiscourseisdesignedtoimproveeachstudent'sEnglishlanguageskillsthroughthestudyofmusic.Eachweekwillincludestudyofasongandartistfromdifferentmusicgenres.StudentswillgainconfidenceinlisteningtoEnglishaswellasusingEnglishinclasstodiscussthetopicofmusic.Studentswillalsogainincreasedknowledgeofforeignculturethroughthestudyofmusic.Duringthecoursestudentswillbegivenopportunitiestoimprovetheirlisteningskills,buildvocabulary,activelypracticetheirspokenEnglishingroupsandgiveashortpresentationinEnglishinclass.Feedbackwillbegivenforallclassactivities,eitherorallyorinwrittenformat(ex.viaGoogleClassroom).",
+        "notices": "ClasseswillbetaughtinEnglish.Ifpossible,Japanesewillnotbespoken.Also,bringyourcomputertoclass.この科目は前・後期続けて履修することをおすすめします。",
+        "preparatoryStudy": "Studentsshouldbepreparedtoreview,prepare,practice,anddoresearchandhomeworkathome.Averybasiclevelofcomputerskillswillberequired.",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。課題、タスクへのフィードバックはGoogleClassroom上および授業中に随時行う。ノートPCは指示のある時のみ使用するが、毎回の授業に持ってくること。",
+        "textbook": "Notextbook.",
+        "referenceMaterials": "TobegivenbyMoodleandinclasseachweek.",
+        "courseSchedule": "第1回：OrientationandCourseinformation第2回：MusicArtist:KatyPerry\/Speakingaboutmusicstreamingandcollections第3回：MusicArtist:EltonJohn\/Speakingaboutmusicandfashion第4回：MusicArtist:Run-DMC\/Speakingaboutmusiclyricsandrhyme第5回：MusicArtist:SexPistols\/Speakingaboutmusic,politicsandbusiness第6回：MusicArtist:LadyGaga\/PresentationInformation第7回：MusicArtist:Mid-termAchievementCheck\/PresentationPreparation第8回：MusicArtist:BTS\/PresentationPractice第9回：MusicArtist:GunsnRoses\/Presentations第10回：MusicArtist:Madonna\/Presentations第11回：MusicArtist:Nirvana\/Presentations第12回：MusicArtist:TheRollingStones\/Presentations第13回：FinalAchievementCheck\/Presentations第14回：Feedback",
+        "courseDataUpdatedAt": "2024\/01\/28"
+    },
+    "updateAt": "2024\/09\/13"
+}

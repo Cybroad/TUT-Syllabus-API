@@ -1,0 +1,37 @@
+{
+    "lectureCode": "L605M03",
+    "courseName": "IntegratedEnglishI[A3]MS火1",
+    "lecturer": [
+        "杉本奈緒(兼任講師)"
+    ],
+    "regularOrIntensive": "教養教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度前期",
+    "classPeriod": [
+        "火"
+    ],
+    "targetDepartment": "メディア学部メディア学科",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "講義実験棟３０１"
+    ],
+    "courceDetails": {
+        "courseOverview": "１年次の学習を総合して、より高度な英語の運用能力の向上をめざす。英語ネイティブスピーカーによるCommunicationskillsの向上、学際的的な内容を扱うAcademicEnglish、グローバル時代の国際理解に必要な文化と社会に関する知識の修得をめざすCulturalStudies、TOEICやビジネス英語扱うBusiness\/TOEICなどを通じて、学生の興味・関心や進路に即したより高度な英語力の修得をめざす。この授業では、イギリス文化を題材とする教材を用いて、イギリスの文化、社会、生活習慣などに対する理解を深める。また、アクティブラーニングを通して、英語の４技能をバランスよく向上させ、TOEIC500〜600点レベルの到達をめざす。なお、この科目は前・後期続けて履修することをすすめる。",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "毎回の授業で、教科書の１つのレッスンに取り組む。予習したVocabularyCheckSheetの答え合わせをして語彙の意味を確認し、リスニングの練習問題を解いていく。また、ペアワークでのスピーキング練習、グループワークでノートPCを使用しテーマについて調べるアクティビティを行う。MiniTestや課題のフィードバックは授業内で随時行う。",
+        "notices": "毎回の授業では、教科書の問題を解くので、教科書を必ず持ってくること。また知らない単語の意味を調べるために、辞書も持ってくること。アクティビティで使用するため、ノートPCも持参すること。",
+        "preparatoryStudy": "予習課題としてVocabularyCheckSheetを出す。授業前に解いておくこと（30分程度）。指定された復習のライティング課題に取り組んで提出すること（30分程度)。提出方法については、授業内で指示する。MiniTestのある授業は、範囲内のVocabularyCheckSheetを復習しておくこと。",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "textbook": "TerryO'Brien,HidenoriMuramatsu,KeiMihara,HiroshiKimura,IkukoKawanishi著;LookingAroundEngland〈RevisedEdition〉ー写真で見るイギリス・リスニングの旅〈改訂新版〉;Nan'un-do;ISBN9784523177111;1,870円",
+        "referenceMaterials": "授業内で適宜指示する。",
+        "courseSchedule": "第1回授業についてのガイダンス第2回L1London(TheHousesofParliament)第3回L2London(HorseGuards)第4回L3London(BakerStreet)\u0026MiniTest①第5回L4London(VictoriaandAlbert)第6回L5Palaces\u0026MiniTest②第7回L6Brighton第8回L7Stonehenge\u0026MiniTest③第9回L8Oxbridge第10回L9Stratford-upon-Avon\u0026MiniTest④第11回L10RobinHood第12回L11Lincoln\u0026MiniTest⑤第13回L12York第14回到達度確認チェック",
+        "courseDataUpdatedAt": "2024\/02\/26"
+    },
+    "updateAt": "2024\/09\/13"
+}
