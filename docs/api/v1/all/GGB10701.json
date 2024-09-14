@@ -1,0 +1,36 @@
+{
+    "lectureCode": "GGB10701",
+    "courseName": "レドックスバイオロジー特論",
+    "lecturer": [
+        "加柴美里(教養学環)"
+    ],
+    "regularOrIntensive": "専門科目",
+    "courseType": "講義科目",
+    "courseStart": "2024年度前期",
+    "classPeriod": [
+        "金2"
+    ],
+    "targetDepartment": "バイオ・情報メディア研究科博士前期課程バイオニクス専攻",
+    "targetGrade": [
+        "1年",
+        "2年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "片柳研究所Ｅ３０２"
+    ],
+    "courceDetails": {
+        "courseOverview": "ヒトの生命活動は多様な化学反応によりなりたっている．レドックスバイオロジ‐では，還元(reduction)と酸化(oxidation)反応による生命現象に注目する．酸化還元反応の具体例として，ミトコンドリア電子伝達系のエネルギー産生，白血球の殺菌作用をとりあげる．また，レドックスにかかわる分子群として注目されているスーパーオキシドや，一酸化窒素，一酸化炭素についても紹介する．Inredoxbiology,wefocusonthebiologicalphenomenacausedbyreductiveandoxidativereactions.Examplesofredoxreactionsincludeenergyproductionbythemitochondrialelectrontransfersystemandbactericidalactivityofleukocytes.Superoxide,nitricoxide,andcarbonmonoxide,whichareattractingattentionasmoleculargroupsinvolvedinredoxreactions,willalsobeintroduced.",
+        "outcomesMeasuredBy": "酸化還元反応が関与する病態生化学について学ぶ．生体内の酸化・還元反応について知る．ミトコンドリア電子伝達系のエネルギー産生機構を学ぶ．活性酸素・フリーラジカルとこれらを捕捉・消去する抗酸化物質・抗酸化酵素について知る．一酸化窒素，一酸化炭素の産生機構とその働きを学ぶ．これらの学修を通じて「論理的な思考力」や「国際的な教養」を学ぶ．Tolearnaboutpathologicalbiochemistryinvolvingoxidation-reductionreactions.Tolearnaboutoxidationandreductionreactionsinvivo.Learnabouttheenergyproductionmechanismofmitochondrialelectrontransfersystem.Learnaboutreactiveoxygenspeciesandfreeradicals,andtheantioxidantsandantioxidantenzymesthatcaptureandeliminatethem.Tolearnabouttheproductionmechanismofnitricoxideandcarbonmonoxideandtheirfunctions.",
+        "learningOutcomes": "国際的な教養論理的な思考力",
+        "teachingMethod": "パワーポイント資料で説明しながらの講義を行うが，随時，質問-解答を求めるアクティブラーニングスタイルで行うので積極的に講義に参加しほしい．英語での講義を計画しているが，受講者の理解度も見ながら柔軟に対応したい．ノートPCは必携ではないが，ムードルにアクセスできる端末を持参すること．BringaterminalthatcanaccessMoodle.",
+        "notices": "予習，復習を行うこと．授業中に提示する課題にしっかりと取り組むこと．学部で行った生物系，化学系の講義内容を習得していることが望ましい．",
+        "preparatoryStudy": "授業後に，それぞれの回の課題に取り組むこと．",
+        "gradingGuidelines": "毎回行う小テスト50％，レポート50％として評価する．小テストの内容については，翌週に解説・フィードバックを行う．",
+        "textbook": "なし",
+        "referenceMaterials": "授業中に紹介する．",
+        "courseSchedule": "第1回:レドックスバイオロジ‐とは第2回:活性酸素の産生1（ミトコンドリア電子伝達系）第3回:活性酸素の産生2（白血球の殺菌作用）第4回:一酸化窒素（NO）第5回:一酸化炭素（CO）第6回：抗酸化物質とは第7回:レドックスバイオロジーの最新の話題Part1:WhatisRedoxBiology?Part2:Productionofreactiveoxygenspecies(ROS)1(mitochondrialelectrontransfersystem)Part3:ProductionofROS2(Bactericidalactionofleukocytes)Part4:Nitricoxide(NO)Part5:Carbonmonoxide(CO)Part6:AntioxidantsPart7:CurrentTopicsinRedoxBiology",
+        "courseDataUpdatedAt": "2024\/03\/01"
+    },
+    "updateAt": "2024\/09\/13"
+}

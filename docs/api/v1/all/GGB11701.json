@@ -1,0 +1,36 @@
+{
+    "lectureCode": "GGB11701",
+    "courseName": "バイオレメディエーション特論",
+    "lecturer": [
+        "多田雄一(応用生物学部応用生物学科)"
+    ],
+    "regularOrIntensive": "専門科目",
+    "courseType": "講義科目",
+    "courseStart": "2024年度後期",
+    "classPeriod": [
+        "火2"
+    ],
+    "targetDepartment": "バイオ・情報メディア研究科博士前期課程バイオニクス専攻",
+    "targetGrade": [
+        "1年",
+        "2年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "片柳研究所Ｅ３０２"
+    ],
+    "courceDetails": {
+        "courseOverview": "地球温暖化、砂漠化、土壌・水質・大気汚染などの環境問題の解決のために、微生物や植物を利用した省エネルギーかつ低負荷な環境修復技術であるバイオレメディエーションに対する期待が高まっている。本講義では、遺伝子組換えを中心としたバイオレメディエーションに関する先端技術の研究や実用化の状況を解説するとともに、今後の展望や課題についても展望する。また、生物を利用した環境モニタリング技術についても解説する。演習としてバイオレメディエーションに関する文献検索とその結果のプレゼンテーションを行なう。Iwillexplaintheresearchesofbioremediationandexamplesoftheirpracticalapplication.Additionally,youhavetoperformaliteraturesearchonbioremediationandmakeapresentationofthesearchresults.",
+        "outcomesMeasuredBy": "本講義では、バイオレメディエーションについての実学に基づく専門能力を身に付けることを目指す。バイオレメディエーションで利用される技術のうち、特に遺伝子組換え技術の原理について理解するとともに、今後の課題について認識することを目標とする。さらに、文献調査とその結果のプレゼンテーションを通して、分析評価能力とコミュニケーション能力を身につける。Youwilllearnwhatbioremediationisandhowtoperformaliteraturesearchonbioremediation.",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力論理的な思考力分析・評価能力",
+        "teachingMethod": "講義は日本語と英語の両方で行う。授業は、講義と演習としての文献検索から成る。毎回の講義後にその日に学んだことをまとめて提出させる。演習として第5回目の講義時間中に各自が行う文献検索の結果を6回～７回目の講義時間にスライドにまとめて発表するアクティブラーニング形式の授業を行う。講義中も指名-回答-解説形式のアクティブラーニングを取り入れた授業を行う。ノートＰＣを使用する。LecturewillbepresentedusingbothJapaneseandEnglish.Youhavetowriteandsubmitanotestatingwhatyoulearnedinthelectureofthedayaftereachlecture.Youhavetomakeapresentationonyourliteraturesearchresultsinthe6thor7thlecture.Bringyournote-PC.",
+        "notices": "学部開講科目の「微生物学」、「植物細胞工学」、または、類似の講義を履修していることが望ましい。",
+        "preparatoryStudy": "PPT資料で予習をして、重要なポイントや疑問点などを整理しておくことが望ましい。受講後は復習を行うこと。(計60分程度)。ItisrecommendedthatstudentsreadthePPTmaterialsandorganizeimportantpointsandquestionsbeforeeachlecture.Reviewaftereachlecture.(About60minintotal)",
+        "gradingGuidelines": "出席を前提に、演習・プレゼンテーション（45％）と毎回の授業内容に関する小レポート（55％）の合計点で評価する。moodleを使って提出する小レポートに対してフィードバックを行う。プレゼンテーションに対して授業内でフィードバックを行う。Gradewillbedeterminedbytheevaluationofyourpresentation(45%)andyournotefromeachlecture(55%).Iwillfeedbackmyratingonyournotesandpresentation.",
+        "textbook": "特に指定しないが、必要に応じて資料を配布する.",
+        "referenceMaterials": "環境バイオテクノロジー改訂版多田雄一三恵社￥2200",
+        "courseSchedule": "第1回バイオレメディエーション概論Introduction第2回重金属のバイオレメディエーションBioremediationofheavymetals第3回不良土壌のファイトレメディエーションBioremediationofpoorsoil第4回大気浄化植物、環境モニタリング植物、組換え生物の安全性Airpurifyingplants,Monitoringplants,andSafetyassessmentofGMO第5回文献検索の演習（課題演習）Practice:Literaturesearch第6回発表：文献検索結果のプレゼンテーションPresentation第7回発表：文献検索結果のプレゼンテーションのつづきPresentation",
+        "courseDataUpdatedAt": "2024\/02\/27"
+    },
+    "updateAt": "2024\/09\/13"
+}
