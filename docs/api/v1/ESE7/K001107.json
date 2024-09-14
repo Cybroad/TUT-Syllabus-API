@@ -1,1 +1,38 @@
-{}
+{
+    "lectureCode": "K001107",
+    "courseName": "工学英語B[2Q1限：浦]",
+    "lecturer": [
+        "浦聡美(兼任講師)"
+    ],
+    "regularOrIntensive": "専門教育科目",
+    "courseType": "演習科目",
+    "courseStart": "2024年度前期",
+    "classPeriod": [
+        "火",
+        "木"
+    ],
+    "targetDepartment": "工学部電気電子工学科,工学部応用化学科",
+    "targetGrade": [
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": "1",
+    "classroom": [
+        "講義実験棟１０３",
+        "講義実験棟１０４"
+    ],
+    "courceDetails": {
+        "courseOverview": "工業製品の研究開発や生産現場においては、英文で記述された仕様書、マニュアル、操作指示書、論文などを理解することや、国内、海外を問わず多国籍の作業者とemailなどでコミュニケーションをとる能力が必要とされる。また技術や製品についての情報を英語で発信する力も求められている。本講義では、技術英検2級の対策を通して、技術や製品について、英文による論理的・効果的な説明や指示の方法を学び、英語による技術文書作成能力を身につける。",
+        "outcomesMeasuredBy": "本科目を修得することにより、技術英文を理解し、効果的にコミュニケーションがとれるようになる【国際的な教養、実学に基づく専門能力、コミュニケーション能力】。具体的には、以下の能力が身につく。１．正確、明確、簡潔な技術英文作成および表現力、２．英文を読み、重要な情報を理解する読解力３．技術英検2級合格に必要な英語力",
+        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
+        "teachingMethod": "テキスト『技術英語Ⅰ』および『技術英語Ⅱ』を使い、テキストの問題をともに考え、回答していく。テキストの問題を考察しながら、付随する疑問点などを適宜掘り下げていく。「技術英語Ⅰ』から始め、終わり次第『技術英語Ⅱ」に入っていく。毎週クラス前までに「技術英語Ⅰ』は3ユニットずつ、『技術英語Ⅱ」は2ユニットずつの予習が求められる。指名―回答―解説を中心としたアクティブラーニングのスタイルで授業を行う。",
+        "notices": "本クラスは技術英検２級の対策クラスである。受講者の目的は技術英検2級に合格すること、となる。",
+        "preparatoryStudy": "毎回の範囲の予習を必須としたうえで、さらにテキスト内で長文が出てきたら、回答だけではなく、その長文の読解し、要約してきてほしいと願っている。またテキストにはリスニングパートがあるが、該当箇所のリスニングの予習もしてきてほしい。",
+        "gradingGuidelines": "1．Classscore(50%)：授業への参加度（課題、発言など）と理解、2．Testscore(50%)：到達度確認チェック",
+        "textbook": "『技術英語Ⅰ』および『技術英語Ⅱ』一般社団法人日本能率協会",
+        "referenceMaterials": "参考文献や図書が必要な場合、プリントし、配布する",
+        "courseSchedule": "第1回：「技術英検2級合格を目指すにあたって」第2回:「名詞と冠詞、5文型、技術英語の主語」NounsandArticles,Thefivesentencepatterns,Thesubjectofsentences第3回:「名詞を修飾する形容詞と名詞、名詞を修飾する関係代名詞、名詞を修飾する分詞」Adjectivesandnounsthatmodifynouns,Relativepronounsthatmodifynouns,Participlesthatmodifynouns第4回:「情報をまとめる前置詞句、to不定詞と動名詞、接続詞」Prepositionphrasesthatsummarizeinformation、toinfinitivesandgerunds、conjunctions第5回:「接続詞that,助動詞、分詞構文」Conjunction\"that,\"Auxiliaryverbs,participleconstruction第6回:「比較、否定の表現」Comparativeforms,negation第7回:「文の構造、動詞の形の変化」Sentencestructures,Variationofverbforms第8回:「名詞や動詞の修飾語句、倒置、間接疑問文、省略」Modifiersofnounsandverbs;Inversion,indirectinterrogatives,ellipses第9回:「情報の流れ、パラグラフ」theFlowofinformation,Paragraphs第10回:「パラグラフの展開、定義」Paragraphdevelopment,Definition第11回:「手順・列挙、分類」(Process\/enumeration,Classification第12回:「原因や理由と結果、例示」Causeandeffect,reasoning,exemplification第13回:「描写、比較・対照」Description,Comparison,contrast第14回:到達度確認チェックAssessment",
+        "courseDataUpdatedAt": "2024\/01\/12"
+    },
+    "updateAt": "2024\/09\/13"
+}
