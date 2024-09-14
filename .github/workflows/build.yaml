@@ -1,15 +1,14 @@
 name: Deploy
 
-on:    
-  push:
-    branches:
-      - improve/separete-generate-jobs
+on:
+  schedule:
+    # JST 15:40 (UTC 6:40) every 3rd day of the month (best practice: https://zenn.dev/rie_amasato/articles/f901ef9fb19415)
+    - cron: "40 6 1 */3 *"
   workflow_dispatch:
 
 jobs:
   fetch_lecture_codes:
-    #runs-on: ubuntu-latest
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 10
 
     permissions:
