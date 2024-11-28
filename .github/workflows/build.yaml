@@ -53,8 +53,7 @@ jobs:
           git push
 
   fetch_lecture_data:
-    #runs-on: ubuntu-latest
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 10
     
     needs: fetch_lecture_codes
