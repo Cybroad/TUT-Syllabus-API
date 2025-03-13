@@ -30,8 +30,8 @@
         "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
         "textbook": "MasahikoYamaguchi,GeorgeW.Pifer著;TheTOEICTestTrainerTarget470[Revised];CengageLearning;ISBN978-4-86312-260-4;2100円（税別）",
         "referenceMaterials": "授業内で適宜指示する。",
-        "courseSchedule": "第1回：ガイダンスレベルチェック第2回：Unit1第3回：Unit2\u0026MiniTest①第4回：Unit3第5回：Unit4\u0026MiniTest②第6回：Unit5第7回：Unit6\u0026MiniTest③第8回：Unit7第9回：Unit8\u0026MiniTest④第10回：Unit9第11回：Unit10\u0026MiniTest⑤第12回：Unit11第13回：Unit12\u0026MiniTest⑥第14回：Review\u0026到達度確認チェック",
-        "courseDataUpdatedAt": "2024\/01\/25"
+        "courseSchedule": "第1回：ガイダンスレベルチェック第2回：Unit1第3回：Unit2&MiniTest①第4回：Unit3第5回：Unit4&MiniTest②第6回：Unit5第7回：Unit6&MiniTest③第8回：Unit7第9回：Unit8&MiniTest④第10回：Unit9第11回：Unit10&MiniTest⑤第12回：Unit11第13回：Unit12&MiniTest⑥第14回：Review&到達度確認チェック",
+        "courseDataUpdatedAt": "2024/01/25"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/12/09"
 }

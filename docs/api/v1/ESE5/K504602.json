@@ -30,9 +30,9 @@
         "preparatoryStudy": "授業時間で完成しなかった，実習で用いる3Dモデルの作成を行うこと（60分程度）",
         "gradingGuidelines": "各回の演習・実習の達成内容を均等に評価した結果を認定要件とし，自習結果の提出内容を加点する。",
         "textbook": "ウェブ上に資料を置くので，教科書は用いない。",
-        "referenceMaterials": "・初歩から学ぶ3次元CAD活用設計再入門単行本–2007\/1筒井真作(著),西川誠一(著)・PtcCreoParametric3.0forDesigners(英語)ペーパーバック–2015\/1\/28ProfShamTickooPurdueUniv(著),CadcimTechnologies(著)",
+        "referenceMaterials": "・初歩から学ぶ3次元CAD活用設計再入門単行本–2007/1筒井真作(著),西川誠一(著)・PtcCreoParametric3.0forDesigners(英語)ペーパーバック–2015/1/28ProfShamTickooPurdueUniv(著),CadcimTechnologies(著)",
         "courseSchedule": "第1回：3D機械設計製作入門（1）第2回：3D機械設計製作入門（２）第3回：CAD応用第4回：CAM第5回：3Dプリンタ／レーザー加工機第6回：ワイヤーカット放電加工機第7回：多軸CNC加工機（第3回から第7回は，５名程度の少人数グループに分かれて，グループごとのローテーションで行う）",
-        "courseDataUpdatedAt": "2024\/02\/06"
+        "courseDataUpdatedAt": "2024/02/06"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/12/09"
 }

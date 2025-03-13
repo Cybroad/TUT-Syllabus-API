@@ -34,7 +34,7 @@
         "textbook": "授業ごとに公開する講義資料を使用する．",
         "referenceMaterials": "基礎Python改訂2版，IMPRESSKISOSERIES，大津真著，インプレス刊，2021(1年次のPythonの教科書である)",
         "courseSchedule": "第1回：VScodeインストール，python復習第2回：関数の書き方，テストの方法第3回：ファイルの読み書き，辞書第4回：numpyとmatplotlibによる数値計算とグラフ表示第5回：numpy,matplotlibの応用第6回：numpy,matplotlibの多次元データの扱い第7回：numpy,matplotlibの線形代数への応用第8回：第2～7回の復習第9回：信号処理・音楽データ生成第10回：画像処理の基本第11回：画像処理フィルタリング第12回：正規表現を用いたテキスト処理第13回：pandasを使用したデータ処理第14回：まとめ",
-        "courseDataUpdatedAt": "2024\/01\/31"
+        "courseDataUpdatedAt": "2024/01/31"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/09/13"
 }

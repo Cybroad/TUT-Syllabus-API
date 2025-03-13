@@ -37,7 +37,7 @@
         "textbook": "教科書の指定はなし。毎回、Moodle上に講義資料と演習資料を掲載する。",
         "referenceMaterials": "参考書の指定はなし。参考資料が必要な場合は、Moodle上に掲載する。",
         "courseSchedule": "第1回：ノートPC環境構築①（LAN設定、ウイルス対策ソフトなど）第2回：ノートPC環境構築②（Zoom、WSLなど）第3回：電子メールの書き方、Googleドライブ等のサービスの使い方、MSPowerPointによるプレゼンテーション資料作成方法第4回：MSExcelによる関数利用、表・グラフ作成方法第5回：MSWordによる文書作成方法第6回：MSOfficeを用いたレポート作成の演習第7回：Linuxの操作方法①（基本コマンド）第8回：Linuxの操作方法②（テキストエディタviなど）第9回：Linuxの操作方法③（応用コマンド）第10回：開発基礎①（Git）第11回：開発基礎②（VSCode）第12回：開発基礎③（Docker）第13回：Linuxの操作方法及び開発基礎の総合演習第14回：理解度確認チェック、デバッガーの使い方全教員が全回担当",
-        "courseDataUpdatedAt": "2024\/01\/08"
+        "courseDataUpdatedAt": "2024/01/08"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/09/13"
 }

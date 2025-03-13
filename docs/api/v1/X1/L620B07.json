@@ -27,10 +27,10 @@
         "notices": "毎回、教科書の問題を解くので、教科書を必ず持ってくること。また、重要単熟語の意味を確認するため、辞書も持ってくること。",
         "preparatoryStudy": "予習・復習を十分に行わなくてはならない。授業前に問題を解いておくこと(40分程度)。知らない単熟語の意味をあらかじめ調べておくこと(20分程度)。",
         "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
-        "textbook": "TakayukiIshiiほか著;All-RoundTrainingfortheTOEICL\u0026RTest;Seibido;ISBN978-4-7919-7213-5;2200円",
+        "textbook": "TakayukiIshiiほか著;All-RoundTrainingfortheTOEICL&RTest;Seibido;ISBN978-4-7919-7213-5;2200円",
         "referenceMaterials": "授業内で適宜指示する。",
-        "courseSchedule": "第1回：Guidance第2回：Unit1\u0026PreparationCheck1第3回：Unit1\u0026PreparationCheck2第4回：Unit2\u0026PreparationCheck3第5回：Unit2\u0026PreparationCheck4第6回：Unit3\u0026PreparationCheck5第7回：Unit3\u0026PreparationCheck6第8回：Unit4\u0026PreparationCheck7第9回：Unit4\u0026PreparationCheck8第10回：Unit5\u0026PreparationCheck9第11回：Unit5\u0026PreparationCheck10第12回：Unit6\u0026PreparationCheck11第13回：Unit6\u0026PreparationCheck12第14回：AchievementCheckandExplanation",
-        "courseDataUpdatedAt": "2024\/01\/20"
+        "courseSchedule": "第1回：Guidance第2回：Unit1&PreparationCheck1第3回：Unit1&PreparationCheck2第4回：Unit2&PreparationCheck3第5回：Unit2&PreparationCheck4第6回：Unit3&PreparationCheck5第7回：Unit3&PreparationCheck6第8回：Unit4&PreparationCheck7第9回：Unit4&PreparationCheck8第10回：Unit5&PreparationCheck9第11回：Unit5&PreparationCheck10第12回：Unit6&PreparationCheck11第13回：Unit6&PreparationCheck12第14回：AchievementCheckandExplanation",
+        "courseDataUpdatedAt": "2024/01/20"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/12/09"
 }

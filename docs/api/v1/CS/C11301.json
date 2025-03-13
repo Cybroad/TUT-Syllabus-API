@@ -33,7 +33,7 @@
         "textbook": "プログラミング基礎I，IIで用いた教科書．また，講義資料をmoodleにて配布する．",
         "referenceMaterials": "講義内で随時紹介する．",
         "courseSchedule": "第1回：環境構築（Docker，NumPy，SciPy，Matplotlibの導入）第2回：Linuxの基本第3回：Dockerの基本第4回：Dockerfileを用いた環境構築第5回：Pythonの復習とMatplotlib第6回：MatplotlibとNumPy第7回：Matplotlibを用いたアニメーション作成第8回：Pythonを用いた科学技術計算・その１（1次元物理シミュレーション）第9回：Pythonを用いた科学技術計算・その２（2次元シミュレーション，ライフゲーム開発）第10回：マルチエージェントシミュレーション・その１（クラスを用いたシミュレータの実装）第11回：マルチエージェントシミュレーション・その２（ウイルス感染シミュレーションの基礎）第12回：マルチエージェントシミュレーション・その3（ウイルス感染シミュレーションの応用）第13回：高速計算技術第14回：総合演習（まとめ）",
-        "courseDataUpdatedAt": "2024\/02\/06"
+        "courseDataUpdatedAt": "2024/02/06"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/09/13"
 }
