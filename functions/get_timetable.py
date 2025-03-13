@@ -7,6 +7,7 @@ import urllib3
 
 TUT_SYLLABUS_URL = 'https://kyo-web.teu.ac.jp/syllabus'
 
+# 講義ページの各thタグのテキスト
 TAB1_TAGS = ['科目名', '担当教員（所属）', '授業科目区分', '授業種別', '時間割コード', '開講学期', '開講曜限', '対象所属', '対象学年', '単位数', '教室']
 TAB2_TAGS = ['更新日', '授業概要', '到達目標', 'ラーニング・アウトカムズ(学修到達目標)', '授業方法', '履修上の注意', '準備学習', '成績評価方法・基準', '教科書', '参考書', '授業計画']
 
@@ -37,8 +38,6 @@ def _format_lecture_information(lecture_information: ResultSet, base_tag_lst: li
     td_data = lecture_information.find_all('td')
     th_data = lecture_information.find_all('th')
 
-    print([_format_string(th.text) for th in th_data])
-
     # trを基準に、tdのテキストを取得
     # ただし、base_tag_listと照らし合わせて、tdのテキストを取得する
     # 存在しない場合は、空文字を返す
@@ -50,9 +49,6 @@ def _format_lecture_information(lecture_information: ResultSet, base_tag_lst: li
                 break
         else:
             lecture_data.append('')
-    
-    print(lecture_data)
-    # print(lecture_data)
 
     return lecture_data
 
