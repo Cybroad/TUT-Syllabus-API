@@ -34,5 +34,5 @@
         "courseSchedule": "第1回：IntroductionofDifferentialequations（微分方程式と簡易な系のモデル化(1)）第2回：Modelingsimplesystems（簡易な系のモデル化(2)）第3回：Ordinarydifferentialequations（常微分方程式(1)）第4回：Moreordinarydifferentialequations（常微分方程式(2)）第5回：Solvingfirst-orderLTIsystems（一階線形時不変系の解法）第6回：Solutionofasecond-orderLTIsystems(1)（二階線形時不変系の解法(1)）第7回：Solutionofasecond-orderLTIsystems(2)（二階線形時不変系の解法(2)）第8回：Solutionofasecond-orderLTIsystems(3)（二階線形時不変系の解法(3)）第9回：Solvingsystemsofdifferentialequations（微分方程式システムの解法）第10回：SummaryofDifferentialequationsanddifferenceequations（微分方程式のまとめ）第11回：IntroductionofFunctionsofmorethanonevariable.Partialdifferentiation（多変数関数と偏微分）第12回：Thechainrule.Thetotalderivative（連鎖律、全微分(1)）第13回：Higher-orderpartialderivetives.SummaryofFunctionsofmorethanonevariable（全微分(2)、高階偏導関数、多変数関数の微分に関するまとめ）第14回：Vectorcalculus（ベクトル解析）",
         "courseDataUpdatedAt": "2024\/03\/14"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024\/09\/23"
 }
