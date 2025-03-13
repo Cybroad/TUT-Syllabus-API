@@ -46,7 +46,7 @@ if os.path.exists("output/lecture_codes.json"):
         lecture_codes = json.load(f)
         is_skip_fetch_flag = True
 else:
-    lecture_codes_lists = {}
+    lecture_codes = {}
 
 if is_skip_fetch_flag:
     print("Skip to get lecture codes.")
