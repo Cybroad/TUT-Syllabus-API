@@ -9,8 +9,12 @@ on:
       - features/modify-Actions-to-create-PR
   workflow_dispatch:
 
+permissions:
+  actions: write
+  contents: write
+
 jobs:
-  fetch_lecture_data:
+  fetch_data:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
