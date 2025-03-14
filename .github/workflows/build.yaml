@@ -19,9 +19,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
-    outputs:
-      lecture_codes: ${{ steps.generate_lecture_codes.outputs.lecture_codes }}
-
     steps:
       - uses: actions/checkout@v4
 
@@ -39,10 +36,13 @@ jobs:
       - name: Generate lecture codes
         run: python generate.py --type=lecture_codes
 
-      - name: Output lecture codes
-        id: generate_lecture_codes
-        run: echo "lecture_codes=$(cat output/lecture_codes.json | jq -c)" >> $GITHUB_ENV
-        
+      - name: Upload lecture codes
+        uses: actions/upload-artifact@v4
+        with:
+          if-no-files-found: error
+          include-hidden-files: true
+          name: lecture_codes
+          path: output/lecture_codes.json
 
   fetch_lecture_data:
     runs-on: ubuntu-latest
@@ -68,8 +68,11 @@ jobs:
           pip install --upgrade get-chrome-driver
           pip install -r requirements.txt
 
-      - name: Update lecture codes
-        run: echo "${{ needs.fetch_lecture_codes.outputs.lecture_codes }}" > output/lecture_codes.json
+      - name: Download lecture codes
+        uses: actions/download-artifact@v4
+        with:
+          name: lecture_codes
+          path: output/lecture_codes.json
 
       - name: Generate lecture data
         run: python generate.py --type=lecture_data --department=${{ matrix.type }}
