@@ -9,18 +9,13 @@ on:
       - features/modify-Actions-to-create-PR
   workflow_dispatch:
 
-permissions:
-  actions: write
-  contents: write
-
 jobs:
-  fetch_data:
+  fetch_lecture_codes:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
 
-    env:
-      TZ: 'Asia/Tokyo'
-      departmentList: "BT, CS, MS, ES, ESE5, ESE6, ESE7, X1, DS, HS, HSH1, HSH2, HSH3, HSH4, HSH5, HSH6, X3, GF, GH"
+    outputs:
+      lecture_codes: ${{ steps.generate_lecture_codes.outputs.lecture_codes }}
 
     steps:
       - uses: actions/checkout@v4
@@ -36,6 +31,66 @@ jobs:
           pip install --upgrade get-chrome-driver
           pip install -r requirements.txt
 
+      - name: Generate lecture codes
+        run: python generate.py --type=lecture_codes
+
+      - name: Output lecture codes
+        id: generate_lecture_codes
+        run: echo "lecture_codes=$(cat output/lecture_codes.json | jq -c)" >> $GITHUB_ENV
+        
+
+  fetch_lecture_data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    needs: fetch_lecture_codes
+
+    strategy:
+      matrix:
+        type: [BT, CS, MS, ES, ESE5, ESE6, ESE7, X1, DS, HS, HSH1, HSH2, HSH3, HSH4, HSH5, HSH6, X3, GF, GH]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11.9"
+          cache: "pip"
+      - run: pip install --upgrade pip
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade get-chrome-driver
+          pip install -r requirements.txt
+
+      - name: Generate lecture codes
+        run: python generate.py --type=lecture_codes
+
+      - name: Update lecture codes
+        run: echo "${{ needs.fetch_lecture_codes.outputs.lecture_codes }}" > output/lecture_codes.json
+
+      - name: Generate lecture data for each department
+        run: python generate.py --type=lecture_data --department=${{ matrix.type }}
+
+      - name: Zip lecture data
+        run: zip -r {{ matrix.type }}.zip output/${{ matrix.type }}
+
+      - name: Upload lecture data
+        uses: actions/upload-artifact@v2
+        with:
+          name: lecture_data_${{ matrix.type }}
+          path: ${{ matrix.type }}.zip
+
+  
+  commit_and_create_pr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    needs: fetch_lecture_data
+
+    steps:
+      - uses: actions/checkout@v4
+
       - name: Set current datetime as env variable
         env:
           TZ: 'Asia/Tokyo'
@@ -48,14 +103,23 @@ jobs:
           git switch -c release/auto_update_data_${{ env.CURRENT_DATETIME }}
           git push -u origin release/auto_update_data_${{ env.CURRENT_DATETIME }}
 
-      - name: Generate lecture codes
-        run: python generate.py --type=lecture_codes
+      - name: Download lecture data
+        uses: actions/download-artifact@v2
+        with:
+          name: lecture_data_*
 
-      - name: Generate lecture data for each department
+      - name: Unzip lecture data
         run: |
-          for department in $(echo $departmentList | tr "," "\n")
-          do
-            python generate.py --type=lecture_data --department=$department
+          for file in *.zip; do
+            unzip -o $file -d docs/api/v1
+          done
+      
+      # zipを再度展開し、docs/api/v1/allにすべての講義データをまとめる
+      - name: Create all lecture data list
+        run: |
+          mkdir -p docs/api/v1/all
+          for file in *.zip; do
+            unzip -o $file -d docs/api/v1/all
           done
 
       - name: Add and Commit
@@ -72,15 +136,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "feat: update lecture data"
           title: "講義データの自動更新"
-          body: "3ヶ月事の自動クローリング結果です。/n レビュー担当者は現行シラバスデータを確認し、差分が正しいか確認してください。 /n ※このPRは自動生成されています。"
+          body: "3ヶ月事の自動クローリング結果です。/n レビュー担当者は現行シラバスデータを確認し、差分を確認してください。/n ※このプルリクエストは自動生成されています。"
           branch: release/auto_update_data_${{ env.CURRENT_DATETIME }}
           base: main
           labels: "auto-merge"
-          reviewers: "6mile0"
           assignees: "6mile0"
-          draft: false
-          draft-issue: false
-          signoff: true
-          changes: "auto"
-          delete-branch: true
-
+          reviewers: "6mile0"
