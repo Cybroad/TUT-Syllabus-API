@@ -36,7 +36,7 @@ jobs:
 
       - name: Output lecture codes
         id: generate_lecture_codes
-        run: echo "lecture_codes=$(cat output/lecture_codes.json) | jq -c" >> $GITHUB_ENV
+        run: echo "lecture_codes=$(cat output/lecture_codes.json | jq -c)" >> $GITHUB_ENV
         
 
   fetch_lecture_data:
