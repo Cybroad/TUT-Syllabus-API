@@ -9,6 +9,11 @@ on:
       - features/modify-Actions-to-create-PR
   workflow_dispatch:
 
+permissions:
+  actions: write
+  checks: write
+  contents: write
+
 jobs:
   fetch_lecture_codes:
     runs-on: ubuntu-latest
@@ -63,21 +68,20 @@ jobs:
           pip install --upgrade get-chrome-driver
           pip install -r requirements.txt
 
-      - name: Generate lecture codes
-        run: python generate.py --type=lecture_codes
-
       - name: Update lecture codes
         run: echo "${{ needs.fetch_lecture_codes.outputs.lecture_codes }}" > output/lecture_codes.json
 
-      - name: Generate lecture data for each department
+      - name: Generate lecture data
         run: python generate.py --type=lecture_data --department=${{ matrix.type }}
 
       - name: Zip lecture data
         run: zip -r {{ matrix.type }}.zip output/${{ matrix.type }}
 
       - name: Upload lecture data
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
+          if-no-files-found: error
+          include-hidden-files: true
           name: lecture_data_${{ matrix.type }}
           path: ${{ matrix.type }}.zip
 
