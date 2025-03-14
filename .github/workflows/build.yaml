@@ -70,7 +70,7 @@ jobs:
 
       - name: Create new branch
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
           git switch -c release/auto_update_data_${{ env.CURRENT_DATETIME }}
           git push -u origin release/auto_update_data_${{ env.CURRENT_DATETIME }}
@@ -95,7 +95,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.ACCESS_TOKEN }}
           commit-message: "feat: update lecture data"
           title: "講義データの自動更新"
           body: "3ヶ月事の自動クローリング結果です。/n レビュー担当者は現行シラバスデータを確認し、差分が正しいか確認してください。 /n ※このPRは自動生成されています。"
