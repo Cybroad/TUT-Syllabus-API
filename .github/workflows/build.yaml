@@ -68,6 +68,14 @@ jobs:
           pip install --upgrade get-chrome-driver
           pip install -r requirements.txt
 
+      - name: Remove old data
+        run: |
+          rm -rf docs
+          rm -rf output
+
+      - name: Create output directory
+        run: mkdir -p output
+
       - name: Download lecture codes
         uses: actions/download-artifact@v4
         with:
@@ -111,7 +119,7 @@ jobs:
           git push -u origin release/auto_update_data_${{ env.CURRENT_DATETIME }}
 
       - name: Download lecture data
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: lecture_data_*
 
