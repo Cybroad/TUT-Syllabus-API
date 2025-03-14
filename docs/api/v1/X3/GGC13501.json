@@ -27,10 +27,10 @@
         "notices": "・ノートPCと教科書（電子ファイル）を持参すること．",
         "preparatoryStudy": "・担当回（説明役）については，事前に教科書の担当章を読んで内容を理解し，スライドやレジュメ等の資料を作成し，それを用いて授業で説明できるようにすること．担当章に練習問題が含まれる場合には，その解答案も用意すること．・担当回以外では，事前に教科書の章を読んで，授業内での議論に参加できるようにすること．復習として，授業内容の要約と感想をフォームから提出する．疑問点は授業中の議論を通して解消することが望ましいが，残った疑問点があった場合にはフォームに記載する．",
         "gradingGuidelines": "・担当回で説明役として授業内で資料（スライドやレジュメ等）を用いて担当章の説明を行い，議論の進行役を担う．（40点）・担当回以外で，授業の議論に参加し，活発に質問・指摘・議論を行う．（30点）・毎回，授業内容の要約と感想をフォームから提出する．（30点）上記を合計して100点満点とし，60点以上を単位として認める．ただし，説明役を一度も担当しなかった場合，出席日数が足りない場合は不合格とする．",
-        "textbook": "InvitationtoFormalSemantics(Manuscript),ElizabethCoppock\u0026LucasChampollionhttps:\/\/eecoppock.info\/semantics-boot-camp.pdf",
-        "referenceMaterials": "第1回：はじめに第2回：集合，関係，関数第3回：命題論理第4回：述語論理第5回：型付ラムダ計算第6回：関数適用（1）第7回：関数適用（2）",
-        "courseSchedule": "",
-        "courseDataUpdatedAt": "2024\/01\/09"
+        "textbook": "InvitationtoFormalSemantics(Manuscript),ElizabethCoppock&LucasChampollionhttps://eecoppock.info/semantics-boot-camp.pdf",
+        "referenceMaterials": "",
+        "courseSchedule": "第1回：はじめに第2回：集合，関係，関数第3回：命題論理第4回：述語論理第5回：型付ラムダ計算第6回：関数適用（1）第7回：関数適用（2）",
+        "courseDataUpdatedAt": "2024/01/09"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/09/13"
 }

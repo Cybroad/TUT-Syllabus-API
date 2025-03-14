@@ -28,9 +28,9 @@
         "preparatoryStudy": "学習した可視化技法に対して、どのようなデータで利用可能か、どのような工夫が可能かなどについて復習すること。授業前に、その回で学ぶ内容の把握をすること（60分程度）。授業後に、キーワードの理解、演習内容の復習、レポート課題などを実施すること（120分程度）。",
         "gradingGuidelines": "各回で示す課題および最終課題を4:6の割合で換算し、全体の6割以上の成績で合格とする。なお、各回の課題は、次回の授業内でフィードバックを行う。",
         "textbook": "なし",
-        "referenceMaterials": "「VisualizationAnalysis\u0026Design」、CRCPress「可視化と科学・文化・社会」、コロナ社",
+        "referenceMaterials": "「VisualizationAnalysis&Design」、CRCPress「可視化と科学・文化・社会」、コロナ社",
         "courseSchedule": "第1回：イントロダクション（情報可視化の意義）第2回：データおよびタスクの抽象化第3回：記号とチャネル第4回：可視化の規則第5回：表データの可視化第6回：空間データの可視化第7回：まとめ（適用事例紹介）",
-        "courseDataUpdatedAt": "2024\/02\/27"
+        "courseDataUpdatedAt": "2024/02/27"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/09/13"
 }

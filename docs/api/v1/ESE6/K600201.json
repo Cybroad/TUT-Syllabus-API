@@ -30,9 +30,9 @@
         "preparatoryStudy": "毎回の授業内容について、オンラインの講義資料上でその回の主要項目をピックアップしておくこと。講義資料の例題は、ひととおり自分でやっておくこと。また、授業後は、その回の演習問題につき、再度取り組み自己採点しておくこと。",
         "gradingGuidelines": "授業中の演習および定期試験との結果から評価する。総合する際の比率は、それぞれ、40%および60%とする。",
         "textbook": "なし",
-        "referenceMaterials": "1)\"MathematicsforElectricalEngineeringandComputing”byM.Attenborough,Newnes(AnimprintofElsevier,LinacreHouse,JordanHill,OxfordOX28DP200WheelerRoad,BurlingtonMA01803)2)矢嶋信男(著),戸田盛和・広田良吾・和達三樹(編)：\"理工系の数学入門コース4常微分方程式\",岩波書店;1989\/01\/11,2014\/04\/04.3)戸田盛和(著),戸田盛和・広田良吾・和達三樹(編)：\"理工系の数学入門コース3ベクトル解析\",岩波書店;1989\/03\/08,2013\/09\/13.",
+        "referenceMaterials": "1)\"MathematicsforElectricalEngineeringandComputing”byM.Attenborough,Newnes(AnimprintofElsevier,LinacreHouse,JordanHill,OxfordOX28DP200WheelerRoad,BurlingtonMA01803)2)矢嶋信男(著),戸田盛和・広田良吾・和達三樹(編)：\"理工系の数学入門コース4常微分方程式\",岩波書店;1989/01/11,2014/04/04.3)戸田盛和(著),戸田盛和・広田良吾・和達三樹(編)：\"理工系の数学入門コース3ベクトル解析\",岩波書店;1989/03/08,2013/09/13.",
         "courseSchedule": "第1回：IntroductionofDifferentialequations（微分方程式と簡易な系のモデル化(1)）第2回：Modelingsimplesystems（簡易な系のモデル化(2)）第3回：Ordinarydifferentialequations（常微分方程式(1)）第4回：Moreordinarydifferentialequations（常微分方程式(2)）第5回：Solvingfirst-orderLTIsystems（一階線形時不変系の解法）第6回：Solutionofasecond-orderLTIsystems(1)（二階線形時不変系の解法(1)）第7回：Solutionofasecond-orderLTIsystems(2)（二階線形時不変系の解法(2)）第8回：Solutionofasecond-orderLTIsystems(3)（二階線形時不変系の解法(3)）第9回：Solvingsystemsofdifferentialequations（微分方程式システムの解法）第10回：SummaryofDifferentialequationsanddifferenceequations（微分方程式のまとめ）第11回：IntroductionofFunctionsofmorethanonevariable.Partialdifferentiation（多変数関数と偏微分）第12回：Thechainrule.Thetotalderivative（連鎖律、全微分(1)）第13回：Higher-orderpartialderivetives.SummaryofFunctionsofmorethanonevariable（全微分(2)、高階偏導関数、多変数関数の微分に関するまとめ）第14回：Vectorcalculus（ベクトル解析）",
-        "courseDataUpdatedAt": "2024\/03\/14"
+        "courseDataUpdatedAt": "2024/03/14"
     },
-    "updateAt": "2024\/09\/23"
+    "updateAt": "2024/12/02"
 }

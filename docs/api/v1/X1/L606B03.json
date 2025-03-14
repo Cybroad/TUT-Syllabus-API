@@ -28,10 +28,10 @@
         "notices": "・授業には、全回出席することが基本である。事前にわかっている欠席については、メールにて連絡すること。・授業には、事前に指示された予習をして参加すること。・教科書の他、例文の豊富な英和辞書・和英辞書を必ず持参すること。紙辞書でも電子辞書でもかまわない。高校生の頃に使っていたものがあればそれでよい。(Googleなどの検索エンジンや無料辞書サイトでは大学での英語学習には不十分なので、どうしてもノートPCやタブレット端末で辞書の代用をしたい場合は有料の辞書をダウンロードすること。)",
         "preparatoryStudy": "授業の予習復習を十分に行ってから参加することを求める。なお、授業内では簡単な小テストを行うことを予定している。週に１度程度の授業のみでは、十分な英語力を身に付けることは困難なので、各自で自習に励んだり、授業内では不明点を積極的に質問したりしてください。",
         "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
-        "textbook": "奥田隆一\u0026AnthonyAllan著;WritingPoints!BasicGrammarforBetterWriting文法を活かす英文ライティング入門;Kinseido;ISBN978-4-7647-3939-0;1,900円(+税)",
+        "textbook": "奥田隆一&AnthonyAllan著;WritingPoints!BasicGrammarforBetterWriting文法を活かす英文ライティング入門;Kinseido;ISBN978-4-7647-3939-0;1,900円(+税)",
         "referenceMaterials": "授業内で必要に応じて提示する。",
-        "courseSchedule": "第1回：Unit11第2回：Unit12第3回：Unit13第4回：Unit14第5回：Review1第6回：Unit15第7回：Unit16第8回：Unit17第9回：Unit18第10回：Review2第11回：Unit19第12回：Unit20第13回：Unit21第14回：Review3\u0026Comprehensioncheck",
-        "courseDataUpdatedAt": "2024\/01\/28"
+        "courseSchedule": "第1回：Unit11第2回：Unit12第3回：Unit13第4回：Unit14第5回：Review1第6回：Unit15第7回：Unit16第8回：Unit17第9回：Unit18第10回：Review2第11回：Unit19第12回：Unit20第13回：Unit21第14回：Review3&Comprehensioncheck",
+        "courseDataUpdatedAt": "2024/01/28"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/12/09"
 }

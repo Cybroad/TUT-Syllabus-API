@@ -27,10 +27,10 @@
         "notices": "毎回の授業では、教科書の問題を解くので、教科書を必ず持ってくること。また知らない単語の意味を調べるために、辞書も持ってくること。",
         "preparatoryStudy": "予習・復習を十分に行うこと。予習課題として教科書内の練習問題について該当箇所を指定する。授業前に問題を解いておくこと。到達度確認チェックのある授業の前は、チェック範囲内すべての練習問題について復習しておくこと。",
         "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
-        "textbook": "角山照彦\/SimonCapper著;EnglishwithPopHitsヒットソングで学ぶ総合英語;成美堂;ISBN9784791933877;税込2,530円",
+        "textbook": "角山照彦/SimonCapper著;EnglishwithPopHitsヒットソングで学ぶ総合英語;成美堂;ISBN9784791933877;税込2,530円",
         "referenceMaterials": "授業内で適宜指示する。",
-        "courseSchedule": "第1回：Guidance第2回：Unit1第3回：Unit1\u0026MiniTest①第4回：Unit1\u0026MiniTest②第5回：Unit3第6回：Unit3\u0026MiniTest③第7回：Unit3\u0026MiniTest④第8回：Unit6第9回：Unit6\u0026MiniTest⑤第10回：Unit6\u0026MiniTest⑥第11回：Unit7第12回：Unit7\u0026MiniTest⑦第13回：Unit7\u0026MiniTest⑧第14回：到達度確認チェック、総復習",
-        "courseDataUpdatedAt": "2024\/01\/19"
+        "courseSchedule": "第1回：Guidance第2回：Unit1第3回：Unit1&MiniTest①第4回：Unit1&MiniTest②第5回：Unit3第6回：Unit3&MiniTest③第7回：Unit3&MiniTest④第8回：Unit6第9回：Unit6&MiniTest⑤第10回：Unit6&MiniTest⑥第11回：Unit7第12回：Unit7&MiniTest⑦第13回：Unit7&MiniTest⑧第14回：到達度確認チェック、総復習",
+        "courseDataUpdatedAt": "2024/01/19"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/12/09"
 }

@@ -27,10 +27,10 @@
         "notices": "・授業には，ノートＰＣと教科書を必ず持ってくること．・授業開始時間に遅刻しないようにすること．・授業開始時間から5分以上遅れた場合は，欠席とする．",
         "preparatoryStudy": "ディスカッションリーダーは，教科書で担当の章を読んで理解して，授業で説明できるようにすること．それ以外の学生は，レビューアーとして教科書の章を事前に読んで理解して，授業においてディスカッションに参加できるようにすること．(45-90分)復習は，授業中によくわからないところの教科書を読んで理解すること．また，授業中に理解ができないかあるいは疑問があるところは，課題をすることで理解を深めることと，次の授業のときに質問すること．（45-90分)",
         "gradingGuidelines": "成績評価は，以下の配分とする．１.レビューアーとして，教科書の各章の説明に対して積極的にディスカッションに参加して，活発に質問や議論したことによる評価（70点）２.ディスカッションリーダーとして，担当した箇所の説明と議論を活発にする活動に対する評価（15点）3.資料およびレポートの評価（15点）上記を合計して100点満点で評価する．60点以上を単位として認める．ただし，出席日数が足りないときは，不合格とする．",
-        "textbook": "DistributedSystems(ThirdEdition)byMaartenVanSteen,AndrewS.Tanenbaumhttps:\/\/www.distributed-systems.net\/index.php\/books\/distributed-systems-3rd-edition-2017\/",
+        "textbook": "DistributedSystems(ThirdEdition)byMaartenVanSteen,AndrewS.Tanenbaumhttps://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/",
         "referenceMaterials": "デジタルシリーズ分散システム水野忠則監修共立出版社(ISBN978-4-320-12351-9)分散システム真鍋義文著森北出版(ISBN978-4-627-81071-6)",
         "courseSchedule": "第１回はじめに第２回アーキテクチャ第３回プロセス第４回通信第５回名前付け第６回協調第７回同期と複製",
-        "courseDataUpdatedAt": "2024\/01\/08"
+        "courseDataUpdatedAt": "2024/01/08"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/09/13"
 }

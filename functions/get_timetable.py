@@ -7,6 +7,10 @@ import urllib3
 
 TUT_SYLLABUS_URL = 'https://kyo-web.teu.ac.jp/syllabus'
 
+# 講義ページの各thタグのテキスト
+TAB1_TAGS = ['科目名', '担当教員（所属）', '授業科目区分', '授業種別', '時間割コード', '開講学期', '開講曜限', '対象所属', '対象学年', '単位数', '教室']
+TAB2_TAGS = ['更新日', '授業概要', '到達目標', 'ラーニング・アウトカムズ(学修到達目標)', '授業方法', '履修上の注意', '準備学習', '成績評価方法・基準', '教科書', '参考書', '授業計画']
+
 class _CustomHttpAdapter (requests.adapters.HTTPAdapter):
     def __init__(self, ssl_context=None, **kwargs):
         self.ssl_context = ssl_context
@@ -30,9 +34,23 @@ def _format_string(text: str) -> str:
     '\r\n', '').replace('\u30001', '').replace('\u3000', '').replace('\n', '').replace('\r', '').replace('\t', '').replace(u'\xa0', u'')
 
 
-def _format_lecture_information(lecture_information: ResultSet) -> list[str]:
+def _format_lecture_information(lecture_information: ResultSet, base_tag_lst: list) -> list[str]:
     td_data = lecture_information.find_all('td')
-    return [_format_string(td.text) for td in td_data if td]
+    th_data = lecture_information.find_all('th')
+
+    # trを基準に、tdのテキストを取得
+    # ただし、base_tag_listと照らし合わせて、tdのテキストを取得する
+    # 存在しない場合は、空文字を返す
+    lecture_data = []
+    for tag in base_tag_lst:
+        for i, th in enumerate(th_data):
+            if tag == _format_string(th.text):
+                lecture_data.append(_format_string(td_data[i].text))
+                break
+        else:
+            lecture_data.append('')
+
+    return lecture_data
 
 def _exsistCheck(targetLst: list, index: int) -> bool:
     try:
@@ -47,6 +65,11 @@ def _exsistCheck(targetLst: list, index: int) -> bool:
 # ===========================================================================
 def get_timetable(department_name: str, lecture_code : str) -> dict:
     now_year = datetime.datetime.now().year
+
+    # 翌年1~3月の場合は、前年度のデータを取得
+    if 1 <= datetime.datetime.now().month <= 3:
+        now_year -= 1
+
     res = _fetch_syllabus(now_year, department_name, lecture_code)
 
     if res.status_code == 404:
@@ -68,8 +91,8 @@ def get_timetable(department_name: str, lecture_code : str) -> dict:
     tab2_elements = bs.find_all('table', class_='syllabus-normal')[1]
 
     # 講義情報を取得
-    tab1_data = _format_lecture_information(tab1_elements)
-    tab2_data = _format_lecture_information(tab2_elements)
+    tab1_data = _format_lecture_information(tab1_elements, TAB1_TAGS)
+    tab2_data = _format_lecture_information(tab2_elements, TAB2_TAGS)
 
     # dictに変換
     lecture_data = {

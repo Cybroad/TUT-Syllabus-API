@@ -29,7 +29,7 @@
         "textbook": "授業資料（Moodleで公開）のみ",
         "referenceMaterials": "Linux関連書籍サーバ関連書籍クラウド関連書籍",
         "courseSchedule": "第1回：Linux入門第2回：仮想化技術概論第3回：コンテナ入門（1）第4回：コンテナ入門（2）第5回：コンテナ入門（3）第6回：オーケストレーション（1）第7回：オーケストレーション（2）第8回：オーケストレーション（3）第9回：クラウド概論第10回：AmazonWebServices（1）第11回：AmazonWebServices（2）第12回：AmazonWebServices（3）第13回：IPv6演習（1）第14回：IPv6演習（2）",
-        "courseDataUpdatedAt": "2024\/01\/09"
+        "courseDataUpdatedAt": "2024/01/09"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/12/13"
 }

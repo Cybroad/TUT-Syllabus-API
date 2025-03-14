@@ -30,7 +30,7 @@
         "textbook": "金宮好和（DragomirN.Nenchev）：英語で学ぶロボット工学－運動学，動力学と制御－，コロナ社",
         "referenceMaterials": "講義中に紹介する．",
         "courseSchedule": "第1回：Introduction第2回：RotationalKinematics(1)第3回：RotationalKinematics(2)第4回：RotationalKinematics(3)第5回：ForwardKinematics(1)第6回：ForwardKinematics(2)第7回：ForwardKinematics(3)第8回：InverseKinematics(1)第9回：InverseKinematics(2)第10回：InverseKinematics(3)第11回：ForwardKinematics,InverseKinematicsのまとめ第12回：RobotDynamics(1)第13回：RobotDynamics(2)第14回：RobotDynamics(3)，ロボット運動学のまとめ",
-        "courseDataUpdatedAt": "2024\/01\/09"
+        "courseDataUpdatedAt": "2024/01/09"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/12/09"
 }
