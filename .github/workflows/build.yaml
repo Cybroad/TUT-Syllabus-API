@@ -139,12 +139,24 @@ jobs:
 
       - name: Remove zip files
         run: rm -f *.zip
-
-      - name: Add and Commit
+        
+      - name: Check diff
+        id: diff
         run: |
+          git add -N .
+          git diff --name-only --exit-code
+        continue-on-error: true
+
+      - name: Commit and push to GitHub if needed
+        if: steps.diff.outcome == 'failure'
+        # https://github.com/actions/checkout/issues/13#issuecomment-724415212
+        run: |
+          set -x
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add .
-          git commit -m "feat: update lecture data"
-          git push origin release/auto_update_data_${{ env.CURRENT_DATETIME }}
+          git commit --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" -m "Automatically committed - lecture data"
+          git push
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
