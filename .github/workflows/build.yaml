@@ -120,7 +120,8 @@ jobs:
       - name: Download lecture data
         uses: actions/download-artifact@v4
         with:
-          name: lecture_data_*
+          pattern: lecture_data_*
+          merge-multiple: true
 
       - name: Unzip lecture data
         run: |
