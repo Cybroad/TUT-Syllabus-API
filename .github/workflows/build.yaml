@@ -141,11 +141,10 @@ jobs:
         run: rm -f *.zip
 
       - name: Add and Commit
-        uses: EndBug/add-and-commit@v7
-        with:
-          branch: release/auto_update_data_${{ env.CURRENT_DATETIME }}
-          message: "feat: update lecture data"
-          add: "['output/lecture_codes.json', 'docs/api/v1']"
+        run: |
+          git add .
+          git commit -m "feat: update lecture data"
+          git push origin release/auto_update_data_${{ env.CURRENT_DATETIME }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
