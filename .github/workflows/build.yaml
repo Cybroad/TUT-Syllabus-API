@@ -83,7 +83,10 @@ jobs:
         run: python generate.py --type=lecture_data --department=${{ matrix.type }}
 
       - name: Zip lecture data
-        run: zip -r ${{ matrix.type }}.zip output/${{ matrix.type }}
+        run: |
+          if [ -d output/${{ matrix.type }} ]; then
+            zip -r ${{ matrix.type }}.zip output/${{ matrix.type }}
+          fi
 
       - name: Upload lecture data
         uses: actions/upload-artifact@v4
