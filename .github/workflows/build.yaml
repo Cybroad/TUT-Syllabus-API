@@ -94,7 +94,7 @@ jobs:
         with:
           include-hidden-files: true
           name: lecture_data_${{ matrix.type }}
-          path: ${{ matrix.type }}.zip
+          path: output/${{ matrix.type }}.zip
 
   
   commit_and_create_pr:
