@@ -111,6 +111,9 @@ jobs:
           TZ: 'Asia/Tokyo'
         run: echo "CURRENT_DATETIME=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_ENV
 
+      - name: Change main branch
+        run: git switch main
+
       - name: Create new branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -139,7 +142,7 @@ jobs:
 
       - name: Remove zip files
         run: rm -f *.zip
-        
+
       - name: Check diff
         id: diff
         run: |
