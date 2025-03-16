@@ -13,6 +13,7 @@ permissions:
   actions: write
   checks: write
   contents: write
+  pull-requests: write
 
 jobs:
   fetch_lecture_codes:
@@ -85,7 +86,7 @@ jobs:
       - name: Zip lecture data
         run: |
           if [ -d output/${{ matrix.type }} ]; then
-            zip -r ${{ matrix.type }}.zip output/${{ matrix.type }}
+            cd output && zip -r ${{ matrix.type }}.zip ${{ matrix.type }}
           fi
 
       - name: Upload lecture data
@@ -137,6 +138,9 @@ jobs:
             unzip -o $file -d docs/api/v1/all
           done
 
+      - name: Remove zip files
+        run: rm -f *.zip
+
       - name: Add and Commit
         uses: EndBug/add-and-commit@v7
         with:
@@ -151,9 +155,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "feat: update lecture data"
           title: "講義データの自動更新"
-          body: "3ヶ月事の自動クローリング結果です。/n レビュー担当者は現行シラバスデータを確認し、差分を確認してください。/n ※このプルリクエストは自動生成されています。"
+          body: "3ヶ月事の自動クローリング結果です。レビュー担当者は現行シラバスデータを確認し、差分を確認してください。 ※このプルリクエストは自動生成されています。"
           branch: release/auto_update_data_${{ env.CURRENT_DATETIME }}
           base: main
-          labels: "auto-merge"
           assignees: "6mile0"
           reviewers: "6mile0"
