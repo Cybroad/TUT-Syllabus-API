@@ -130,7 +130,6 @@ jobs:
             unzip -o $file -d docs/api/v1
           done
       
-      # zipを再度展開し、docs/api/v1/allにすべての講義データをまとめる
       - name: Create all lecture data list
         run: |
           mkdir -p docs/api/v1/all
@@ -147,7 +146,6 @@ jobs:
           branch: release/auto_update_data_${{ env.CURRENT_DATETIME }}
           message: "feat: update lecture data"
           add: "['output/lecture_codes.json', 'docs/api/v1']"
-          force: true
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
