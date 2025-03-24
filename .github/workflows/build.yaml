@@ -9,9 +9,6 @@ on:
       - features/changed-to-upload-lecture-data-directly
   workflow_dispatch:
 
-env:
-  departmentList: "BT CS MS ES ESE5 ESE6 ESE7 X1 DS HS HSH1 HSH2 HSH5 HSH6 X3 GF GH"
-
 permissions:
   actions: write
   checks: write
@@ -122,7 +119,7 @@ jobs:
       
       - name: Unzip lecture data (all)
         run: |
-          for file in ${{ env.lecture_data }}; do
+          for file in "BT CS MS ES ESE5 ESE6 ESE7 X1 DS HS HSH1 HSH2 HSH5 HSH6 X3 GF GH"; do
             unzip -o lecture_data_$file.zip -d docs/api/v1/all
             if [ -z "$(ls -A docs/api/v1/all/$file)" ]; then
               mv docs/api/v1/all/$file/* docs/api/v1/all
@@ -132,7 +129,7 @@ jobs:
 
       - name: Unzip lecture data (each)
         run: |
-          for file in ${{ env.lecture_data }}; do
+          for file in "BT CS MS ES ESE5 ESE6 ESE7 X1 DS HS HSH1 HSH2 HSH5 HSH6 X3 GF GH"; do
             unzip -o lecture_data_$file.zip -d docs/api/v1/$file
           done
         
