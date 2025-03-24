@@ -6,7 +6,7 @@
     ],
     "regularOrIntensive": "専門教育科目",
     "courseType": "実験科目",
-    "courseStart": "2024年度後期",
+    "courseStart": "2025年度後期",
     "classPeriod": [
         "他"
     ],
@@ -29,7 +29,7 @@
         "textbook": "卒業課題テーマにより、別途指示する。",
         "referenceMaterials": "卒業課題テーマにより、別途指示する。",
         "courseSchedule": "第1回：卒業課題Iの問題点、解決策の再検討第2～5回：解決手法のハードウェア・ソフトウェア作成、進捗報告会第6～9回：解決手法による結果取得・評価、進捗報告会第10～12回：解決手法の改善、データ整理と結果の可視化、進捗報告会第13回：卒業論文作成第14回：最終発表会",
-        "courseDataUpdatedAt": "2024/01/17"
+        "courseDataUpdatedAt": "2025/01/06"
     },
-    "updateAt": "2024/12/02"
+    "updateAt": "2025/03/21"
 }

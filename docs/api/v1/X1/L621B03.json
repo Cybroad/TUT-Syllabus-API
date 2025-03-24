@@ -2,11 +2,11 @@
     "lectureCode": "L621B03",
     "courseName": "IntegratedEnglishIV[3]BS電電応化",
     "lecturer": [
-        "キャンベル，Ａ(教養学環)"
+        "大塚節生(兼任講師)"
     ],
     "regularOrIntensive": "教養教育科目",
     "courseType": "演習科目",
-    "courseStart": "2024年度後期",
+    "courseStart": "2025年度後期",
     "classPeriod": [
         "月"
     ],
@@ -17,20 +17,20 @@
     ],
     "numberOfCredits": 1,
     "classroom": [
-        "講義棟Ａ２０３"
+        "片柳研究所Ｅ１０３"
     ],
     "courceDetails": {
-        "courseOverview": "授業形態はIntegratedEnglishⅢに準じるが、内容はより程度を高めたものになり、ビジネスや大学院での学びなど実践を想定したより高度な運用能力の習得や、世界の様々な社会と文化をより深く理解するための知識の習得を目指す。また、将来、自発的に英語が学習できるような方法論と動機づけも与える。ThethemeofthiscourseisBritishCulture.Theaimisforstudentstoreachalevelequivalenttoascoreof500-600intheTOEICtest.",
-        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的、抽象的な事柄に関して自らの考えを論理的に組み立て、述べたり書いたりできる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
+        "courseOverview": "授業形態は、IntegratedEnglishIIIに準じるが、内容はより程度を高めたものになり、ビジネスや大学院での学びなど実践を想定したより高度な運用能力の習慣や、世界の様々な社会と文化をより深く理解する為の知識の習得を目指す。また、この授業は中級レベルで、TOEIC500程度を目指す。更に、将来、自発的に英語が学習できるような方法論と動機付けも与える。この授業では、文化についての学習として、「異文化間コミュニケーション」を中心に学んでいく。尚、この科目は前・後期続けて履修することを勧める。",
+        "outcomesMeasuredBy": "1.語彙力を強化する。2．具体的、抽象的な事柄に関して自らの考えを論理的に組み立て、述べたり書いたりできる。3．批評的思考（クリティカル・シンキング）によって、分析・評価ができる。4．グローバル時代に必要な国際的な教養を身につける。",
         "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
-        "teachingMethod": "Thecourseisconductedin-person.Itaimstobuildstudents'knowledgeofvocabularythroughreadingavarietyoftexts.Listeningskillsaredevelopedthroughwatchingonlinevideoclips.Studentsareexpectedtoparticipateactively,forexample,bytakingpartinpairworkorgroupdiscussion,andbyaskingquestions.Computers(plusheadphones/earphones)arerequiredineverylesson.Feedbackonquizzes,assignmentsetcisgiventostudentsviaweb-basedtools,viapaperordirectlybytheinstructor.",
-        "notices": "Studentsareaskedtobringthetextbooktoeachclass.",
-        "preparatoryStudy": "Studentsareexpectedtopreparefortheweeklylesson,reviewthematerialsaftertheclass,andstorenewvocabularyitemsinQuizlet.",
-        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
-        "textbook": "TimKnight著;WelcometoBritain(RevisedEdition);音羽書房鶴見書店;ISBN：978-4-7553-0383-8;1980円",
-        "referenceMaterials": "Relevantreferencematerialsareprovidedonthecoursehomepage.",
-        "courseSchedule": "第1回：CourseOrientation/CountiesofEngland第2回：FoodandDrink(1)第3回：FoodandDrink(2)第4回：MusicandFashion(1)第5回：MusicandFashion(2)第6回：TheArts(1)第7回：TheArts(2)第8回：TheArts(3)第9回：FantasyandCastles(1)第10回：FantasyandCastles(2)第11回：Science,InventionsandBusiness第12回：Homes,GardensandtheCountryside(1)第13回：Homes,GardensandtheCountryside(2)/CourseReview第14回：CourseReview/AchievementCheck",
-        "courseDataUpdatedAt": "2024/01/28"
+        "teachingMethod": "毎回の授業で教科書の1つのユニットに取り組む。予習したVocabularyCheckSheetの答え合わせをして、語彙の意味を確認し、リスニングの練習問題を解いて答え合わせをする。ノートPCは指示があるときのみ使用する。また、内容についてグループ・ディスカッションを行う。小テストや課題へのフィード・バックは授業内で随時行う。",
+        "notices": "毎回の授業では、教科書の問題を解くので、教科書を必ず持って来ること。また、知らない単語の意味を調べる為に、辞書も持って来ること。",
+        "preparatoryStudy": "予習課題として、VocabularyCheckSheetを出す。授業前に問題を解いておくこと（30分程度）。指定されたオンライン・ワークブックの復習課題に取り組んで提出すること（30分程度）。到達度確認チェックのある授業の前は、チェック範囲内すべてのVocabularyCheckSheetを復習しておくこと。",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループ・ワークやペア・ワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。課題に対するフィード・バックは授業時間内、あるいはMoodleなどを通じて随時行う。",
+        "textbook": "McConachy,Troy他著;InterculturalCommunictionforEnglishLanguageLearnersinJapan;NAN'UN-DO;ISBN978-4-523-17846-0CCOO82;2,420円",
+        "referenceMaterials": "授業内で、適宣指示する。",
+        "courseSchedule": "第1回：ガイダンス第2回：SpeechActsacrossCultures(Part1)第3回：SpeechActsacrossCultures(Part2)第4回：StereotypesandInterculturalCommunication(Part1)第5回：StereotypesandInterculturalCommunication(Part2)第6回：CulturalAccommodationinInterculturalCommunication(Part1)第7回：CulturalAccommodationinInterculturalCommunication(Part2)第8回：課題点第9回：StudyAbroadandInterculturalAdaptation(Part1)第10回：StudyAbroadandInterculturalAdaptation(Part2)第11回：InterculturalCompetencefortheFuture(Part1)第12回：InterculturalCompetenecefortheFuture(Part2)第13回：達成度確認チェック第14回：まとめ",
+        "courseDataUpdatedAt": "2025/03/19"
     },
-    "updateAt": "2024/12/09"
+    "updateAt": "2025/03/21"
 }

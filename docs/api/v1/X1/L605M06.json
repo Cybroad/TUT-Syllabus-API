@@ -1,12 +1,13 @@
 {
     "lectureCode": "L605M06",
-    "courseName": "IntegratedEnglishI[A6]MS火1",
+    "courseName": "IntegratedEnglishI[6]MS火1",
     "lecturer": [
-        "吉原学(兼任講師)"
+        "アシュウィン",
+        "Ｃ(兼任講師)"
     ],
-    "regularOrIntensive": "教養教育科目",
+    "regularOrIntensive": "実学基礎科目",
     "courseType": "演習科目",
-    "courseStart": "2024年度前期",
+    "courseStart": "2025年度前期",
     "classPeriod": [
         "火"
     ],
@@ -18,20 +19,20 @@
     ],
     "numberOfCredits": 1,
     "classroom": [
-        "講義実験棟３０３"
+        "講義棟Ａ２０３"
     ],
     "courceDetails": {
-        "courseOverview": "１年次の学習を総合して、より高度な英語の運用能力の向上をめざす。英語ネイティブスピーカーによるCommunicationskillsの向上、学際的な内容を扱うAcademicEnglish、グローバル時代の国際理解に必要な文化と社会に関する知識の修得をめざすCulturalStudies、TOEICやビジネス英語を扱うBusiness/TOEICなどを通じて、学生の興味・関心や進路に即したより高度な英語力の修得をめざす。この授業では、TOEIC500－600点レベルの到達を目標とする。「交通、食べ物、ビジネス、情報、案内、医療、文化、買い物、運動」などのテーマから、TOEICに必要な知識やスキルを学び、かつテーマごとに出てくる重要な語彙・表現、文法事項を学び英語力を総合的に強化していく。なお、この科目は前・後期続けて履修することをすすめる。",
-        "outcomesMeasuredBy": "本科目では、本学のラーニング・アウトカムズのうち・国際的な教養・実学に基づく専門能力・コミュニケーション能力・論理的な思考力・分析・評価能力・問題解決力の習得を目指し、以下を到達目標とする。１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養を身につける。",
-        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
-        "teachingMethod": "毎回の授業で教科書の1つのユニットに取り組む。予習したVocabularyの確認し、テキストの構成に基づいて、授業を展開する。授業中、適宜PCを活用して授業を行う。また、練習問題の内容に応じて、ペア・グループディスカッションを行う。",
-        "notices": "毎回の授業で、教科書の問題を解くので、教科書を必ず持ってくること。また、オンライン辞書等使用して学ぶため、毎回PCを持ってくるようにしてください。",
-        "preparatoryStudy": "予習・復習を十分に行うこと。特にPart5の問題及びVocabularyの確認をプリント、GoogleForms等を利用して行う。また、各Unitが完了後、語彙の定着テストを行うため、その準備を行う。予習・復習を合わせて、約1時間の学習となる。",
-        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
-        "textbook": "北山長貴/BillBenfield/MonyTavakoli著;START-UPCOURSEFORTHETOEIC®L&RTEST–RevisedEdition–;Seibido;ISBN9784791934201;2,310円",
-        "referenceMaterials": "授業内で適宜指示する。",
-        "courseSchedule": "第1回：Guidance第2回：Unit1第3回：VocabularyReviewQuizforUnit1&Unit2第4回：VocabularyReviewQuizforUnit2&Unit3第5回：VocabularyReviewQuizforUnit3&Unit4第6回：VocabularyReviewQuizforUnit4&Unit5第7回：VocabularyReviewQuizforUnit5&Unit6第8回：VocabularyReviewQuizforUnit6&Unit7第9回：VocabularyReviewQuizforUnit7&Unit8第10回：VocabularyReviewQuizforUnit8&Unit9第11回：VocabularyReviewQuizforUnit9&Unit10第12回：VocabularyReviewQuizforUnit10&Unit11第13回：VocabularyReviewQuizforUnit11&Unit12第14回：VocabularyReviewQuizforUnit12&OverallReview",
-        "courseDataUpdatedAt": "2024/01/25"
+        "courseOverview": "１年次の学習を総合して、より高度な英語の運用能力の向上をめざす。英語ネイティブスピーカーによるCommunicationskillsの向上、学際的な内容を扱うAcademicEnglish、グローバル時代の国際理解に必要な文化と社会に関する知識の修得をめざすCulturalStudies、TOEICやビジネス英語扱うBusiness/TOEICなどを通じて、学生の興味・関心や進路に即したより高度な英語力の修得をめざす。この授業では、英語のみの環境で今まで学んだ英語の知識を活用し、一般的な話題に関する自分の意見や考えをわかりやすく説明したり、問題解決に向けて多様な考えに触れながら、活発に意見交換をし、実践的な英語コミュニケーション能力を高める。また、自信を持って英語でのプレゼンテーションを行うため、英語表現力をより一層伸ばす。前期と後期を通して完結する科目であるため、通年で履修することが望ましい。",
+        "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
+        "learningOutcomes": "国際的な教養コミュニケーション能力論理的な思考力分析・評価能力",
+        "teachingMethod": "授業への参加と宿題への取り組みが必要。授業は教科書や補助教材を使い、英語を母語とするネイティブ講師により英語のみで行われる。日本語による私語は厳禁である。学生には、授業への英語による積極的な参加を求め、学生自らの主体的な学び（アクティブラーニング）を促す。会話練習にはペアワークやグループワークを多く取り入れる。授業内では、基本的にはノートPCは利用しないが、予め指示があった場合は、ノートPCやイヤフォン・ヘッドフォンを持参し、利用のこと。",
+        "notices": "・指定されたクラスで授業に参加すること。・宿題は期限内に提出すること。・遅刻・欠席は厳禁。・配慮検討の対象を満たす欠席の場合は、その証明となるものを添付し所定の欠席届を提出のこと。(詳細は、授業初回にて説明予定)。",
+        "preparatoryStudy": "課された宿題を実施した上で授業に臨むこと(授業ではその振り返りや応用する実践的な練習を行う)。次回の授業に備え、授業中は学んだ英語表現をノートに記録し、授業後に復習すること。授業で学んだ語彙や表現を実際に使い、積極的に英語を使うこと。Studentswillberequiredtoprepareforclass,reviewanddoresearchandhomeworkathome.Preparation(about15minutesreading,listeningandstudyofvocabulary),reviewandhomework(about25minutes)andresearch(about20minutes).",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。課題に関するフィードバックは、口頭、オンライン掲示、または紙上のいずれかで学生に提供される。",
+        "textbook": "MarcHelgesen他著;EnglishFirsthand2(5thEdition)StudentBookwithMyMobileWorld;Pearson;ISBN9789813132788;3,300円(税別)",
+        "referenceMaterials": "必要に応じて授業内で紹介する。",
+        "courseSchedule": "第1回：自己紹介、英会話のストラテジーについて第2回：Unit1自分史第3回：Unit2感情表現第4回：Unit3場所の比較と描写第5回：Unit4嗜好(1)第6回：Unit4嗜好(2)第7回：復習、学習理解度の確認第8回：PresentationSkillsを学ぶ第9回：Unit5謝罪と理由第10回：Unit5物の貸し借り第11回：PresentationSkillsの練習第12回：Unit6自国文化第13回：Presentation発表(1)第14回：Presentation発表(2)",
+        "courseDataUpdatedAt": "2025/01/23"
     },
-    "updateAt": "2024/12/09"
+    "updateAt": "2025/03/21"
 }

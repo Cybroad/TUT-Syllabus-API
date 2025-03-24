@@ -6,7 +6,7 @@
     ],
     "regularOrIntensive": "専門教育科目",
     "courseType": "講義科目",
-    "courseStart": "2024年度前期",
+    "courseStart": "2025年度前期",
     "classPeriod": [
         "火2"
     ],
@@ -18,7 +18,7 @@
     ],
     "numberOfCredits": 2,
     "classroom": [
-        "講義実験棟４０１"
+        "講義実験棟４０２"
     ],
     "courceDetails": {
         "courseOverview": "CTスキャンにより，体内情報がビジュアル的にわかり，病気が容易に診断できるようになり，いまでは欠かせない技術となっている。それを実現するために，放射線で人体を走査し，人体の内部画像を構築する技術は必要であり，それを支えるのはフーリエ変換である。フーリエ変換は，時間に関する波形ではわからないその周波数特徴がはっきり見えるための数学的手法であり，応用解析手法として，機械工学や電気・電子工学における信号処理やシステムの解析に欠かせないものとなっている。本講義は，工学応用の立場からその変換の考え方を解説し，複素正弦波とオイラの公式，フーリエ級数，フーリエ変換，高速フーリエ変換（FFT），周波数特性などを扱い，さらに，それの工学分野の応用例を紹介する。この講義を履修することにより，信号処理の基本を理解し，周波数特性を調べる能力が身につく。なお，本講義は英語テキストを使うが，テキストは高校レベルの優しい英語で書かれたものであり，TOEIC受験にも役立つ。",
@@ -28,10 +28,10 @@
         "notices": "遅刻せずに授業に出席すること。また，授業の内容について，必ず教材を読み，予習・復習を十分に行うこと。授業にMATLABを用いて演習を行うので，PCは必携である。なお，英語のビデオを見て理解するので，自宅での学習は必須である。",
         "preparatoryStudy": "フーリエ級数を復習しておくことが望ましい。また，授業の予習・復習をすることが必要である（予習復習時間の目途：６０分程度）。",
         "gradingGuidelines": "数回のレポート（40％）と段階テスト（50％）に加えて，授業態度（10％）も加味して評価を行う。段階テストは筆記用具，電卓とものさしだけ持込可である。",
-        "textbook": "英語で学ぶフーリエ解析とその応用（IntroductiontoFourierAnalysisandItsApplications），佘・宮本・川田共著，コロナ社，ISBN978-4-339-06127-7,2600円。",
+        "textbook": "英語で学ぶフーリエ解析とその応用（IntroductiontoFourierAnalysisandItsApplications），佘・宮本・川田共著，コロナ社，2023年4月，ISBN978-4-339-06127-7,2860円（税込み）。",
         "referenceMaterials": "英語と日本語の参考書は多数あるので，自らの能力に適した参考書を自ら探し出すこと。",
         "courseSchedule": "第1回:Orientationofthiscourse第2回:OverviewofFourierAnalysis第3回:MathematicalFundamentalsforFourierAnalysis第4回:FourierSeries第5回:FourierTransform第6回:Usefulpropertiesandtheorems第7回:Summarizationof1-6第8回:SignalSamplingandReconstruction第9回:DiscreteFourierTransformandFastFourierTransform第10回:MATLABandFouriertransforms第11回:ApplicationstoEngineeringProblems第12回:ApplicationtoMathematicalProblemsinEngineering第13回:Multi-DimensionalFourierTransform第14回:Summarizationof8-13",
-        "courseDataUpdatedAt": "2024\/02\/06"
+        "courseDataUpdatedAt": "2025/02/05"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2025/03/21"
 }

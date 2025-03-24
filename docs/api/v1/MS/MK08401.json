@@ -6,16 +6,14 @@
     ],
     "regularOrIntensive": "専門基礎教育科目",
     "courseType": "講義科目",
-    "courseStart": "2024年度後期",
+    "courseStart": "2025年度後期",
     "classPeriod": [
-        "木3"
+        "金4"
     ],
     "targetDepartment": "メディア学部メディア学科",
     "targetGrade": [
         "1年",
-        "2年",
-        "3年",
-        "4年"
+        "2年"
     ],
     "numberOfCredits": 1,
     "classroom": [
@@ -32,7 +30,7 @@
         "textbook": "特になし",
         "referenceMaterials": "ケイシー・リース,ベン・フライ著「Processingをはじめよう」(オライリー・ジャパン)近藤邦雄,田所淳編「ProcessingによるCGとメディアアート」(講談社)",
         "courseSchedule": "第1回：講義概要（講義の進め方、プログラミングとは）第2回：プログラムが動くまで（コンパイラ、インタプリタ）第3回：変数と演算子（データ型、スコープ）第4回：制御構造（繰り返し、条件分岐）第5回：関数（引数と返り値、値渡しと参照渡し）第6回：配列（メモリ構造、多次元配列）第7回：まとめ（基本的なプログラミング、理解度チェック）",
-        "courseDataUpdatedAt": "2024/02/07"
+        "courseDataUpdatedAt": "2025/01/08"
     },
-    "updateAt": "2024/12/13"
+    "updateAt": "2025/03/21"
 }

@@ -6,7 +6,7 @@
     ],
     "regularOrIntensive": "専門教育科目",
     "courseType": "演習科目",
-    "courseStart": "2024年度後期",
+    "courseStart": "2025年度後期",
     "classPeriod": [
         "他"
     ],
@@ -29,7 +29,7 @@
         "textbook": "（オンラインのシステムを活用）",
         "referenceMaterials": "『Unityではじめるおもしろプログラミング入門』（リックテレコム）ほか適宜、講義内にて紹介する。",
         "courseSchedule": "第1回：ガイダンス及びソフトウェア等の設定第2回：Unity及びプログラミングの基礎（1）第3回：Unity及びプログラミングの基礎（2）第4回：Unity及びプログラミングの基礎（3）第5回：Unity及びプログラミングの基礎（4）第6回：Unityを使ったARプロジェクトの作成方法（1）第7回：Unityを使ったARプロジェクトの作成方法（2）第8回：Unityを使ったARプロジェクトの作成方法（3）第9回：ARの活用事例（1）第10回：ARの活用事例（2）第11回：ARプロジェクト制作（1）第12回：ARプロジェクト制作（2）第13回：ARプロジェクト制作（3）第14回：制作発表",
-        "courseDataUpdatedAt": "2024/01/30"
+        "courseDataUpdatedAt": "2025/01/06"
     },
-    "updateAt": "2024/12/13"
+    "updateAt": "2025/03/21"
 }
