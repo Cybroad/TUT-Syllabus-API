@@ -4,13 +4,13 @@
     "lecturer": [
         "三部祐治(兼任講師)"
     ],
-    "regularOrIntensive": "教養教育科目",
+    "regularOrIntensive": "実学基礎科目",
     "courseType": "演習科目",
-    "courseStart": "2024年度後期",
+    "courseStart": "2025年度後期",
     "classPeriod": [
         "月2"
     ],
-    "targetDepartment": "応用生物学部,工学部電気電子工学科,工学部応用化学科",
+    "targetDepartment": "応用生物学部応用生物学科,工学部電気電子工学科,工学部応用化学科",
     "targetGrade": [
         "2年",
         "3年",
@@ -18,20 +18,20 @@
     ],
     "numberOfCredits": 1,
     "classroom": [
-        "片柳研究所Ｅ１０３"
+        "講義棟Ａ２０３"
     ],
     "courceDetails": {
-        "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養、ビジネス英語のさらなる修得をめざす。この科目はfictionを扱う。現代アメリカの日系人と先住民の作家２名(HisayeYamamotoandLeslieMarmonSilko)の小説の抜粋を読み、演習問題に取り組んでいく。到達目標水準は、TOEICの450-550点である。なお、この科目は前・後期続けて履修することをすすめる。",
+        "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養、ビジネス英語のさらなる修得をめざす。この科目はfictionを扱う。19世紀から20世紀初頭のアメリカ作家(HenryJames,CharlotteGilman,SherwoodAnderson,andLouisaMayAlcott)の小説の抜粋を読み、演習問題に取り組んでいく。到達目標水準は、TOEICの450-550点である。なお、この科目は前・後期続けて履修することをすすめる。",
         "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
-        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
-        "teachingMethod": "１つの章を３回の授業にわたって扱う。まず、学生は、小説の個々の英文の構造を確認しながら、和訳していく。そして後に続く語彙と語法と内容に関する演習問題に取り組む。こうしたアクティブ・ラーニング形式で授業が行われる。更に、小説が扱っている問題について、四人一組でグループ・ディスカッションも行う。なお、担当教員は、予習確認(preparationcheck)を毎回行い、課題のフィードバックも随時授業内で行う。ノートＰＣは指示があるときのみ使用する。",
+        "learningOutcomes": "国際的な教養コミュニケーション能力論理的な思考力分析・評価能力",
+        "teachingMethod": "１つの章を約３回の授業にわたって扱う。まず、学生は、小説の個々の英文の構造を確認しながら、和訳していく。そして後に続く語彙と語法と内容に関する演習問題に取り組む。こうしたアクティブ・ラーニング形式で授業が行われる。更に、小説が扱っている問題について、四人一組でグループ・ディスカッションも行う。なお、担当教員は、予習確認(preparationcheck)を毎回行い、課題のフィードバックも随時授業内あるいはMoodleなどで行う。ノートＰＣは指示があるときのみ使用する。",
         "notices": "毎回、教科書を読んでいくので、教科書を必ず持ってくること。また、重要単熟語の意味を確認するため、辞書も持ってくること。",
         "preparatoryStudy": "予習・復習を十分に行わなくてはならない。その授業で扱われる文章の知らない単熟語の意味をあらかじめ調べておくこと（20分程度)。文構造を確認しながら文章を精読しておくこと(40分程度)。",
-        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
-        "textbook": "HironoriHayaseandRieEgashira著;Let'sLearnEnglishfromAmericanLiteratureII;Eihosha;ISBN978-4-629-03013-8;1900円",
-        "referenceMaterials": "授業内で適宜指示する。",
-        "courseSchedule": "第1回：Guidance第2回：Chapter9&PreparationCheck1第3回：Chapter9&PreparationCheck2第4回：Chapter9&PreparationCheck3第5回：Chapter10&PreparationCheck4第6回：Chapter10&PreparationCheck5第7回：Chapter10&PreparationCheck6第8回：Chapter11&PreparationCheck7第9回：Chapter11&PreparationCheck8第10回：Chapter11&PreparationCheck9第11回：Chapter12&PreparationCheck10第12回：Chapter12&PreparationCheck11第13回：Chapter12&PreparationCheck12第14回：AchievementCheckandExplanation",
-        "courseDataUpdatedAt": "2024/01/20"
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。課題に対するフィードバックは授業時間内、あるいはMoodleなどを通じて随時行う。",
+        "textbook": "HironoriHayaseandRieEgashira著;Let'sLearnEnglishfromAmericanLiterature;Eihosha;ISBN978-4-269-03012-1;1900円",
+        "referenceMaterials": "授業内で適宜指示する",
+        "courseSchedule": "第1回：Guidance第2回：Chapter3&PreparationCheck1第3回：Chapter3&PreparationCheck2第4回：Chapter3&PreparationCheck3第5回：Chapter4&PreparationCheck4第6回：Chapter4&PreparationCheck5第7回：Chapter4&PreparationCheck6第8回：Chapter2&PreparationCheck7第9回：Chapter2&PreparationCheck8第10回：Chapter2&PreparationCheck9第11回：Chapter1&PreparationCheck10第12回：Chapter1&PreparationCheck11第13回：Chapter1&PreparationCheck12第14回：AchievementCheckandExplanation",
+        "courseDataUpdatedAt": "2025/01/17"
     },
-    "updateAt": "2024/12/09"
+    "updateAt": "2025/03/21"
 }

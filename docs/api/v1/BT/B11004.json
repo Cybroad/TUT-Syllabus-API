@@ -6,7 +6,7 @@
     ],
     "regularOrIntensive": "専門基礎教育科目",
     "courseType": "演習科目",
-    "courseStart": "2024年度前期",
+    "courseStart": "2025年度前期",
     "classPeriod": [
         "月4",
         "月5"
@@ -33,7 +33,7 @@
         "textbook": "なし(授業で、次回分のプリントを配付する)",
         "referenceMaterials": "これでわかる化学（三共出版）これでわかる化学演習（三共出版）",
         "courseSchedule": "第1回:ガイダンス／有効数字と単位第2回:原子量・分子量・式量第3回:物質量第4回:気体の状態方程式第5回:溶解度第6回:濃度第7回:酸塩基とpH第8回:到達度の確認第9回:物質量第10回:気体の状態方程式第11回:溶解度第12回:濃度第13回:酸塩基とpH第14回:到達度の確認",
-        "courseDataUpdatedAt": "2024/02/14"
+        "courseDataUpdatedAt": "2025/02/20"
     },
-    "updateAt": "2024/09/13"
+    "updateAt": "2025/03/21"
 }

@@ -2,15 +2,15 @@
     "lectureCode": "L606B11",
     "courseName": "IntegratedEnglishII[11]BS電電応化",
     "lecturer": [
-        "楠元洋子(教養学環)"
+        "浦聡美(兼任講師)"
     ],
-    "regularOrIntensive": "教養教育科目",
+    "regularOrIntensive": "実学基礎科目",
     "courseType": "演習科目",
-    "courseStart": "2024年度後期",
+    "courseStart": "2025年度後期",
     "classPeriod": [
         "月2"
     ],
-    "targetDepartment": "応用生物学部,工学部電気電子工学科,工学部応用化学科",
+    "targetDepartment": "応用生物学部応用生物学科,工学部電気電子工学科,工学部応用化学科",
     "targetGrade": [
         "2年",
         "3年",
@@ -18,20 +18,20 @@
     ],
     "numberOfCredits": 1,
     "classroom": [
-        "講義実験棟３０３"
+        "講義棟Ａ２０２"
     ],
     "courceDetails": {
-        "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養、ビジネス英語のさらなる修得をめざす。この授業では、TOEIC入門書を用い、TOEICを受験したことがない、またはTOEICについてあまり知らない学生を対象とし、リスニング、文法、長文読解の基礎を学ぶ。1年次のAcademicEnglishのクラス番号5,6（A5、B6など）の英語初級者向けで、12月に実施されるTOEICIPテストで400点を目指す。授業は基本的にすべて英語で行い、前期・後期続けての履修を推奨する。",
+        "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養、ビジネス英語のさらなる修得をめざす。この授業ではTOEICの教材を用いて主にリスニング力、リーディング力を鍛え、TOEIC400～500レベルの到達に必要な知識を身につける。なお、この科目は前・後期続けて履修することを推奨する。",
         "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
-        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
-        "teachingMethod": "2回の授業で教科書の1つのユニットに取り組む。第1週の授業では、授業の始めに予習したVocabularyの小テストを行い、Readingsectionの練習問題に取り組む。第2週の授業では、前回の復習テストとしてGrammar小テストを行った後Listeningsectionの練習問題に取り組む。練習問題の解答・解説は、必要に応じてクラス全体に解説するが、教員が全問題の答え合わせ・解説をするのではなく、学生主体でペアワークやグループディスカッションなどの活動を中心に展開していく。また各Unitで取り上げるリスニング・ストラテジーや文法事項をアクティビティーを通して理解を深め定着を図る。小テストや予習・復習課題、タスクへのフィードバックはGoogleClassroom上および授業中に随時行う。ノートPCは指示のある時のみ使用するが、毎回の授業に持ってくること。授業は基本的にすべて英語で行う。",
-        "notices": "・この科目は英語初級者（A5やB6など、AcademicEnglishクラス番号5,6）向けである。・前・後期続けて履修することをすすめる。・授業は全回出席が基本である。・授業は基本的にすべて英語で行う。・授業には必ず予習・復習をしてのぞむこと（単語小テスト・文法小テスト・オリジナル文法解説書の作成）。・毎回の授業には教科書、ノート、ノートPC、イヤホンを持参すること。・課題の提出の遅延、未提出は減点の対象になる。必ず提出期限を守ること。・協同学修を取り入れた授業形態であるため、授業への積極的な参加が求められる。・疑問点は遠慮せずに質問し、わからないままにしないこと。",
-        "preparatoryStudy": "予習・復習を十分（1-2時間）行うこと。各Unit１ページ目のVocabularyは授業の始めに小テストを実施するので、GoogleClassroomに配布される補足のVocabularylistと合わせて、しっかり意味を調べて覚えてくること（30-60分）。Part5&6は復習として、オリジナル文法解説書をノートに作り、翌週のGrammar小テストの準備をすること（60分程度）。",
-        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
-        "textbook": "ChizukoTsumatori&MasumiTahira著;FirstTimeTrainerfortheTOEICTest;CengageLearning;ISBN978-4-86312-293-2;2,000円",
-        "referenceMaterials": "適宜指示する。",
-        "courseSchedule": "第1回：オリエンテーション&Unit7-VocabularyQuiz&ReadingSection第2回：Unit7-GrammarQuiz&ListeningSection第3回：Unit8-VocabularyQuiz&ReadingSection第4回：Unit8-GrammarQuiz&ListeningSection第5回：Unit9-VocabularyQuiz&ReadingSection第6回：Unit9-GrammarQuiz&ListeningSection第7回：Unit10-VocabularyQuiz&ReadingSection第8回：Unit10-GrammarQuiz&ListeningSection第9回：Unit11-VocabularyQuiz&ReadingSection第10回：Unit11-GrammarQuiz&ListeningSection第11回：Unit12-VocabularyQuiz&ReadingSection第12回：Unit12-GrammarQuiz&ListeningSection第13回：到達度チェック第14回：アクティビティ&総まとめ",
-        "courseDataUpdatedAt": "2024/01/09"
+        "learningOutcomes": "国際的な教養コミュニケーション能力論理的な思考力分析・評価能力",
+        "teachingMethod": "毎回の授業で教科書の1つ分のユニットを学習する。Vocabulary,Listening,Grammarの基本問題を予習して授業に参加すること。授業で学習したVocabulary,Grammarの要点は次の授業で習熟状況を確認するための単語checkを行う。また、アクティブラーニングの手法を用いて、①TOEICで出題される読解問題の文書（パッセージ）についてペアまたはグループディスカッションを行う。②(課題を担当する週/学期に1度）各自予習した英文法のポイントについてグループ内で文法レッスンをする課題がある。③（課題を担当する週/学期に１度）各自で企業情報をリサーチし、事業内容を英語で説明する課題がある。ノートPCは指示があるときのみ使用する。",
+        "notices": "毎回の授業では教科書の問題を解くので、教科書を必ず持ってくること。また知らない単語の意味を調べるために、辞書をもってくること。",
+        "preparatoryStudy": "【予習】課題として伝えられた教科書の問題を解いておくこと、Vocabularycheck課題に取り組んで提出すること(30分程度）。文法ポイントレッスン（グループ活動）や応用課題である企業リサーチを担当する際は事前の準備が求められる。グループ活動の状況によってはプレゼンテーションになる可能性もある。【復習】学習した語彙や文法の要点を復習すること（30分程度）。復習箇所の確認を毎回の授業で行う。到達度確認チェックの前には、チェック範囲内のすべてのVocabularyCheck課題を復習しておくこと。",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。課題に対するフィードバックは授業時間内、あるいはMoodleなどを通じて随時行う。",
+        "textbook": "MasahikoYamaguchi,GeorgeW.Pifer著;TheTOEICTestTrainerTarget470[Revised];CengageLearning;ISBN978-4-86312-260-4;2100円（税別）",
+        "referenceMaterials": "授業内で適宜指示する。",
+        "courseSchedule": "第1回：ガイダンスレベルチェックUnit1第2回：Unit2第3回：Unit3第4回：Unit4第5回：Unit5第6回：Unit6第7回：到達度確認チェック第8回：Unit7第9回：Unit8第10回：Unit9第11回：Unit10第12回：Unit11第13回：Unit12第14回：Review&到達度確認チェック★各回単語checkを実施する。",
+        "courseDataUpdatedAt": "2025/01/22"
     },
-    "updateAt": "2024/12/09"
+    "updateAt": "2025/03/21"
 }

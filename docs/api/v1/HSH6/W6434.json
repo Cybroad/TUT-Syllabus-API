@@ -6,9 +6,9 @@
     ],
     "regularOrIntensive": "専門科目",
     "courseType": "講義科目",
-    "courseStart": "2024年度後期",
+    "courseStart": "2025年度後期",
     "classPeriod": [
-        "火2"
+        "火4"
     ],
     "targetDepartment": "医療保健学部",
     "targetGrade": [
@@ -30,7 +30,7 @@
         "textbook": "なし",
         "referenceMaterials": "国際リハビリテーション学〜国境を越えるPT・OT・ST(PT・OTビジュアルテキスト)羊土社",
         "courseSchedule": "第1回：ＳＤＧｓとは第2回：WFOTの活動第3回：世界の作業療法1第4回：世界の作業療法2第5回：国際協力活動第6回：海外で働くには1第7回：国際学会発表第8回：まとめ、グローバルマインドセット、culturalcompetency",
-        "courseDataUpdatedAt": "2024/03/06"
+        "courseDataUpdatedAt": "2025/01/10"
     },
-    "updateAt": "2024/12/09"
+    "updateAt": "2025/03/21"
 }

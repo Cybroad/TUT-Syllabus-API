@@ -2,13 +2,13 @@
     "lectureCode": "L606M01",
     "courseName": "IntegratedEnglishII[1]MS火1",
     "lecturer": [
-        "小林素羅"
+        "小林素羅(兼任講師)"
     ],
-    "regularOrIntensive": "教養教育科目",
+    "regularOrIntensive": "実学基礎科目",
     "courseType": "演習科目",
-    "courseStart": "2024年度後期",
+    "courseStart": "2025年度後期",
     "classPeriod": [
-        "火1"
+        "火"
     ],
     "targetDepartment": "メディア学部メディア学科",
     "targetGrade": [
@@ -23,15 +23,15 @@
     "courceDetails": {
         "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養、ビジネス英語のさらなる修得をめざす。教科書内の英文に加えて授業のテーマ(CurrentAffairs)に関連する新聞記事等を紹介します。記事を題材に読解および要約のための言語活動により総合的な言語運用能力向上をはかります。TOEIC600点への到達を目指して授業を行う。この科目は前・後期続けて履修することを推奨する。",
         "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
-        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
-        "teachingMethod": "教科書のUnitに沿って進めます。教科書内の英文に加えて、リーディング/ライティングの課題では比較的最近のもので、話題になりやすそうな記事を教師が選出します。授業においてこれらの新聞記事を紹介し、読解および要約のための言語活動により総合的な言語運用能力向上をはかります。授業中の問題演習は個人での取り組み、ペアおよびグループでの会話やディカッション、プレゼンテーションなどです。文法事項は必要であれば確認します。授業中の言語活動で適宜フィードバック(口頭/記述)します。※GoogleClassroom/Moodleで、課題やコメント等を確認してください。",
-        "notices": "・授業に毎回出席し、積極的に言語活動（個人での取り組み、ペアワーク、グループディスカッション、プレゼンテーションなど）に取り組んでください。・ノート、筆記用具、教科書、辞書/電子辞書を持参してください。・授業には必ず予習をしてのぞむこと。・期限を守って課題を提出しましょう。・授業で扱わない課題にも授業外で積極的に取り組みましょう。・リスニング、リーディングのトレーニング、要約練習を毎日続けてください。・授業中のエチケットやマナーを守って受講してください。・わからない箇所についてはひとりで悩まずに、学生同士確認し、教え合い学び合う学習スタイルを構築してください。また、ひとりで困っているようにみえたら声をかけてあげてください。調べた上で質問してください。",
-        "preparatoryStudy": "各ユニットの語彙、文法事項を授業前に確認してください。授業中にVocabularyCheck及びGrammarCheckを適宜実施します。各ユニットの語彙、文法事項を授業後にも確認してください。",
-        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "learningOutcomes": "国際的な教養コミュニケーション能力論理的な思考力分析・評価能力",
+        "teachingMethod": "Intheclassroomwewillfocusonlisteningandspeakingactivities,whilehomeworkandassignmentswillgivestudentsachancetodeveloptheirreadingandwritingskills.Classroomactivitieswillbebasedonthecurrentaffairs-relatedmaterialinthetextbook.Wewillbeadoptingan'activelearning'approachinthisclass,andstudentswillbeaskedtoworkindividually,inpairsoringroups.Forthereading/writinghomework,morerecentnewsarticleswillbeselectedbytheteacher.Newvocabularywillbelearnedandoldvocabularyreviewed.Grammarwillberevisedwhennecessary.Feedbackwillbegivenforallclassactivities,eitherorallyorinwrittenformat(ex.viaMoodle).PCsareamust!",
+        "notices": "Havethetextbookwithyouforeveryclass.Agooddictionarywillbeuseful.Pleasetakenotesduringtheclass,andparticipateactivelybytakingpartinallactivitiesandaskingquestionswhenyoudonotunderstandsomething.この科目は前・後期続けて履修することをおすすめします。",
+        "preparatoryStudy": "予習（120分程度）：各ユニットの語彙、文法事項を授業前に確認してください。授業中にVocabularyCheck及びGrammarCheckを適宜実施します。復習（120分程度）：既習の語彙、文法事項を授業後に確認してください。",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。課題に対するフィードバックは授業時間内、あるいはMoodleなどを通じて随時行う。",
         "textbook": "StephanieDiamond-Bayir,KimberleyRussell,andChrisSowton;UnlockSecondEditionListening,Speaking&CriticalThinking-Level2(Student'sBookwithDigitalPack);CambridgeUniversityPress;ISBN-13978-1009031462;3630円w/tax",
-        "referenceMaterials": "必要に応じて授業中に紹介します。",
-        "courseSchedule": "第1回：オリエンテーション第2回：Unit５SportsandCompetition第3回：Unit５SportsandCompetition第4回：Unit５SportsandCompetition第5回：Unit６Business第6回：Unit６Business第7回：Unit６Business第8回：到達度確認問題①、Unit７People第9回：Unit７People第10回：Unit７People第11回：Unit８TheUniverse第12回：Unit８TheUniverse第13回：Unit８TheUniverse第14回：到達度確認問題②",
-        "courseDataUpdatedAt": "2024/07/29"
+        "referenceMaterials": "Referenceswillbeprovidedinlessonswhennecessary.",
+        "courseSchedule": "第1回：Re-orientation,Unit5SportsandCompetition第2回：Unit5-SportsandCompetition第3回：Unit5-SportsandCompetition第4回：Unit6-Business第5回：Unit6-Business第6回：Unit6-Business第7回：Mid-courseReview第8回：Unit7-People第9回：Unit7-People第10回：Unit7-People第11回：Unit8-TheUniverse第12回：Unit8-TheUniverse第13回：Unit8-TheUniverse第14回：FinalAchievementCheck",
+        "courseDataUpdatedAt": "2025/01/20"
     },
-    "updateAt": "2024/12/09"
+    "updateAt": "2025/03/21"
 }

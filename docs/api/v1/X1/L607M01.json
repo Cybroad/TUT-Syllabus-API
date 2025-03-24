@@ -1,0 +1,37 @@
+{
+    "lectureCode": "L607M01",
+    "courseName": "AdvancedEnglishI[火1]MS",
+    "lecturer": [
+        "ブロックルバンク(教養学環)"
+    ],
+    "regularOrIntensive": "実学基礎科目",
+    "courseType": "演習科目",
+    "courseStart": "2025年度前期",
+    "classPeriod": [
+        "火"
+    ],
+    "targetDepartment": "メディア学部メディア学科",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": 1,
+    "classroom": [
+        "講義実験棟３０４"
+    ],
+    "courceDetails": {
+        "courseOverview": "この授業は、講義の聞き取りやプレゼンテーションに重点を置いた、学術的な英語力の向上を目指す上級レベルの授業である。また、学術的な語彙の知識も深めることも目指す。授業で扱う内容は、社会学、言語学、教育学など、さまざまな分野にわたる。TOEICテスト600以上の取得を目指す。この授業を履修するには、エントリーテストを受け、合格することが必須である。StudentswhojointhiscoursearealsoaskedtojointhesecondpartofthiscoursestartinginSeptember.",
+        "outcomesMeasuredBy": "Thecoursehasthefollowingaims:(1)Todevelopstudents'knowledgeandskillsinAcademicEnglishatahigher,intermediatelevel(2)Toexposestudentstointensivelisteningpractice,typicallylectures(3)Toextendstudents'knowledgeofacademicvocabulary(4)Togivethestudentspracticeinpronunciation",
+        "learningOutcomes": "国際的な教養コミュニケーション能力論理的な思考力分析・評価能力",
+        "teachingMethod": "Withonesubjectbeingcoveredovertwoweeks,lessonswilltypicallycontainanintroductiontothetopic,afocusonrelatedvocabulary,viewingoflectures,pronunciationpractice,groupdiscussions,andthedevelopmentofnote-takingskills.Notebookcomputersareessential.",
+        "notices": "Havethetextbookwithyouforeveryclass.Useagooddictionary.Pleasetakenotesduringtheclass,participateactivelybytakingpartinallactivities,andaskingquestionswhenyoudonotunderstandsomething.",
+        "preparatoryStudy": "Studentswillbegivenregularhomeworkassignmentsandwillbeexpectedtocompleteself-studyinordertoreviewandprepareforclasses(forexample,bydoingvocabularyresearch).Thiswillnormallyamountto60minutesperweek.",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。課題に関するフィードバックは、口頭、オンライン掲示、または紙上のいずれかで学生に提供される。",
+        "textbook": "EllenKisslinger;ContemporaryTopics2;Pearson;978-0-13-440080-8;3696円",
+        "referenceMaterials": "None",
+        "courseSchedule": "第1回：Courseorientation第2回：Unit1Sociology第3回：Unit1Sociology第4回：Unit2Linguistics第5回：Unit2Linguistics第6回：Unit3Psychology第7回：Unit3Psychology第8回：Unit4Business第9回：Unit4Business第10回：Unit5Education第11回：Unit5Education第12回：Unit6History第13回：Unit6History第14回：到達度確認チェック、後期のまとめ",
+        "courseDataUpdatedAt": "2025/01/22"
+    },
+    "updateAt": "2025/03/21"
+}

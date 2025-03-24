@@ -7,19 +7,29 @@
     ],
     "regularOrIntensive": "専門領域科目",
     "courseType": "演習科目",
-    "courseStart": "2024年度後期",
+    "courseStart": "2025年度後期",
     "classPeriod": [
         "月3",
         "月4"
     ],
-    "targetDepartment": "",
+    "targetDepartment": "医療技術学研究科修士課程臨床検査学専攻",
     "targetGrade": [
         "1年",
         "2年"
     ],
     "numberOfCredits": 2,
     "classroom": [
-        "Ｍ６１１多目的実習室"
+        "３１９０２臨床検査卒研室",
+        "Ｍ２１９地域・在宅・精神実習室",
+        "Ｍ３０１臨床検査実習室２",
+        "Ｍ３０２臨床検査実習室３",
+        "Ｍ３０３生理学実習室",
+        "Ｍ３０６準備室",
+        "Ｍ３０７臨床検査実習室４",
+        "Ｍ３０８臨床検査実習室５",
+        "Ｍ３０９試薬調整室２",
+        "Ｍ３１０臨床検査実習室１",
+        "Ｍ３１１試薬調整室１"
     ],
     "courceDetails": {
         "courseOverview": "先端技術を駆使した検査分析法について、ContemporaryPracticeinClinicalChemistryを抄読・討議し、英文論文を的確に理解できるようにするとともに、国内外の論文を検索し臨床現場への応用・実践例を学ぶことで生化学検査分野における潮流を知る。医療現場で要求される様々な課題の解決につながる分析法、検査法の開発・活用・臨床的評価等、医療に貢献できる臨床検査技術を集学的に討議、修得する。",
@@ -32,7 +42,7 @@
         "textbook": "ContemporaryPracticeinClinicalChemistry,4thed.必要があれば指示する。",
         "referenceMaterials": "必要があれば指示する。",
         "courseSchedule": "第1・2回：（栗原）ContemporaryPracticeinClinicalChemistryの詳読と討議①第3・4回：（栗原）ContemporaryPracticeinClinicalChemistryの詳読と討議②第5・6回：（栗原）ContemporaryPracticeinClinicalChemistryの詳読と討議③第7・8回：（栗原）ContemporaryPracticeinClinicalChemistryの詳読と討議④第9・10回：（栗原）ContemporaryPracticeinClinicalChemistryの詳読と討議⑤第11・12回：（栗原）生化学検査学に関する文献詳読と討議①第13・14回：（栗原）生化学検査学に関する文献詳読と討議②第15・16回：（栗原）生化学検査学に関する文献詳読と討議③第17・18回：（佐々木）光学的技術を駆使した成分分析に関する文献詳読と討議①第19・20回：（佐々木）光学的技術を駆使した成分分析に関する文献詳読と討議②第21・22回：（佐々木）電気化学的技術を駆使した成分分析に関する文献詳読と討議③第23・24回：（佐々木）電気化学的技術を駆使した成分分析に関する文献詳読と討議④第25・26回：（佐々木）分離分析技術を駆使した成分分析に関する文献詳読と討議⑤第27・28回：（佐々木）先端分離分析技術を駆使した成分分析に関する文献詳読と討議⑥第29・30回：（佐々木）網羅的・数理的技術を駆使した成分分析に関する文献詳読と討議⑦、科目のまとめ",
-        "courseDataUpdatedAt": "2024/04/17"
+        "courseDataUpdatedAt": "2025/01/23"
     },
-    "updateAt": "2024/05/29"
+    "updateAt": "2025/03/21"
 }

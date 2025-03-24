@@ -2,15 +2,15 @@
     "lectureCode": "L606C05",
     "courseName": "IntegratedEnglishII[5]CS機械",
     "lecturer": [
-        "シルベスター，M(兼任講師)"
+        "鈴木希(兼任講師)"
     ],
-    "regularOrIntensive": "教養教育科目",
+    "regularOrIntensive": "実学基礎科目",
     "courseType": "演習科目",
-    "courseStart": "2024年度後期",
+    "courseStart": "2025年度後期",
     "classPeriod": [
         "木2"
     ],
-    "targetDepartment": "コンピュータサイエンス学部,工学部機械工学科",
+    "targetDepartment": "コンピュータサイエンス学部コンピュータサイエンス学科,工学部機械工学科",
     "targetGrade": [
         "2年",
         "3年",
@@ -18,20 +18,20 @@
     ],
     "numberOfCredits": 1,
     "classroom": [
-        "講義実験棟３０３"
+        "講義棟Ａ３０４"
     ],
     "courceDetails": {
-        "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養、ビジネス英語のさらなる修得をめざす。Culturetellsuswhatweareasalivingthingandasahumanbeing.Thepurposeofthiscourseistoexplorewhatwearebylookingatourrichanddiverseculture.ThiscourseisCEFRB1/B1+.",
+        "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養、ビジネス英語のさらなる修得をめざす。この授業では世界の文化についてニュースを視聴し、社会生活やビジネス、都市生活、科学、テクノロジー、環境など様々なトピックの英文を読みながら学びます。",
         "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
-        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
-        "teachingMethod": "Theactivitieswedoaretoincreaseinformationawareness,recognition,andtodevelopconfidenceandskillatexpressingideas.Thiscanbethroughworkingindividuallyandtogether,participationbeinganimportantelementofthecourse.Feedbackwillbegiveneitherorallyorinwrittenformat(ex:viaGoogleClassroom/Moodle).",
-        "notices": "Lessonmaterialandactivitiesarethroughonlinesites(GoogleClassroomandMoodle)so,youwillneedyourcomputerforeachlesson,(earphoneswillalsobeneeded).ItisrecommendedthatyoutakethiscourseinthefirstANDsecondterm.Thetwohalvesofthiscoursehavethesamesyllabusbutthelessoncontentsaredifferent.",
-        "preparatoryStudy": "Lessonmaterialwillbeavailablebeforethelesson.Lookingatthematerialbeforethelesson(preferablygivingyourselfanhouroftimetothinkabouttheLessonthemesandtopics.Areadinesstoaskquestionswillbeimportant,toshowyouareconsideringthethemeandtopicsasonewholething.Assignmentsandfinalactivitiesinthelessonsareconnectedtoconsideringboththemeandtopics.",
-        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
-        "textbook": "Thereisnotextbookforthiscourse.Allmaterialwillbeprovided.",
-        "referenceMaterials": "",
-        "courseSchedule": "第1回：Re-Introduction:WhatisCulture?第2回：CulturethatConnectsUs第3回：CulturethatConnectsUs第4回：Assignment1第5回：CultureInandAroundUs第6回：CultureInandAroundUs第7回：CultureInandAroundUs第8回：Assignment2第9回：CulturetheInventor第10回：CulturetheInventor第11回：CulturetheInventor第12回：Assignment3第13回：CultureontheMove第14回：CultureontheMove",
-        "courseDataUpdatedAt": "2024/01/26"
+        "learningOutcomes": "国際的な教養コミュニケーション能力論理的な思考力分析・評価能力",
+        "teachingMethod": "*基本２回の授業で教科書の1つのunitに取り組む。*世界の様々な文化について英文を読み、文法を復習する。*授業では内容についてペアトーク、グループディスカッションをしたり、事前にテーマを割り振り、調べてきた内容を発表してもらい、学生自らの主体的な学び(アクティブラーニング)を促す。*unit終了ごとに小テストを実施する。*小テストや課題、演習問題の解説等、フィードバックは授業中に随時行う。*ノートＰＣは指示があるときのみ使用する。",
+        "notices": "前・後期継続での履修を推奨する。毎回の授業では、教科書の問題を解くので、教科書を必ず持ってくること。また知らない単語の意味を調べるために、辞書も必要です。",
+        "preparatoryStudy": "予習・復習を十分に行うこと。(30~50分程度)授業前に次回学習予定の文章を読んで、意味など調べておくこと。",
+        "gradingGuidelines": "*「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。*授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。*課題に対するフィードバックは授業時間内、あるいはMoodleなどを通じて随時行う。",
+        "textbook": "KobayashiToshihiko,BillBenfield,著；ReutersGlobalNewsFeed『ロイターニュースが伝える世界の今』;成美堂;ISBN978-4-7919-7311-8;2860円",
+        "referenceMaterials": "授業時に適宜、指示する。",
+        "courseSchedule": "第1回：ガイダンス第2回：Unit9(1)第3回：Unit9(2)第4回：Unit10(1)第5回：Unit10(2)第6回：Unit11(1)第7回：Unit11(2)第8回：Unit12(1)第9回：Unit12(2)第10回：Unit13(1)第11回：Unit13(2)第12回：Unit15(1)第13回：Unit15(2)第14回：到達度チェックと解説",
+        "courseDataUpdatedAt": "2025/01/21"
     },
-    "updateAt": "2024/12/09"
+    "updateAt": "2025/03/21"
 }
