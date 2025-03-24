@@ -106,6 +106,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Prepare directories
+        run: |
+          mkdir -p docs/api/v1
+
       - name: Download lecture data
         uses: actions/download-artifact@v4
         with:

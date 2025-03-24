@@ -67,7 +67,7 @@ def get_timetable(department_name: str, lecture_code : str) -> dict:
     now_year = datetime.datetime.now().year
 
     # 翌年1~3月の場合は、前年度のデータを取得
-    if 1 <= datetime.datetime.now().month <= 3:
+    if 1 <= datetime.datetime.now().month <= 2:
         now_year -= 1
 
     res = _fetch_syllabus(now_year, department_name, lecture_code)
