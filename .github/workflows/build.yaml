@@ -124,7 +124,7 @@ jobs:
         run: |
           for file in ${{ env.lecture_data }}; do
             unzip -o lecture_data_$file.zip -d docs/api/v1/all
-            if [ -z "$(ls -A docs/api/v1/all/$file)"
+            if [ -z "$(ls -A docs/api/v1/all/$file)" ]; then
               mv docs/api/v1/all/$file/* docs/api/v1/all
               rm -rf docs/api/v1/all/$file
             fi
