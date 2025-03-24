@@ -49,8 +49,7 @@ def _get_lecture_data(department):
         print(f"Since {department} is not in lecture_codes, skip to get lecture data.")
         return
     
-    os.makedirs(f"docs/api/v1/{department}", exist_ok=True)
-    os.makedirs(f"docs/api/v1/all", exist_ok=True)
+    os.makedirs(f"output/{department}", exist_ok=True)
     for lecture_code in lecture_codes[department]:
         lecture_data = get_timetable.get_timetable(department, lecture_code)
 
@@ -58,10 +57,7 @@ def _get_lecture_data(department):
             print(f"Failed to get {department} lecture data: {lecture_code}")
             continue
 
-        with open(f"docs/api/v1/{department}/{lecture_code}.json", 'w') as f:
-            ujson.dump(lecture_data, f, ensure_ascii=False, indent=4, encode_html_chars=True)
-        
-        with open(f"docs/api/v1/all/{lecture_code}.json", 'w') as f:
+        with open(f"output/{department}/{lecture_code}.json", 'w') as f:
             ujson.dump(lecture_data, f, ensure_ascii=False, indent=4, encode_html_chars=True)
 
         print(f"Successfully got {department} lecture data: {lecture_code}")
