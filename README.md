@@ -16,8 +16,8 @@ https://tut-syllabus-api.pages.dev/api/v1/all/{時間割コード}.json
 `{時間割コード}`は、一意に講義を特定できる英数字のコードです。(例: `11040C1`)  
 `{学部名}`は、学内で広く認知されている略称を使用し指定します。  
 
-以下のリストのいずれかを指定してください。(2024年9月20日時点)  
-`["BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS", "HS", "HSH1", "HSH2", "HSH3", "HSH4", "HSH5", "HSH6", "X3", "GF", "GH"]`
+以下のリストのいずれかを指定してください。(2025年3月24日時点)  
+`["BT", "CS", "MS", "ES", "ESE5", "ESE6", "ESE7", "X1", "DS", "HS", "HSH1", "HSH2", "HSH5", "HSH6", "X3", "GF", "GH"]`
 ```
 https://tut-syllabus-api.pages.dev/api/v1/{学部名}/{時間割コード}.json
 ```
