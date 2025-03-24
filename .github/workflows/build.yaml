@@ -119,14 +119,15 @@ jobs:
       
       - name: Unzip lecture data (all)
         run: |
-          for file in output/*.zip; do
-            unzip -o $file -d output
-            mv output/* docs/api/v1/all
+          for file in *.zip; do
+            unzip -o $file -d docs/api/v1/all
+            mv docs/api/v1/all/${file%.zip}/* docs/api/v1/all
+            rm -rf docs/api/v1/all/${file%.zip}
           done
 
       - name: Unzip lecture data (each)
         run: |
-          for file in output/*.zip; do
+          for file in *.zip; do
             unzip -o $file -d docs/api/v1
           done
         
