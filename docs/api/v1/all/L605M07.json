@@ -1,15 +1,14 @@
 {
     "lectureCode": "L605M07",
-    "courseName": "IntegratedEnglishI[A7]MS火1",
+    "courseName": "IntegratedEnglishI[1]MS金1",
     "lecturer": [
-        "アシュウィン",
-        "Ｃ(兼任講師)"
+        "山本五郎(兼任講師)"
     ],
-    "regularOrIntensive": "教養教育科目",
+    "regularOrIntensive": "実学基礎科目",
     "courseType": "演習科目",
-    "courseStart": "2024年度前期",
+    "courseStart": "2025年度前期",
     "classPeriod": [
-        "火"
+        "金"
     ],
     "targetDepartment": "メディア学部メディア学科",
     "targetGrade": [
@@ -19,20 +18,20 @@
     ],
     "numberOfCredits": 1,
     "classroom": [
-        "講義棟Ａ２０３"
+        "講義棟Ａ３０１"
     ],
     "courceDetails": {
-        "courseOverview": "１年次の学習を総合して、より高度な英語の運用能力の向上をめざす。英語ネイティブスピーカーによるCommunicationSkillsの向上、学際的的な内容を扱うAcademicEnglish、グローバル時代の国際理解に必要な文化と社会に関する知識の修得をめざすCulturalStudies、TOEICやビジネス英語扱うBusiness\/TOEICなどを通じて、学生の興味・関心や進路に即したより高度な英語力の修得をめざす。この授業では、英語のみの環境で今まで学んだ英語の知識を活用し、一般的な話題に関する自分の意見や考えをわかりやすく説明したり、問題解決に向けて多様な考えに触れながら、活発に意見交換をし、実践的な英語コミュニケーション能力を高める。また、自信を持って英語でのプレゼンテーションを行うため、英語表現力をより一層伸ばす。",
+        "courseOverview": "１年次の学習を総合して、より高度な英語の運用能力の向上をめざす。英語ネイティブスピーカーによるCommunicationskillsの向上、学際的な内容を扱うAcademicEnglish、グローバル時代の国際理解に必要な文化と社会に関する知識の修得をめざすCulturalStudies、TOEICやビジネス英語扱うBusiness/TOEICなどを通じて、学生の興味・関心や進路に即したより高度な英語力の修得をめざす。この授業では、ニュース動画を題材とする教材を用いて総合的な英語力を伸ばすとともに、基本的なプレゼンテーションスキルの習得を目指す。授業は中級レベルを対象として行う。なお、この科目は前・後期続けて履修することをすすめる。",
         "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
-        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
-        "teachingMethod": "授業への参加と宿題への取り組みが必要。授業は教科書や補助教材を使い、英語を母語とするネイティブ講師により英語のみで行われる。日本語による私語は厳禁である。学生には、授業への英語による積極的な参加を求め、学生自らの主体的な学び（アクティブラーニング）を促す。会話練習にはペアワークやグループワークを多く取り入れる。※授業はキャンパスで実施予定であるが、感染症拡大など社会状況に応じて、双方向型授業(オンラインライブレッスン)の形態に変更する可能性有り。",
-        "notices": "・前期と後期を通して完結する科目であるため、通年で履修することが望ましい。・指定されたクラスで授業に参加すること。・宿題は期限内に提出すること。期限を過ぎると減点となる。・プレゼンテ―ションを行わない場合は不合格となる。・遅刻・欠席は厳禁。",
-        "preparatoryStudy": "課された宿題を実施した上で授業に臨むこと(授業ではその振り返りや応用する実践的な練習を行う)。次回の授業に備え、授業中は学んだ英語表現をノートに記録し、授業後に復習すること。授業で学んだ語彙や表現を実際に使い、積極的に英語を使うこと。",
-        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。課題、タスクへのフィードバックはGoogleClassroom上および授業中に随時行う。ノートPCは指示のある時のみ使用するが、毎回の授業に持ってくること。",
-        "textbook": "MarcHelgesen他著;EnglishFirsthand2(5thEdition)StudentBookwithMyMobileWorld;Pearson;ISBN9789813132788;3,300円(税別)",
-        "referenceMaterials": "必要に応じて授業内で紹介する。",
-        "courseSchedule": "第1回：自己紹介、英会話のストラテジーについて第2回：Unit1自分史第3回：Unit2感情表現第4回：Unit3場所の比較と描写第5回：Unit4嗜好(1)第6回：Unit4嗜好(2)第7回：復習、学習理解度の確認第8回：PresentationSkillsを学ぶ第9回：Unit5謝罪と理由第10回：Unit5物の貸し借り第11回：PresentationSkillsの練習第12回：Unit6自国文化第13回：Presentation発表(1)第14回：Presentation発表(2)",
-        "courseDataUpdatedAt": "2024\/01\/28"
+        "learningOutcomes": "国際的な教養コミュニケーション能力論理的な思考力分析・評価能力",
+        "teachingMethod": "教科書の各ユニットをリーディングパートとリスニング（ニュース動画視聴）パートに分け１ユニットを２回の授業で取り組む。予習した答え合わせと各種演習を通して語彙力・文法力・リスニング力を伸ばす。ノートＰＣは指示があるときのみ使用する。各ユニットの内容についてペアワークおよびグループディスカッションを行う。教科書に合わせて英語でのプレゼンテーションの基礎について学ぶ。",
+        "notices": "毎回の授業では、教科書の問題の解説や内容の確認をするので、教科書を必ず持ってくること。英和辞書（電子辞書、スマホ等のデバイス可）を持ってくること。",
+        "preparatoryStudy": "予習・復習を十分に行うこと。授業毎の教科書範囲の問題を解いておくこと。授業内の指示に沿ってプレゼンテーションの準備をしてくること。（60分程度）テキストの映像資料をあらかじめ視聴したうえで授業に臨むこと(授業では討論を中心に反転授業形式で行う)，また、教科書の指定部分を自宅で読み、理解して授業に臨むこと（授業ではその振り返りを反転授業形式で行う）。",
+        "gradingGuidelines": "「授業参加姿勢(40%)」「課題点(30％)」「到達度チェック(30％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。課題に対するフィードバックは授業時間内、あるいはMoodleなどを通じて随時行う。",
+        "textbook": "GoroYamamoto他著;Shohakusha;Work-LifeBalance:EssentialInsightsandPractices/映像メディアで考えるワーク・ライフ・バランス;松柏社;978-4-7754-5002-4",
+        "referenceMaterials": "ウィズダム英和辞典第4版ISBN:978-4-385-10592-5",
+        "courseSchedule": "第1回：Guidance第2回：Unit1ReadingActivities第3回：Unit1VideoActivities第4回：Unit2ReadingActivities第5回：Unit2VideoActivities第6回：Unit3ReadingActivities第7回：Unit3VideoActivities第8回：Unit4ReadingActivities第9回：Unit4VideoActivities第10回：Unit5ReadingActivities第11回：Unit5VideoActivities第12回：Unit6Reading&VideoActivities/Presentation1第13回：Unit7Reading&VidoeActivities/Presentation2第14回：Presentation3/Review",
+        "courseDataUpdatedAt": "2025/01/21"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2025/03/21"
 }

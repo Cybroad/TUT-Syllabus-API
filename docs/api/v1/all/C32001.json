@@ -1,0 +1,37 @@
+{
+    "lectureCode": "C32001",
+    "courseName": "データサイエンス[前期]2023以前",
+    "lecturer": [
+        "未定(所属なし)"
+    ],
+    "regularOrIntensive": "専門教育科目",
+    "courseType": "講義科目",
+    "courseStart": "2025年度前期",
+    "classPeriod": [
+        "月3"
+    ],
+    "targetDepartment": "",
+    "targetGrade": [
+        "2年",
+        "3年",
+        "4年"
+    ],
+    "numberOfCredits": 2,
+    "classroom": [
+        "研究棟Ａ４０３"
+    ],
+    "courceDetails": {
+        "courseOverview": "データサイエンスはこれまでのサイエンスと何が異なるのか。その本質は、これまでの科学は実験システムを構築する、アンケート調査を行うなどでデータを集め、そのデータを分析し、その基づいて新たな発見をしてきたのがこれまでの科学である。しかしながら現在、センサー機器の廉価化、ICT機器の発展により多様なデータを収集することが容易となった。これまでの科学は定められたデータ取得可能な領域に絞られていたが、日常からビジネスまで様々なシーンでデータ取得が可能となり、そのデータを分析することが可能となってきた。つまり、我々の身近においてサイエンスができるようになったということが、エッセンスである。我々はデータサイエンスを学ぶことで領域を横断し、学際的な分野でデータという共通項で全ての研究者、起業家、ビジネスパーソンと繋がることが可能である。本授業では、データサイエンスのエッセンスから統計、機械学習をPythonを使って学んでいき、実際自身の問題解決にデータサイエンスの知識スキルを使って解き明かす能力を身につけることを目的とする。",
+        "outcomesMeasuredBy": "•データサイエンスのエッセンスをマスターできるようになる(分析・評価能力、問題解決力）•統計、機械学習の知識を理解し、さらにPythonを用いて、実問題を分析、解決できるようになる（実学に基づく専門能力、問題解決力）•自身の取り組んだ内容をプレゼンテーションを行い、質疑応答できる力と忍耐力をつけられるようになる（実学に基づく専門能力、問題解決力）",
+        "learningOutcomes": "実学に基づく専門能力分析・評価能力問題解決力",
+        "teachingMethod": "本授業では自身で調べ、自身で実装し、自身で発表する能動的な学習を推奨する。前半は講義資料に従い理論的・技術的内容を解説するが、それを最小限度とし、後半の実習の時間を多めに取り、自分で調査し、課題を解くことに重点を置く。サンプルプログラムの実行やデータ分析の課題を行うためノートPCを持参すること。またそのノートPCはGoogleアカウントにログイン可能で、GoogleDriveおよびGoogleColaboratoryを使えるようにしてあることが必要である。",
+        "notices": "•１年次のデータサイエンス入門を理解しているものとして進めるので、理解が不十分である場合は復習しておくこと。•サンプルプログラムの実行やデータ分析の課題はPythonを用いて行うため、プログラミング基礎I/IIで学んだPythonの文法の理解が不十分である場合は復習しておくこと。•ノートPCは必ず持参で、そのノートPCはGoogleアカウントにログイン可能で、GoogleDriveおよびGoogleColaboratoryを使えるようにしてあること。",
+        "preparatoryStudy": "•予習として、授業資料に目を通し、特に資料冒頭の「本日の内容」について把握して授業に臨むこと。•復習としては、毎回課題を与えるので、その課題を必ず提出すること。",
+        "gradingGuidelines": "•毎回の課題(60%)、最終発表およびその提出(40%)で成績をつける。定期テストはない。•毎回の課題については、重要な点があれば適宜フィードバックを行なっていく。",
+        "textbook": "特に指定はしない。",
+        "referenceMaterials": "特に指定はしない。",
+        "courseSchedule": "第1回：What’sDataScienceデータサイエンスとは他のサイエンスと何が異なるのか、何がエッセンスか、近年の生成AIはどのような背景で出現したかを調べる。第2回：SpaceandMetrics空間とメトリクスについてPythonの実装を含めて、理解する。第3回：Vectorization/Embedding空間とメトリクスを使って計量するために、どのように概念や事象をベクトル化するのかを実際の手法をPythonで触りながら理解する。第4回：ClassificationClassification手法を学習する。第5回：Clustering・DimensionReductionClustering手法、DimensionReduction手法を学習する。第6回：RegressionRegression(回帰)について扱う。実際にUnderfitting,Overfittingの概念をPythonで計算しながら理解を深める。第7回：ThemathematicalbackgroundofthemethodofleastsquaresRegressionの基本的な手法となる最小二乗法の数学的な背景を学ぶ。第8回：Themathematicalbackgroundofprincipalcomponentanalysis主成分分析(Principalcomponentanalysis)の数学的背景について、理解を深めていく。第9回：ThemathematicalbackgroundofTransformerTransformerについて簡単なプログラムを通じて、数学的背景を理解していく。第10回：BasicofExplainableAI(1)AIの透明性を確保する技術的手法の一つである説明可能なAI(ExplainableAI,XAI)の概要を述べる。第11回：BasicofExplainableAI(2)XAIの研究の本質を探り、AIと人間の協働の関係を議論する。第12～14回：発表会前回までで学んだ知識・スキルを用いて、何らかの問題を解決するプログラムを作成し、プレゼンテーションを行う。",
+        "courseDataUpdatedAt": "2024/12/25"
+    },
+    "updateAt": "2025/03/21"
+}

@@ -2,15 +2,15 @@
     "lectureCode": "L605C10",
     "courseName": "IntegratedEnglishI[10]CS機械",
     "lecturer": [
-        "近藤紀彦(兼任講師)"
+        "閔由眞(兼任講師)"
     ],
-    "regularOrIntensive": "教養教育科目",
+    "regularOrIntensive": "実学基礎科目",
     "courseType": "演習科目",
-    "courseStart": "2024年度前期",
+    "courseStart": "2025年度前期",
     "classPeriod": [
         "木2"
     ],
-    "targetDepartment": "コンピュータサイエンス学部,工学部機械工学科",
+    "targetDepartment": "コンピュータサイエンス学部コンピュータサイエンス学科,工学部機械工学科",
     "targetGrade": [
         "2年",
         "3年",
@@ -18,20 +18,20 @@
     ],
     "numberOfCredits": 1,
     "classroom": [
-        "片柳研究所Ｅ１０４"
+        "講義棟Ａ２０１"
     ],
     "courceDetails": {
-        "courseOverview": "１年次の学習を総合して、より高度な英語の運用能力の向上をめざす。英語ネイティブスピーカーによるCommunicationskillsの向上、学際的的な内容を扱うAcademicEnglish、グローバル時代の国際理解に必要な文化と社会に関する知識の修得をめざすCulturalStudies、TOEICやビジネス英語扱うBusiness\/TOEICなどを通じて、学生の興味・関心や進路に即したより高度な英語力の修得をめざす。この授業では、TOEICを題材とする教材を用いて、リスニング力＆リーディング力を鍛え、TOEICの問題形式、英語表現、パターン等を習得し英語力の向上を目指す。TOEIC400～500レベルの到達を目標とする。なお、この科目は前・後期続けて履修することを推める。",
+        "courseOverview": "１年次の学習を総合して、より高度な英語の運用能力の向上をめざす。英語ネイティブスピーカーによるCommunicationskillsの向上、学際的な内容を扱うAcademicEnglish、グローバル時代の国際理解に必要な文化と社会に関する知識の修得をめざすCulturalStudies、TOEICやビジネス英語扱うBusiness/TOEICなどを通じて、学生の興味・関心や進路に即したより高度な英語力の修得をめざす。この授業ではTOEICのL＆RTESTの類型問題を解きながら、リスニング能力と英文の読解能力を向上させることを目指す。この授業は３クラスあるTOEICクラスの真ん中のレベルでTOEIC400－500レベルの到達を目指す。なお、この科目は前・後期続けて履修することをすすめる。",
         "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
-        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
-        "teachingMethod": "➀授業では、毎回１つのユニットに取り組む。②授業前半は予習したVocabularyの確認、語彙の意味および類似表現の確認をおこなう。③授業後半は、英文法の重要ポイントを確認し、リスニング＆リーディング問題における重要文法項目を再確認していく。④ノートテーキング及び教員の指示がある時のみノートPCを使用する。また、内容について適時グループディスカッション又はペア・グループワークをおこなう。⑤フィードバックは授業中におこない、解説する。",
-        "notices": "➀毎回授業で教科書の問題を解いていくため、コピーではなく自身の教科書を必ず持参すること。②単語、イディオム等の意味を調べるため、毎回授業には辞書を必ず持参すること。③授業に出席する前までに、「準備学習」、「予習」を十分におこない、授業後は「復習」をしっかりおこなう。④各ユニットのVocabularyは、授業が始まるまでに辞書等で意味を調べておく。⑤各ユニットのListeningおよびReadingセクションにおけるKeyPointは授業前までに目を通しておく。",
-        "preparatoryStudy": "➀各ユニットのVocabularyは、授業開始までに辞書等で意味を調べておく。（約30分）②各ユニットのListeningおよびReadingセクションにおけるKeyPointは、授業開始までに一読しておく。（約30分）",
-        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
-        "textbook": "MaikoTsuchiya,YoshieShimaiandSamuelPaoloM.Adamos著;GREENLIGHTFORTHETOEICTEST;CengageLearningK.K.;ISBN:978-4-86312-278-9;2,310円（税込）",
+        "learningOutcomes": "国際的な教養コミュニケーション能力論理的な思考力分析・評価能力",
+        "teachingMethod": "2回分の授業で１つのUnitに取り組む。各課の新しいVocabularyの意味を授業中に確認して補充説明をした後、Vocabularycheckを行う。その後、TOEICL&RTESTの問題の類型を把握し、問題を解いた上で答え合わせと解説を行う。また各課で取り上げている文法事項について説明する。また、内容に応じてグループワークを行う。小テストや課題へのフィードバックは授業内で随時行う。ノートPCは指示がある時のみ使用する。",
+        "notices": "1.欠席・遅刻しないこと。2.教科書は必ず持参すること。3.知らない単語を調べるため、辞書を持参すること。4.授業時に出された課題は期日を守って提出すること。",
+        "preparatoryStudy": "各課の文法事項について英文法等を参考にし、予習してくること。（30分程度）各課の新しいVocabularyは次の授業まで必ず覚えておくこと。（30分程度）",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。課題に対するフィードバックは授業時間内、あるいはMoodleなどを通じて随時行う。",
+        "textbook": "MasakiOgura著;BasicUnderstandingOftheTOEICL&RTEST;Kinseido;ISBN9784764741553;2300円",
         "referenceMaterials": "授業内で適宜指示する。",
-        "courseSchedule": "第1回：授業についてのガイダンス＋Unit1“DailyLife”名詞と代名詞第2回：Unit2“Health”動詞・形容詞・副詞第3回：Unit3“Education”時制1第4回：確認チェック（１）＋Unit4“Travel”時制2第5回：Unit5“Transportation”前置詞第6回：Unit6“Shopping”接続詞第7回：確認チェック（２）＋Unit7“Restaurant”不定詞1第8回：Unit8“Entertainment”不定詞2第9回：Unit9“Trouble”動名詞第10回：確認チェック（３）＋Unit10“Office1”分詞第11回：Unit11“Office2”仮定法第12回：Unit12“News”関係代名詞第13回：確認チェック（４）＋Unit13“Ads”関係副詞第14回：まとめ",
-        "courseDataUpdatedAt": "2024\/02\/17"
+        "courseSchedule": "第1回：授業ガイダンス第2回：Unit1第3回：Unit1第4回：Unit2第5回：Unit2＋小テスト①第6回：Unit3第7回：Unit3第8回：Unit4第9回：Unit4＋小テスト②第10回：Unit5第11回：Unit5第12回：Unit6第13回：Unit6＋小テスト③第14回：到達度確認チェック・まとめ",
+        "courseDataUpdatedAt": "2025/01/23"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2025/03/21"
 }

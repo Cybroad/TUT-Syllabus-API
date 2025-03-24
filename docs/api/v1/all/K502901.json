@@ -6,7 +6,7 @@
     ],
     "regularOrIntensive": "専門教育科目",
     "courseType": "講義科目",
-    "courseStart": "2024年度後期",
+    "courseStart": "2025年度後期",
     "classPeriod": [
         "火3"
     ],
@@ -30,7 +30,7 @@
         "textbook": "英語で学ぶ制御システム設計，シャ錦華・禹珍碩・大山恭弘，コロナ社，ISBN978-4-339-03238-3，3000円。",
         "referenceMaterials": "制御工学（フィードバック制御の考え方）第２版，斉藤制海・徐粒著，森北出版，ISBN978-4-627-72822-6，2600円＋税制御基礎理論―古典から現代まで―，中野道雄・美多勉著，コロナ社，ISBN：978-4-339-03213-0，2,808円（本体2,600円＋税)また，上の参考書以外に，制御工学に関する参考書は数多く出版されているので，自らの能力に適した参考書を自ら探し出すこと。",
         "courseSchedule": "第1回：OverviewofSystemControl第2回：MathematicalFoundationsforControlTheory第3回：ModelingofDynamicSystems第4回：BlockDiagramandFrequencyResponse第5回：Timeresponseanalysis第6回：Routh’sstabilitycriterion第7回：Summarizationof1-6第8回：CharacteristicsofControlSystem第9回：Transfer-Function-basedControl-SystemDesign第10回：ControllabilityandObservability第11回：Control-SystemDesigninStateSpace第12回：DesignofaPIDcontroller第13回：ComprehensiveExercises第14回：Summarizationof8-13",
-        "courseDataUpdatedAt": "2024\/02\/06"
+        "courseDataUpdatedAt": "2025/01/07"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2025/03/21"
 }

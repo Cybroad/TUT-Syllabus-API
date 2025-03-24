@@ -28,9 +28,9 @@
         "preparatoryStudy": "コンピュータビジョンに関する事前の専門知識は特に必要はないが,線形代数の基礎的知識を有することが望ましい.また、画像処理、コンピュータビジョン、コンピュータグラフィックスなど画像関連技術についての関心が高い学生の受講が望ましい.",
         "gradingGuidelines": "毎回の課題提出により評価する.",
         "textbook": "なし.",
-        "referenceMaterials": "[1]佐藤淳,“コンピュータビジョン-視覚の幾何学-“,コロナ社.(ISBN:978-4339023633)[2]RichardSzeliski,“ComputerVision:AlgorithmsandApplications”,Springer.(ISBN-13:978-1848829343)*http:\/\/szeliski.org\/Book\/より電子版ダウンロードが可能",
-        "courseSchedule": "第1回：イントロダクション\/投影とカメラ第2回：カメラ行列第3回：視覚における不変性(1\/2)第4回：視覚における不変性(2\/2)第5回：アフィン\/射影不変量に関する補足事項第6回：エピポーラ幾何第7回：3次元再構成技術概論",
-        "courseDataUpdatedAt": "2024\/01\/09"
+        "referenceMaterials": "[1]佐藤淳,“コンピュータビジョン-視覚の幾何学-“,コロナ社.(ISBN:978-4339023633)[2]RichardSzeliski,“ComputerVision:AlgorithmsandApplications”,Springer.(ISBN-13:978-1848829343)*http://szeliski.org/Book/より電子版ダウンロードが可能",
+        "courseSchedule": "第1回：イントロダクション/投影とカメラ第2回：カメラ行列第3回：視覚における不変性(1/2)第4回：視覚における不変性(2/2)第5回：アフィン/射影不変量に関する補足事項第6回：エピポーラ幾何第7回：3次元再構成技術概論",
+        "courseDataUpdatedAt": "2024/01/09"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/09/13"
 }

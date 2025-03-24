@@ -4,9 +4,9 @@
     "lecturer": [
         "大石邦夫(コンピュータサイエンス学部コンピュータサイエンス学科)"
     ],
-    "regularOrIntensive": "教養教育科目",
+    "regularOrIntensive": "実学基礎科目",
     "courseType": "実習科目",
-    "courseStart": "2024年度前期",
+    "courseStart": "2025年度前期",
     "classPeriod": [
         "他"
     ],
@@ -31,7 +31,7 @@
         "textbook": "講義形式ではなく実習形式なので、教科書は特に指定しない。",
         "referenceMaterials": "講義形式ではなく実習形式なので、教科書は特に指定しない。",
         "courseSchedule": "講義形式ではなく、インターンシップ先の企業において実習形式で行われる。企業のインターンシップに5日以上または30時間以上参加すること。",
-        "courseDataUpdatedAt": "2024\/03\/18"
+        "courseDataUpdatedAt": "2025/01/06"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2025/03/21"
 }

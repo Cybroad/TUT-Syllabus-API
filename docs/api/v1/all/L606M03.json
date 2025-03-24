@@ -4,9 +4,9 @@
     "lecturer": [
         "杉本奈緒(兼任講師)"
     ],
-    "regularOrIntensive": "教養教育科目",
+    "regularOrIntensive": "実学基礎科目",
     "courseType": "演習科目",
-    "courseStart": "2024年度後期",
+    "courseStart": "2025年度後期",
     "classPeriod": [
         "火"
     ],
@@ -18,20 +18,20 @@
     ],
     "numberOfCredits": 1,
     "classroom": [
-        "講義実験棟３０１"
+        "講義実験棟３０２"
     ],
     "courceDetails": {
         "courseOverview": "IntegratedEnglishIの内容をレベルアップし、より実践的な英語力の向上を目的とする。IntegratedEnglishIと同様に、学生の興味・関心や進路に即した内容を学習することを通じて英語の4技能のスキルアップや国際的教養のさらなる修得をめざす。この授業では、イギリス文化を題材とする教材を用いて、イギリスの文化、社会、生活習慣などに対する理解を深める。また、アクティブラーニングを通して、英語の４技能をバランスよく向上させ、TOEIC500〜600点レベルの到達をめざす。なお、この科目は前・後期続けて履修することをすすめる。",
         "outcomesMeasuredBy": "１．語彙力を強化する。２．具体的な事象に関して自らの考えを加えながら説明できる。３．批評的思考（クリティカルシンキング）によって、分析・評価ができる。４．グローバル時代に必要な国際的な教養力を身につける。",
-        "learningOutcomes": "国際的な教養実学に基づく専門能力コミュニケーション能力論理的な思考力分析・評価能力問題解決力",
-        "teachingMethod": "毎回の授業で、教科書の１つのレッスンに取り組む。予習したVocabularyCheckSheetの答え合わせをして語彙の意味を確認し、リスニングの練習問題を解いていく。また、ペアワークでのスピーキング練習、グループワークでノートPCを使用しテーマについて調べるアクティビティを行う。MiniTestや課題のフィードバックは授業内で随時行う。",
-        "notices": "毎回の授業では、教科書の問題を解くので、教科書を必ず持ってくること。また知らない単語の意味を調べるために、辞書も持ってくること。アクティビティで使用するため、ノートPCも持参すること。",
-        "preparatoryStudy": "予習課題としてVocabularyCheckSheetを出す。授業前に解いておくこと（30分程度）。指定された復習のライティング課題に取り組んで提出すること（30分程度)。提出方法については、授業内で指示する。MiniTestのある授業は、範囲内のVocabularyCheckSheetを復習しておくこと。",
-        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。",
+        "learningOutcomes": "国際的な教養コミュニケーション能力論理的な思考力分析・評価能力",
+        "teachingMethod": "毎回の授業で、教科書の１つのレッスンに取り組む。予習したVocabularyCheckSheetの答え合わせをして語彙の意味を確認し、リスニングの練習問題を解いていく。また、ペアワークでのスピーキング練習、グループワークでのリーディング練習、ノートPCを使用した海外のウェブサイトの読解などのタスクアクティビティを行う。",
+        "notices": "毎回の授業では、教科書の問題を解くので、教科書を必ず持ってくること。また知らない単語の意味を調べたり、アクティビティで使用するために、ノートPCも持参すること。",
+        "preparatoryStudy": "予習課題としてVocabularyCheckSheetを出す。授業前に解いておくこと（30分程度）。指定された宿題課題（アクティビティに関連するものや、短いライティングなど）に取り組んで提出すること（30分程度)。提出方法については、授業内で指示する。MiniTestのある授業は、範囲内のVocabularyCheckSheetを復習しておくこと。",
+        "gradingGuidelines": "「授業参加姿勢(30%)」「課題点(30％)」「到達度チェック(40％)」を総合的に評価する。合格点は60％とする。授業参加姿勢とは、積極的な発言、質問、グループワークやペアワーク等授業内活動に取り組む姿勢や予習・復習状況確認のために実施する小テストの結果に関する評価を含む。課題に対するフィードバックは授業時間内、あるいはMoodleなどを通じて随時行う。",
         "textbook": "TerryO'Brien,HidenoriMuramatsu,KeiMihara,HiroshiKimura,IkukoKawanishi著;LookingAroundEngland〈RevisedEdition〉ー写真で見るイギリス・リスニングの旅〈改訂新版〉;Nan'un-do;ISBN9784523177111;1,870円",
         "referenceMaterials": "授業内で適宜指示する。",
-        "courseSchedule": "第1回授業についてのガイダンス第2回L13Yorkshire第3回L14TheLakeDistrict第4回L15Liverpool\u0026MiniTest①第5回L16ThePeakNationalPark第6回L17Wedding\u0026MiniTest②第7回L18Dover第8回L19TheCotswolds\u0026MiniTest③第9回L20People第10回L21London(TheTowerofLondon)\u0026MiniTest④第11回L22London(WestminsterAbbey)第12回L23London(TheGlobeTheatre)\u0026MiniTest⑤第13回L24London(CoventGarden)第14回到達度確認チェック",
-        "courseDataUpdatedAt": "2024\/02\/26"
+        "courseSchedule": "第1回授業についてのガイダンス第2回L3London(BakerStreet)第3回L4London(VictoriaandAlbert)第4回L7Stonehenge&MiniTest①第5回L8Oxbridge第6回L11Lincoln&MiniTest②第7回L12York第8回L15Liverpool&MiniTest③第9回L19TheCotswolds第10回L20People&MiniTest④第11回L22London(WestminsterAbbey)第12回L23London(TheGlobeTheatre)&MiniTest⑤第13回L25London(MillenniumBridge)第14回到達度確認チェック",
+        "courseDataUpdatedAt": "2025/01/21"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2025/03/21"
 }

@@ -31,7 +31,7 @@
         "textbook": "分散システム（第2版）水野忠則監修共立出版社(ISBN978-4-320-12449-3)",
         "referenceMaterials": "DistributedSystems(ThirdEdition)byMaartenVanSteen,AndrewS.Tanenbaum分散システム真鍋義文著森北出版(ISBN978-4-627-81071-6)分散処理谷口秀夫著オーム社(ISBN978-4-274-20133-2)",
         "courseSchedule": "第１回分散システムの概要第２回分散システムの種類第３回通信第４回名前付け第５回アーキテクチャ第６回プロセス第７回クライアントサーバ第８回時計と同期第９回フォールトトレラント性第11回分散ファイルとオブジェクト第11回分散Webシステム第12回パ―ベイシブシステムと分散組み込みシステム第13回セキュリティ第14回まとめ，総合復習",
-        "courseDataUpdatedAt": "2024\/02\/29"
+        "courseDataUpdatedAt": "2024/02/29"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/09/13"
 }

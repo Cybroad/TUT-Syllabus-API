@@ -30,7 +30,7 @@
         "textbook": "教科書の指定はなし。毎回、Moodle上に講義資料を掲載する。",
         "referenceMaterials": "参考書の指定はなし。参考資料が必要な場合は、Moodle上に掲載する。",
         "courseSchedule": "第1回:講義形式：データサイエンスの世界第2回:講義形式：テーブルデータの前処理第3回:講義形式：機械学習を用いた予測分析(1)：DecisionTree第4回:講義形式：機械学習を用いた予測分析(2)：GradientBoostingDecisionTree第5回:講義形式：機械学習を用いた予測分析(3)：XGBoost,LightGBM第6回:ゼミ形式：予測分析または文献調査の発表、ディスカッション（1）第7回:ゼミ形式：予測分析または文献調査の発表、ディスカッション（2）",
-        "courseDataUpdatedAt": "2024\/01\/08"
+        "courseDataUpdatedAt": "2024/01/08"
     },
-    "updateAt": "2024\/09\/13"
+    "updateAt": "2024/09/13"
 }
