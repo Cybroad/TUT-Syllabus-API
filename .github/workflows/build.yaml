@@ -109,26 +109,27 @@ jobs:
       - name: Prepare directories
         run: |
           mkdir -p docs/api/v1
+          mkdir -p docs/api/v1/all
 
       - name: Download lecture data
         uses: actions/download-artifact@v4
         with:
           pattern: lecture_data_*
           merge-multiple: true
-
-      - name: Unzip lecture data
+      
+      - name: Unzip lecture data (all)
         run: |
-          for file in *.zip; do
+          for file in output/*.zip; do
+            unzip -o $file -d output
+            mv output/* docs/api/v1/all
+          done
+
+      - name: Unzip lecture data (each)
+        run: |
+          for file in output/*.zip; do
             unzip -o $file -d docs/api/v1
           done
-      
-      - name: Create all lecture data list
-        run: |
-          mkdir -p docs/api/v1/all
-          for file in *.zip; do
-            unzip -o $file -d docs/api/v1/all
-          done
-
+        
       - name: Remove zip files
         run: rm -f *.zip
 
