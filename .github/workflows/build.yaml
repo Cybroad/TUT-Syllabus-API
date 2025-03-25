@@ -111,17 +111,17 @@ jobs:
           merge-multiple: true
 
       - name: Copy lecture data
-        run: cp -r output/* docs/api/v1/all
+        run: |
+          for dir in lecture_data_*; do
+            cp -r $dir docs/api/v1/all
+          done
       
       - name: Copy lecture data to each department
         run: |
-          for dir in output/*; do
+          for dir in lecture_data_*; do
             cp -r $dir docs/api/v1
           done
-
-      - name: Clean up
-        run: rm -rf output
-
+  
       - name: Upload to CloudFlare Pages
         uses: cloudflare/wrangler-action@v3
         with:
