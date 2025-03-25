@@ -112,6 +112,12 @@ jobs:
         with:
           pattern: lecture_data_*
           merge-multiple: true
+    
+      - name: Debug
+        run: |
+          ls
+          ls -l docs/api/v1
+          ls -l docs/api/v1/all
 
       - name: Copy lecture data (all)
         run: |
