@@ -51,9 +51,12 @@ jobs:
     
     needs: fetch_lecture_codes
 
+    # strategy:
+    #   matrix:
+    #     type: [BT, CS, MS, ES, ESE5, ESE6, ESE7, X1, DS, HS, HSH1, HSH2, HSH5, HSH6, X3, GF, GH]
     strategy:
-      matrix:
-        type: [BT, CS, MS, ES, ESE5, ESE6, ESE7, X1, DS, HS, HSH1, HSH2, HSH5, HSH6, X3, GF, GH]
+       matrix:
+         type: [BT, CS]
 
     steps:
       - uses: actions/checkout@v4
@@ -110,16 +113,20 @@ jobs:
           pattern: lecture_data_*
           merge-multiple: true
 
-      - name: Copy lecture data
+      - name: Copy lecture data (all)
         run: |
           for dir in lecture_data_*; do
-            cp -r $dir docs/api/v1/all
+            dir=${dir%/}
+            unzip "$dir" -d docs/api/v1/all
           done
       
       - name: Copy lecture data to each department
         run: |
           for dir in lecture_data_*; do
-            cp -r $dir docs/api/v1
+            dir=${dir%/}
+            dirName=$(echo $dir | cut -d'_' -f3)
+            mkdir -p docs/api/v1/$dirName
+            cp -r "$dir" docs/api/v1/$dirName
           done
   
       - name: Upload to CloudFlare Pages
